@@ -29,11 +29,11 @@ We just learned the basics of React and JSX. We saw how to create a new React ap
 
 ### Iteration 1 | Create React app
 
-Let's get started! First, you will need to create a new React app.
+Let's get this party started! First, you will need to create a new React app.
 
-Navigate to the root folder of the LAB. Once in the root folder, use the Create React App (CRA) package to create a new React project. 
+Navigate to the root folder of the LAB. When you're in the root folder, use the Create React App (CRA) package to create a new React project. 
 
-Once you have created the app, run it in the development mode.
+Once you have created the app, navigate to the root folder of the app. From here run the app in the development mode.
 
 
 
