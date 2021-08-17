@@ -61,7 +61,8 @@ To create the landing page we will need few images. Inside of the `src/` folder 
 
 Next, download the following images and save them in the `src/images/` folder:
 
-
+<details>
+  <summary>Click here for the URLs</summary>
 
 <img width="50" src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/ironhack-logo-xs-dark.png">
 
@@ -112,6 +113,10 @@ https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page
 ```http
 https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon4.png
 ```
+
+<br>
+
+</details>
 
 <br>
 
