@@ -33,7 +33,9 @@ Let's get started! First, you will need to create a new React app.
 
 Navigate to the root folder of the LAB. Once in the root folder, use the Create React App (CRA) package to create a new React project. Once you have created the app, run the app in development mode.
 
-You can reference the CRA Documentation to see how to do it - [Create React App - Getting Started](https://create-react-app.dev/docs/getting-started).
+
+
+You can reference the CRA Documentation and the Getting Started page here: [Create React App - Getting Started](https://create-react-app.dev/docs/getting-started).
 
 <br>
 
@@ -64,6 +66,8 @@ Next, download the following images and save them in the `src/images/` folder:
 <details>
   <summary>Click here for the URLs</summary>
 
+  <hr>
+
 <img width="50" src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/ironhack-logo-xs-dark.png">
 
 ```http
@@ -86,11 +90,7 @@ https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page
 https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon1.png
 ```
 
-
-
 <br>
-
-
 
 <img width="100" src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon2.png">
 
@@ -114,7 +114,7 @@ https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page
 https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon4.png
 ```
 
-<br>
+<hr>
 
 </details>
 
@@ -126,7 +126,14 @@ Finally, let's create our landing page. Using the assets that you downloaded in 
 
 <!-- ![home](https://user-images.githubusercontent.com/23629340/43718926-863a3c7a-998c-11e8-803b-7c9bc87425bb.png) -->
 
+<details>
+  <summary>Click here to see the image</summary>
+
+  <hr>
+
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_2c5c24ee05aa5fa68a76eee564ad44ee.png)
+
+</details>
 
 For now, don't worry about creating more than one component, we will cover that in the following lessons!
 
