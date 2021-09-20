@@ -139,4 +139,4 @@ Finally, let's create our landing page. Using the assets that you downloaded in 
 
 For now, don't worry about creating more than one component, we will cover that in the following lessons!
 
-Happy coding! :heart:
+Happy coding! :heart: 
