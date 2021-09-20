@@ -1,7 +1,9 @@
 import './App.css';
 
 import Layout from './components/Layout';
+import Headline from './components/Headline'
 import Card from './components/Card';
+
 import img1 from './images/icon1.png';
 import img2 from './images/icon2.png';
 import img3 from './images/icon3.png';
@@ -32,6 +34,9 @@ function App() {
   return (
     <div className="App">
         <Layout> 
+
+          <Headline/>
+
           <div className="container section-cards">
             <div className="row">
               <Card card={card1}/>

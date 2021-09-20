@@ -1,8 +1,13 @@
+import Button from './Button'
+
 function Headline() {
     return (
-        <div>
-            <h1>Say hello to ReactJS</h1>
-            <p>You will learn how to use the most popular frontend library, and become a super Ninja developer</p>
+        <div className="header">
+            <div className="headline">
+                <h1>Say hello to ReactJS</h1>
+                <p>You will learn how to use the most popular frontend library, and become a super Ninja developer</p>
+                <Button/>
+            </div>
         </div>
 
     );

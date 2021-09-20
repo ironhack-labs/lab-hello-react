@@ -1,6 +1,5 @@
 function Card(props) {
-/*     console.log('Hi', props)
-    debugger */
+
     return (
         <div class="card col-3">
            <img src={props.card.img} class="card-img-top"  alt="card-img"/>
