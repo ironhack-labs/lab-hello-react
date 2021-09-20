@@ -1,0 +1,36 @@
+.topBox {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.bottomBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  max-width: 20em;
+  color:white;
+}
+
+.mainText a {
+  flex-grow: 2;
+  color: red;
+  background-color: white;
+  padding: 20px;
+  margin: 50px;
+  text-decoration:none;
+  font-weight: 900;
+}
+
+.App {
+  text-align: left;
+}
