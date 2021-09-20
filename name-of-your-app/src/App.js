@@ -21,24 +21,40 @@ const Card4= {title:"JSX", description:"Staticlly-typed, designed to run on mode
 
 
 function App() {
-  return (<>
+  return (
     <div className="App">
-    <img alt="" src={menuTop}></img>
-    <img alt="" src={ironhackLogo}></img>
-    <p>Say hello to<br/>ReactJS </p>
-    <h2>You will learn how to use <br/>the most popular frontend library,<br/>
-    and become a super Ninja developer.</h2>
-   <button>Awesome!</button>
-   </div>
-  
+      <header className="App-header">
+        <nav className="nav">
+          <div className="img1">
+            <img src={ironhackLogo} className="App-logo" alt="logo" />
+          </div>
+          <div className="img2">
+            <img src={menuTop} className="App-menu" alt="logo" />
+          </div>
+        </nav>
+        <div className="container">
+          <div>
+            <h1>Say hello to ReactJS</h1>
+          </div>
+          <div>
+            <h4>
+              You will learn how to use<br></br> the most popular frontend library, <br></br>and
+              become a super Ninja developer.
+            </h4>
+          </div>
+          <p className="awesome"><span> Awesome! </span></p>
+        </div>
+      </header>
+   
+   <div className="card">
    <Card cards ={Card1}/>   
    <Card cards ={Card2}/> 
    <Card cards ={Card3}/>
    <Card cards ={Card4}/>
 
+   </div>
    
-   
-   </>
+   </div>
     
    
 
