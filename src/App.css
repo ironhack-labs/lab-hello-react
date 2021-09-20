@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+.main {
+  background: rgb(28, 32, 45);
+  color: white;
+}
+
+.top {
+  margin: 2vh;
+  background: rgb(28, 32, 45);
+  height: 560px;
+}
+
+.navbar {
+  background: rgb(28, 32, 45);
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar>div {
+  margin: 2vh;
+  margin-left: 7vh;
+  margin-right: 7vh;
+}
+
+.main {
+  padding-top: 7vw;
+  padding-left: 7vh;
+}
+
+.main-title {
+  font-size: 4vh;
+  text-align: left;
+}
+
+.description {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.btn {
+    display: flex;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 7vh;
+    width: 70px;
+    border-radius: 3px;
+}
+
+.btn>button {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: white;
+}
+
+.bottom-part {
+  display: flex;
+  width: 100%;
+  margin: 2vh;
+}
+
+.card {
+  margin-top: 15vw;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  align-items: left;
+  
+}
+
+.picture {
+
+}
+
+.picture>img {
+  width: 40%;
+}
