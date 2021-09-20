@@ -1,0 +1,101 @@
+.App {
+
+}
+
+.navbar{
+  background-color: rgb(32, 32, 32);
+  padding-top: 50px;
+}
+
+.navbar-menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+.navbar-menu div{
+  width: 50px;
+}
+
+.navbar-menu div{
+  width: 50px;
+  height: auto;
+}
+
+.logo-img img{
+  width: 100%;
+  height: auto;
+}
+
+.menu-img img{
+  width: 50%;
+  height: auto;
+}
+
+.navbar-info{
+  width: 900px;
+  margin-top:160px;
+}
+
+.navbar-info h1{
+  margin: 0 150px;
+  color: white;
+  font-size: 6rem;
+  margin-bottom: 20px;
+}
+
+.navbar-info p{
+  margin: 0 150px;
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 100px;
+}
+
+.navbar button{
+  margin: 0 150px;
+  background-color:white;
+  width: 200px;
+  height: 70px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.cards-section{
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 150px 200px 150px;
+  margin-top: 200px
+}
+
+.card{
+  width: 200px;
+  background-color:none;
+}
+
+.card div{
+  width: 160px;
+}
+
+.card div img{
+  width: 100%;
+}
+
+.card h3{
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+
+}
+
+.card p{
+  margin-top: 0px;
+  margin-left: 25px;
+  font-size: 1.2rem;
+  font-weight: 100;
+
+}
