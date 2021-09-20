@@ -31,14 +31,14 @@ function App() {
 			</header>
 			<section className="section">
 				<div>
-					<img src={img1} alt="icon 1" />
+					<div class="section-icon"><img src={img1} alt="icon 1" /></div>
 					<h2 className="section-h2"> Declarative</h2>
 					<p className="section-p">
 						React makes it<br /> painless to create<br /> interactive UIs
 					</p>
 				</div>
 				<div>
-					<img src={img2} alt="icon 2" />
+          <div class="section-icon"><img src={img2} alt="icon 2" /></div>
 					<h2 className="section-h2">Components</h2>
 					<p className="section-p">
 						Build encapsulated<br /> components that<br /> manage their state.
@@ -46,14 +46,14 @@ function App() {
 				</div>
 				<div>
 					<img src={img3} alt="logo" />
-					<h2 className="section-h2">Single-Way</h2>
+					<div class="section-icon"><h2 className="section-h2">Single-Way</h2></div>
 					<p className="section-p">
 						A set of immutable<br />values are passed to<br /> the component's.
 					</p>
 				</div>
 				<div>
 					<img src={img4} alt="logo" />
-					<h2 className="section-h2">JSX</h2>
+					<div class="section-icon"><h2 className="section-h2">JSX</h2></div>
 					<p className="section-p">
 						Statically-typed,<br /> designed to run on<br /> modern browsers.
 					</p>
