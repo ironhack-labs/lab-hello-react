@@ -1,0 +1,97 @@
+.App-header{
+  display: flex;
+  flex-direction: row;
+  gap: 700px;
+  position: absolute;
+}
+
+.mainText{
+  background-color: black;
+  margin: 30px;
+  padding: 100px;
+}
+
+.mainText header{
+  display: flex;
+  justify-content: center; 
+  flex-direction: row;
+  gap: 600px;
+  margin-bottom: 40px;
+  margin-top: auto;
+}
+
+.mainText  h1{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size:xxx-large;
+  text-align: left;
+}
+
+.mainText  p{
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+
+}
+
+.mainText  button{
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+
+}
+
+.mainText  a{
+color: black;
+font-style: normal;
+}
+
+.bottomBox{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin: 100px;
+  gap: 30px;
+}
+
+
+
+
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
