@@ -1,0 +1,63 @@
+.App-header {
+  background-color: #1f2535;
+  min-height: 100vh;
+  color: white;
+}
+
+.App-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.App-nav img {
+  cursor: pointer;
+}
+
+.App-call-to-action h1 {
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+.App-call-to-action h4 {
+  max-width: 60%;
+  font-weight: 400;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+}
+
+.App-call-to-action button {
+  font-size: 1.8rem;
+  color: #1f2535;
+  padding: 1rem 2rem;
+  font-weight: 500;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.properties {
+  padding: 10rem 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .App-call-to-action h1 {
+    font-size: 4.8rem;
+  }
+  .App-call-to-action h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem!important;
+  }
+  .App-call-to-action button {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+ 
+  .App-call-to-action h4 {
+    max-width: 100%;
+  }
+ 
+}
