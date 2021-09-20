@@ -32,7 +32,53 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.icons {
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divInside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250px;
+  text-align: start;
+}
+
+.firstPart {
+  background-color: #282c34;
+  color: white;
+  margin: 25px;
+}
+
+.navBar {
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.ironicon {
+  height: 40px;
+}
+
+.home {
+  height: 30px;
+  width: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  text-align: start;
+  margin: 50px;
+  padding-bottom: 50px;
 }
