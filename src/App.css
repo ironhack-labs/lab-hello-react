@@ -1,0 +1,64 @@
+.header,
+footer{
+  background-color: #282c34;
+  color: white;
+  padding: 1% 5%; 
+}
+footer{
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1em;
+  color: white;
+}
+
+#menu{
+  height: 15px;
+}
+
+.headline h1{
+  font-size: 5em;
+  font-weight: 700;
+}
+
+.headline {
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  width: 30vw;
+}
+
+.headline p{
+  font-size: 1.5em;
+}
+
+.headline button{
+  font-size: 1.2em;
+  font-weight: 700;
+  padding: 3%;
+  margin-top: 3vh;
+}
+
+
+.section-cards{
+  margin-top: 5%;
+  color: black;
+  margin-bottom: 5vh;
+}
+
+.card{
+  border: none;
+}
+.card-img-top{
+  margin-left: -5px;
+}
+
+.card-title, 
+.card-text {
+  padding-left: 12%;
+}
+
