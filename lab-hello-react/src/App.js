@@ -29,29 +29,44 @@ import image2 from './images/icon2.png';
 import image3 from './images/icon3.png';
 import image4 from './images/icon4.png';
 
+//doing components
+import LogoImage from './components/LogoImage';
+import MenuImage from './components/MenuImage';
+import HeaderText from './components/HeaderText';
+import HeaderButton from './components/HeaderButton';
+import MenuIcons from './components/MenuIcons';
+
 function App() {
 	return (
 		<div className="container">
 			<header className="header">
 				<div className="headerImages">
-					<img src={logo} alt="logo" />
-					<a href="/">
+					<LogoImage image={logo} />
+					{/* <img src={logo} alt="logo" /> */}
+					<MenuImage image={menu} />
+					{/* <a href="/">
 						<img src={menu} alt="menu" id="imageMenu" />
-					</a>
+					</a> */}
 				</div>
 				<div className="headerContent">
-					<h1 className="headerContentH1">Say hello to ReactJS</h1>
+					{/* <h1 className="headerContentH1">Say hello to ReactJS</h1>
 					<p className="headerContentP">
 						You will learn how to use<br /> the most popular frontend library,<br /> and become a super
 						Ninja developer.
-					</p>
-					<a className="headerContentButton" href="/">
+					</p> */}
+					<HeaderText />
+					<HeaderButton />
+					{/* <a className="headerContentButton" href="/">
 						Awesome!
-					</a>
+					</a> */}
 				</div>
 			</header>
 			<section className="section">
-				<div>
+				<MenuIcons image={image1} />
+				<MenuIcons image={image2} />
+				<MenuIcons image={image3} />
+				<MenuIcons image={image4} />
+				{/* <div>
 					<img src={image1} alt="logo" />
 					<h2 className="sectionH1"> Declarative</h2>
 					<p className="sectionP">
@@ -78,7 +93,7 @@ function App() {
 					<p className="sectionP">
 						Statically-typed,<br /> designed to run on<br /> modern browsers.
 					</p>
-				</div>
+				</div> */}
 			</section>
 		</div>
 	);
