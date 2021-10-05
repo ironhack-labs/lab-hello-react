@@ -7,28 +7,6 @@ import icon2 from "./images/icon2.png";
 import icon3 from "./images/icon3.png";
 import icon4 from "./images/icon4.png";
 
-const docs = [
-  {
-    image: "icon1.png",
-    title: "Declarative",
-    text: "React makes it painless to create interactive UIs.",
-  },
-  {
-    image: "icon2.png",
-    title: "Components",
-    text: "Build encapsulated components that manage the state.",
-  },
-  {
-    image: "icon3.png",
-    title: "Single-Way",
-    text: "A set of inmutable values are passed to the component´s.",
-  },
-  {
-    image: "icon4.png",
-    title: "JSX",
-    text: "Statically-typed,designed to run on modern browers.",
-  },
-];
 //funcion
 function App() {
   return (
