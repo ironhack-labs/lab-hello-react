@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.topContainer {
+  margin: 20px;
+  height: 70vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 75px;
+}
+
+.menu {
+  height: 75px;
+}
+
+.logo {
+  height: 75px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+  padding: 50px 75px;
+  width: 50vw;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: start;
+  margin: 0;
+}
+
+.heading > p {
+  font-size: 1em;
+  margin: 0;
+  text-align: start;
+  width: 30vw;
+}
+
+.awesomeButton {
+  background-color: white;
+  color: #1f2535;
+  border: 0;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 15px;
+  margin: 25px 0px;
+}
+
+.lowerContainer {
+  display: flex;
+  margin: 0px 0;
+  padding: 50px;
+}
+
+.infoDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.infoDiv > p {
+  font-size: 1em;
+  text-align: start;
+  margin-right: 50px;
+}
+
