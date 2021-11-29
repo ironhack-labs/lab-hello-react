@@ -1,6 +1,49 @@
 .App {
-  background-color: darkgrey;
-  text-align: center;
+  text-align: left;
 }
 
+.container1 {
+  background-color: #282c34;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 
+.icontainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.icons-container img{
+  margin: 2vh;
+}
+
+.text-container{
+  padding: 10vh;
+  width: 25%;
+}
+
+.button{
+  background-color: white;
+  border-radius: 5px;
+  padding: 1vh;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+}
+
+.container3{
+  width: 10%;
+  margin: 10vh;
+}
+
+#menuVar{
+  height: 13px;
+}
