@@ -43,9 +43,6 @@
   font-size: 20px;
 }
 
-container-navbar {
-  display: inline-block;
-}
 h5 {
   color: white;
   font-weight: normal;
@@ -79,4 +76,9 @@ p {
 }
 .white-square {
   display: flex;
+}
+
+.container-navbar {
+  display: inline-flex;
+  background-color: #282c34;
 }
