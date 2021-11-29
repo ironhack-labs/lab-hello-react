@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #1f2535;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Navbar {
+  background-color: #1f2535;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+#img1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+#img2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.App-header button {
+  background-color: white;
+  height: 50px;
+}
+
+.AllCards {
+  display: flex;
+  flex-direction: row;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  color: #1f2535;
+  align-items: left;
+}
+
+.Card p {
+  padding: -20px;
+}
+
+.Card h5 {
+  padding: 0;
+  margin: 0
+}
