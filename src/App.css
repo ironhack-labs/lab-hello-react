@@ -91,11 +91,12 @@ button {
 }
 
 .card > img {
-  width: 45%;
+  width: 55%;
 }
 
 .second-part {
   display: flex;
   flex-direction: row;
   padding: 2rem 4rem 2rem 4rem;
+  background-color: white;
 }
