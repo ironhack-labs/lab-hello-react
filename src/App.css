@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* LAB */
+
+.header {
+  background-image: url("./image/3949076.png");
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  color: white;
+  padding: 20px 40px;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.section {
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  width: 24px;
+  height: 13px;
+}
+.body-container {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.title-header {
+  font-size: 5.5rem;
+}
+.subtitle {
+  text-align: justify;
+  font-size: 1.5rem;
+  width: 30%;
+}
+.awesome {
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+  width: fit-content;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+}
+.section {
+  /* margin: 20rem 0; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  /* justify-content: center; */
+}
+.cards-id {
+  width: 20%;
+}
+.title-card {
+  font-size: 3rem;
+}
+.container-card {
+  font-size: 1.5rem;
+  width: 80%;
+}
