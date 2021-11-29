@@ -6,7 +6,7 @@ const Welcome = () => {
   return (
     <div className="Welcome">
       <Navbar />
-      <div class="welcome-content">
+      <div className="welcome-content">
         <div>
           <h1>Say hello to ReactJs</h1>
           <p>

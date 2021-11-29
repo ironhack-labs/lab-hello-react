@@ -33,13 +33,15 @@ function App() {
   return (
     <div className="App">
       <Welcome />
-      <div>
-        <PropertyCard property={propertiesArray[0]}/>
-        <PropertyCard property={propertiesArray[1]}/>
-        <PropertyCard property={propertiesArray[2]}/>
-        <PropertyCard property={propertiesArray[3]}/>
+      <div className="properties-container">
+      {propertiesArray.map((property,i) =>
+        <PropertyCard property={property} key={i}/>
+      )}
       </div>
     </div>
+   
+
+
 
   );
 }
