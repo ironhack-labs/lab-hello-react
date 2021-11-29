@@ -5,9 +5,86 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.blue-container {
+  background-color: rgb(9, 9, 70);
+  margin: 10px;
+  padding-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h1 {
+  font-size: 60px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-bar {
+  background-color: rgb(9, 9, 70);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#menuI{
+  padding-right: 40px;
+  height: 20px;
+}
+#logo{
+  padding-left: 40px;
+}
+
+.mid-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: flex-start;
+  justify-content: start;
+  padding-left: 100px;
+  text-align: left;
+  padding-top: 100px;
+  color: aliceblue;
+}
+
+#link {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: aliceblue;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.icons {
+  height: 100px;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.white-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 100px 50px 100px;
+}
+
+.module-container {
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  align-content: flex-start;
+  justify-content: flex-start;
 }
