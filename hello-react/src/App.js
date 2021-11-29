@@ -1,9 +1,9 @@
-// import Declarative from './declarative.png';
-// import Components from './components.png';
-// import Single from './single.png';
-// import jsx from './jsx.png';
-import Ironlogo from './public/ironlogo.png';
-import Menu from './public/menu.png';
+import Declarative from './images/declarative.png';
+import Components from './images/components.png';
+import Single from './images/single.png';
+import jsx from './images/jsx.png';
+import Ironlogo from './images/ironlogo.png';
+import Menu from './images/menu.png';
 
 import './App.css';
 
@@ -16,14 +16,14 @@ function App() {
           <img src={Menu} className="menu" alt="menu" />
         </nav>
 
-        <div>
-          <h2>Say hello to ReactJS</h2>
+        <div className="title">
+          <h1>Say hello to ReactJS</h1>
           <p>You will learn how to use the most popular frontend library, and become a super Ninja developer.</p>
           <button type="button">Awesome!</button>
         </div>
       </header>
 
-      {/* <section>
+      <section>
         <div className="row-items">
           <img src={Declarative} alt="Declarative" className="row-pics" />
           <h4>Declarative</h4>
@@ -47,7 +47,7 @@ function App() {
           <h4>JSX</h4>
           <p className="row-text">Statically-typed, designed to run on modern browsers.</p>
         </div>
-      </section> */}
+      </section>
 
     </div>
   );
