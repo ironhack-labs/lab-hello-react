@@ -11,7 +11,7 @@ import bullet4 from './images/bullet4.png';
 
 function NavBar(props) {
   return (
-      <nav class="nav-bar">
+      <nav className="nav-bar">
           <img src={logo} alt="logo" />
           <img src={menu} alt="menu"/>
       </nav>)
@@ -19,10 +19,10 @@ function NavBar(props) {
 
 function Hero() {
   return (
-    <div class="hero">
-      <div class="elements">
+    <div className="hero">
+      <div className="elements">
         <h1> Say Hello to ReactJS</h1>
-        <p class='subtitle'>
+        <p className='subtitle'>
           You will learn how to use the most popular frontend library,
           and become a Super Ninja developer.
         </p>
@@ -34,17 +34,17 @@ function Hero() {
 
 function Bullet(props) {
     return (
-      <div class='bullet'>
+      <div className='bullet'>
           <img src={props.img} alt="bullet pic" />
-          <p class="bullet-title">{props.title}</p>
-          <p class="bullet-description">{props.description}</p>
+          <p className="bullet-title">{props.title}</p>
+          <p className="bullet-description">{props.description}</p>
         </div>
     )
 }
 
 function BulletsList() {
   return (
-      <div class="bullets">
+      <div className="bullets">
         <Bullet img={bullet1} title="Declarative" description="React makes it painless to create interactive UIs."/>
         <Bullet img={bullet2} title="Components" description="Build encapsulated components that manage their state."/>
         <Bullet img={bullet3} title="Single-Way" description="A set of immutable values are passed to the component's."/>
@@ -55,7 +55,7 @@ function BulletsList() {
 
 function Button(props){
   return (
-    <div class='button'>
+    <div className='button'>
       {props.buttonText}
     </div>
   )
@@ -64,7 +64,7 @@ function Button(props){
 function App() {
   return (
     <div>
-          <NavBar id={"my-navbar"} />
+          <NavBar />
           <Hero />
           <BulletsList />
       </div>
