@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+nav {
+
+}
+
+.logo {
+  height: 90px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  padding: 20px 50px;
+}
+
+.menu {
+  height: 90px;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  padding: 20px 50px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: left;
+}
+
+.header {
+  background-color: #282828;
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  display: flex;
+  color: white;
+}
+
+.title {
+  margin-top: 150px;
+  width: 300px;
+  padding-left: 100px;
+  text-align: left;
+}
+
+section {
+  padding: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+h4 {
+  font-size: 35px;
+  line-height: 0px;
+}
+
+.row-items {
+  width: 350px;
+  padding: 80px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.row-pic {
+  width: 120px;
+}
+
+.row-text {
+  margin-top: -15px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
