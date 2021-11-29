@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(80, 149, 228);
+}
+
+.App {
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Top {
+  margin-bottom: 50px;
+}
+
+.main {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 80vw;
+  min-height: 60vh;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main h1 {
+  font-size: 100px;
+  color: white;
+
+  margin-top: 30px;
+}
+
+.main p {
+  font-size: 30px;
+}
+.main a {
+  font-size: 30px;
+}
+.main button {
+  width: 100px;
+  height: 50px;
+
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.navbar {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.Elements {
+  align-self: center;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.Elements img {
+  border: 2px solid black;
+}
+
+.SingleElement {
+  min-width: 186px;
+  max-width: 20vw;
+}
