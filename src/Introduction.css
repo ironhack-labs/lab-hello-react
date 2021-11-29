@@ -1,0 +1,32 @@
+.introduction {
+    background-color: rgba(31,37,51,255);
+    padding-right: 45%;
+    padding-left: 3%;
+    color: whitesmoke;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    text-align: start;
+    font-weight: 800;
+}
+
+.text {
+    text-align: start;
+    padding-right: 30%;
+}
+
+.button {
+    text-decoration: none;
+    color: rgba(31,37,51,255);
+    font-weight: 700;
+    background-color: whitesmoke; 
+    padding: 4%;
+    margin-top: 6%;
+}
