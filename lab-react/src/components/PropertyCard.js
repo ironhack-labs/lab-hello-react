@@ -1,17 +1,11 @@
 const PropertyCard = (props) => {
   return (
     <div className="PropertyCard">
-      <img />
-      <h4></h4>
-      <p></p>
+      <img src={props.property.image} alt={props.property.title}/>
+      <h4>{props.property.title}</h4>
+      <p>{props.property.description}</p>
     </div>
   );
 };
 
 export default PropertyCard;
-
-
-"React make it painless to create interactive UIs"
-"Build encapsulated components that manage their state"
-"A set of immutable values are passed to the component´s"
-"Statically-typed,designed to run on modern browsers"
