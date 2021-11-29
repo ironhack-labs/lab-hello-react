@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 20px;
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  background-color: #1f2535;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-imgOne {
+  margin: 5px;
+  margin-left: 50px;
+}
+
+#nav-imgTwo {
+  margin: 5px;
+  margin-right: 50px;
+}
+
+.Headline {
+  background-color: #1f2535;
+  color: white;
+  padding-top: 60px;
+  padding-left: 55px;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  height: 500px;
+}
+
+.Headline > h2 {
+  font-size: 60px;
+  margin-bottom: -10px;
+  font-weight: bold;
+}
+
+.Headline > button {
+  margin-top: 40px;
+  background-color: white;
+  color: #1f2535;
+  padding: 15px 25px;
+  border: 0;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.Headbottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+#paragraphHbOne,
+#paragraphHbTwo,
+#paragraphHbThree,
+#paragraphHbFour {
+  text-align: left;
+}
+
+.Headbottom > span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#imgOne,
+#imgTwo,
+#imgThree,
+#imgFour {
+  display: flex;
+  align-items: flex-start;
+  margin-left: -15px;
+}
