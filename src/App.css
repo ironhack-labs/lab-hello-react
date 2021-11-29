@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  color: #eee;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  padding: 2rem 4rem;
+  background-color: #181f36;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 6rem 0 2rem 4rem;
+}
+
+h2 {
+  color: #181f36;
+  font-size: 30px;
+  margin-left: 1rem;
+}
+
+h3 {
+  margin: 0 0 4rem 4rem;
+  font-size: 27px;
+}
+
+main {
+  background-color: #181f36;
+  padding-bottom: 2rem;
+}
+
+.upper-section {
+  margin: 2.3rem;
+  width: 40vw;
+}
+
+button {
+  padding: 1.4rem;
+  margin-left: 4rem;
+  background-color: #eee;
+  color: #181f36;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 6px;
+}
+
+.bottom-section {
+  display: flex;
+  padding: 10rem 10rem 10rem 15rem;
+  text-align: left;
+}
