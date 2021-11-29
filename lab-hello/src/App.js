@@ -9,7 +9,15 @@ import bullet3 from './images/bullet3.png';
 import bullet4 from './images/bullet4.png';
 
 
-function NavBar(props) {
+function Button(props){
+  return (
+    <div className='button'>
+      {props.buttonText}
+    </div>
+  )
+}
+
+function NavBar() {
   return (
       <nav className="nav-bar">
           <img src={logo} alt="logo" />
@@ -51,14 +59,6 @@ function BulletsList() {
         <Bullet img={bullet4} title="JSX" description="Statically-typed designed to run on modern browsers."/>
       </div>
       )
-}
-
-function Button(props){
-  return (
-    <div className='button'>
-      {props.buttonText}
-    </div>
-  )
 }
 
 function App() {
