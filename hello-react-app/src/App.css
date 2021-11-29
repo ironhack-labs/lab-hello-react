@@ -1,0 +1,69 @@
+.App-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #282c34;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.App-logo {
+  width: 50px;
+}
+
+.App-menu {
+  height: 15px;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 100px 50px;
+  line-height: 1.2;
+}
+
+.App-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 60px;
+  width: 400px;
+  font-weight: 800;
+}
+
+.App-description {
+  width: 400px;
+  font-size: 20px;
+}
+
+.App-btn {
+  padding: 20px 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+.App-components-container {
+  display: flex;
+  padding: 100px 50px;
+  justify-content: space-around;
+}
+
+.App-components {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  line-height: 1.2;
+}
+
+.App-icon {
+  width: 100px;
+}
+
+.App-components h3 {
+  margin-bottom: 10px;
+}
+
+.App-components p {
+  margin: 0;
+}
