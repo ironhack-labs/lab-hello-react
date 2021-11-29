@@ -9,13 +9,12 @@ import icon4 from './images/icon4.png'
 
 function App() {
   return (
-
+    <div>
     <div className='app'>
-
-      <div className='nav'>
+    <nav>
         <img src={logo} alt='' />
         <img src={menu} alt='' />
-      </div>
+      </nav>
 
       <div className='text-area'>
         <div>
@@ -24,46 +23,51 @@ function App() {
             You will learn how to use the most popular frontend library, and
             become a Ninja Developer
           </p>
+          </div>
           <div>
             <button>Awesome!</button>
           </div>
         </div>
       </div>
 
-      <div className='container-area'>
-        <div className='container-grid'>
-          <div>
+      <div className='container'>
+        <div className='grid'>
+           
+        <div>
             <img src={icon1} alt='' />
             <h3>Declarative</h3>
             <p>
-              React makes it painless to create ...
+              React makes it painless to create ...Lorem ipsum dolor sit amet, consectetur adipisici elit
             </p>
           </div>
+
           <div>
             <img src={icon2} alt='' />
             <h3>Components</h3>
             <p>
-              React makes it painless to create ...
+              React makes it painless to create Lorem ipsum dolor sit amet, consectetur adipisici elit
             </p>
+            </div>
+
             <div>
               <img src={icon3} alt='' />
               <h3>Single-Way</h3>
               <p>
-                React makes it painless to create ...
+                React makes it painless to create Lorem ipsum dolor sit amet, consectetur adipisici elit
               </p>
             </div>
+
             <div>
               <img src={icon4} alt='' />
               <h3>JSX</h3>
               <p>
-                React makes it painless to create ...
+                React makes it painless to create Lorem ipsum dolor sit amet, consectetur adipisici elit
               </p>
             </div>
+
           </div>
         </div>
-      </div>
-
-    </div>
+      </div>    
 
   )
 }
