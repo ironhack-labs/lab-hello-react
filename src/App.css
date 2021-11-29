@@ -1,0 +1,51 @@
+.App {
+  text-align: left;
+}
+
+.blue-container {
+  background-color: #282c34;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.icons-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.icons-container img{
+  margin: 2vh;
+}
+
+.text-container{
+  padding: 10vh;
+  width: 25%;
+}
+
+.button{
+  background-color: white;
+  border-radius: 5px;
+  padding: 1vh;
+}
+
+.white-container{
+  display: flex;
+  justify-content: center;
+}
+
+.info-container{
+  width: 10%;
+  margin: 10vh;
+}
+
+#menu-logo{
+  height: 13px;
+}
+
