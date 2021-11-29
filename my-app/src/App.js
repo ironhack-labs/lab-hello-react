@@ -1,10 +1,11 @@
 
 import './App.css';
+import LandingPage from './LandingPage'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-
+    <LandingPage />
     </div>
   );
 }
