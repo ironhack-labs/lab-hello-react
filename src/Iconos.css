@@ -1,0 +1,18 @@
+.Iconos{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+.Iconos div{
+    /* width: 100px; */
+    margin-top: 0px;
+
+}
+.title{
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
