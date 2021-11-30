@@ -1,0 +1,16 @@
+.Text{
+    text-align: left;
+    /* font-size: 40px; */
+    /* line-height: 60px; */
+}
+
+h1{
+    line-height: 100px;
+    font-size: 110px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 30px;
+    line-height: 40px;
+}
