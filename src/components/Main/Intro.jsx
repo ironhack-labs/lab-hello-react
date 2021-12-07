@@ -15,10 +15,7 @@ export default function Intro() {
                 Declarative
               </h1>
               <p class="bg-white text-sm text-black">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Reiciendis vitae qui distinctio ex soluta? Voluptates, ea! Esse,
-                natus. Quas possimus laboriosam consectetur deserunt ea
-                sapiente. Dicta ipsam atque voluptatem provident!
+                React makes it painless to create interactive UIs.
               </p>
             </div>
           </div>
@@ -33,10 +30,7 @@ export default function Intro() {
                 Components
               </h1>
               <p class="bg-white text-sm text-black">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Reiciendis vitae qui distinctio ex soluta? Voluptates, ea! Esse,
-                natus. Quas possimus laboriosam consectetur deserunt ea
-                sapiente. Dicta ipsam atque voluptatem provident!
+                Build encapsulated components that manage their state.
               </p>
             </div>
           </div>
@@ -51,27 +45,21 @@ export default function Intro() {
                 Single-Way
               </h1>
               <p class="bg-white text-sm text-black">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Reiciendis vitae qui distinctio ex soluta? Voluptates, ea! Esse,
-                natus. Quas possimus laboriosam consectetur deserunt ea
-                sapiente. Dicta ipsam atque voluptatem provident!
+              A set of immutable values are passed to the component's.
               </p>
             </div>
           </div>
 
           <div class="blogs bg-white mr-5">
             <img
-              src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon3.png" class="" alt="algo3"
+              src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon4.png" class="" alt="algo4"
             />
             <div class="p-5">
               <h1 class="text-2xl font-bold text-gray-800 py-2">
                 JSX
               </h1>
               <p class="bg-white text-sm text-black">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Reiciendis vitae qui distinctio ex soluta? Voluptates, ea! Esse,
-                natus. Quas possimus laboriosam consectetur deserunt ea
-                sapiente. Dicta ipsam atque voluptatem provident!
+              Statically-typed, designed to run on modern browsers.
               </p>
             </div>
           </div>

@@ -9,8 +9,9 @@ function App() {
     <div className="App">
       <Header />
 
+      <div className="flex flex-col content-start justify-start " >
       <Main />
-
+      </div>
 
     </div>
   );
