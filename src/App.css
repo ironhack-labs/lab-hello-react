@@ -39,6 +39,17 @@
   margin-right: 30px;
 }
 
+#img2{
+  margin-top: 20px;
+  width: 30px;
+  height: 10px;
+}
+
+#icons{
+  display: inline;
+  width: 80px;
+  height: 80px
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

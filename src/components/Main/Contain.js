@@ -1,4 +1,8 @@
 import React from 'react'
+import icon1 from '../../images/icon1.png';
+import icon2 from '../../images/icon2.png';
+import icon3 from '../../images/icon3.png';
+import icon4 from '../../images/icon4.png';
 
 export default function Contain() {
       return (
@@ -6,11 +10,7 @@ export default function Contain() {
               <div class="blogs__wraper bg-white  py-20 px-20">
                   <div class="flex justify-between items-center">
                       <div class="blogs bg-white mr-5">
-                          <img
-                              src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon1.png"
-                              class=""
-                              alt="img1"
-                          />
+                          <img id="icons" src={icon1} alt="img1" />
                           <div class="p-2">
                               <h1 class="text-2xl font-bold text-gray-800 py-2">
                                   Declarative
@@ -23,11 +23,7 @@ export default function Contain() {
                       </div>
 
                       <div class="blogs bg-white mr-5">
-                          <img
-                              src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon2.png"
-                              class=""
-                              alt="img2"
-                          />
+                          <img id="icons" src={icon2} class="" alt="img2" />
                           <div class="p-2">
                               <h1 class="text-2xl font-bold text-gray-800 py-2">
                                   Components
@@ -40,11 +36,7 @@ export default function Contain() {
                       </div>
 
                       <div class="blogs bg-white mr-5">
-                          <img
-                              src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon3.png"
-                              class=""
-                              alt="img3"
-                          />
+                          <img id="icons" src={icon3} class="" alt="img3" />
                           <div class="p-2">
                               <h1 class="text-2xl font-bold text-gray-800 py-2">
                                   Single-Way
@@ -57,11 +49,7 @@ export default function Contain() {
                       </div>
 
                       <div class="blogs bg-white mr-5">
-                          <img
-                              src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon4.png"
-                              class=""
-                              alt="img4"
-                          />
+                          <img id="icons" src={icon4} class="" alt="img4" />
                           <div class="p-2">
                               <h1 class="text-2xl font-bold text-gray-800 py-2">
                                   JSX
