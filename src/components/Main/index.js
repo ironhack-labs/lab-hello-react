@@ -23,9 +23,9 @@ function Main() {
                   <button type="button" class="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" aria-expanded="false">
                     <span class="sr-only">Open main menu</span>
                   
-                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                   {/*  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
+                    </svg> */}
                   </button>
                 </div>
               </div>
@@ -126,8 +126,7 @@ function Main() {
               </div>
               <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
                 <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-                  
-                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/cloud-illustration-indigo-400.svg" alt=""/>
+                  <img class=" lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://o.remove.bg/downloads/dc4d166f-816b-42f9-9d97-b3186ac0dba2/1024px-React.svg-removebg-preview.png" alt=""/>
                 </div>
               </div>
             </div>
