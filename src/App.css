@@ -1,0 +1,39 @@
+.header {
+  background-color: #1f2535;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  height: 10px;
+}
+.main {
+  background-color: #1f2535;
+  color: white;
+  padding: 0px 50px;
+  margin: 20px;
+}
+.description {
+  max-width: 300px;
+  padding-bottom: 80px;
+}
+.description h1 {
+  font-size: 50px;
+}
+.description button {
+  font-size: 15px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.container p {
+  color: gray;
+  max-width: 200px;
+}
