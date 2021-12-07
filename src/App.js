@@ -3,6 +3,8 @@
 
 import './App.css';
 import Header from './components/Header'
+import Footer from './components/Footer'
+import Main from './components/main'
 
 function App() {
  
@@ -11,14 +13,20 @@ function App() {
     return (
 
         <div className = "App">
-          <Header nombre = "Hector" ciudad = "Lima" />
-          <p>Hola mundo</p>
+     
+
+          <Header  nombre = "Hector" ciudad = "Lima" />
+          
+        
+
+          <hr />
+
+        <Main />
 
           <hr />
 
 
-
-
+        <Footer nombre="Hector" />
 
 
 
