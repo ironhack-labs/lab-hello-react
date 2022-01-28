@@ -1,0 +1,19 @@
+.image-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.image-container > img {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+}

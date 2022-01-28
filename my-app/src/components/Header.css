@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 100px 60px;
+  padding-right: 400px;
+  background-color: #1f2535;
+}
+
+.container > h1 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+
+.container p {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+
+.container > button {
+  border: none;
+  color: #1f2535;
+}
+
+.subcontainer {
+  padding-right: 300px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 5px 55px;
+  }
+  .subcontainer {
+    padding-right: 5px;
+  }
+}
