@@ -27,6 +27,5 @@ function Gallery () {
     );
     }
     
-    // 2. Export the function:
     export default Gallery;
     

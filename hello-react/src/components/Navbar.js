@@ -17,6 +17,5 @@ function Navbar() {
     );
   }
   
-  // 2. Export the function:
   export default Navbar;
   
