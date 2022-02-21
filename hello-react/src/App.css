@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -11,6 +12,74 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.topBarDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px 15px 80px
+}
+
+.bluePartDiv {
+  background-color: #282c34;
+  padding-bottom: 30px;
+}
+
+.sayHelloDiv {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.awesome {
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
+
+.sayHelloDiv h1 {
+  font-size: 90px;
+  margin-bottom: 0;
+}
+
+.pictureTitleTextDiv {
+  width: 200px;
+  text-align: left;
+}
+
+.pictureTitleTextDiv h2 {
+  margin-left:20px ;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.pictureTitleTextDiv p {
+  color: grey;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left:20px ;
+  margin-bottom: 10px;
+}
+
+.pictureTitleTextDiv h2 {
+  font-size: 25px;
+}
+.sayHelloDiv p {
+  font-size: 25px;
+}
+
+.iconsInfoDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 450px
 }
 
 .App-header {
