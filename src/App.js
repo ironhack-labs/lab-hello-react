@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <div class="main">
         <div class="main-img">
-          <img src={logo} class=".App-logo" alt="ironhack logo"></img>
-          <img src={menu} alt="menu logo"></img>
+          <img src={logo} alt="ironhack logo"></img>
+          <img src={menu} class="menu-img" alt="menu logo"></img>
         </div>
         <div class="main-text">
           <h1>Say hello to ReactJS</h1>
