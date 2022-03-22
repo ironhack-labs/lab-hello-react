@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin: 20%;
+  margin-top: 0;
 }
 
 .App-logo {
@@ -35,4 +37,67 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bodyHeader {
+  padding-bottom: 10%;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.mainBody {
+  background-color: #1e2333;
+  color: white;
+  padding: 10%;
+  padding-top: 0;
+  margin-bottom: 10%;
+}
+
+.mainBody p {
+  width: 40%;
+  margin-bottom: 5%;
+}
+.features {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.bodyHeader img {
+  width: 5%;
+}
+
+.features img {
+  width: 15%;
 }
