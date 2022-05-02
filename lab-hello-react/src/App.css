@@ -5,6 +5,10 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+.section {
+  display: flex;
+  justify-content: center;
+}
 
 .App-logo {
   height: 40vmin;
