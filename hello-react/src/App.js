@@ -13,22 +13,49 @@ function App() {
     <div className="App">
     <div>
       <div>
-        <nav alt="navbar" className="hero">
-        <div>
-          <img src={ironhack} alt="ironhack icon" className='ironhack-logo'/>
-          <img src={icon} alt="nav bar icon" className='hamburger-logo'/>
+        <div alt="hero" className="hero-container">
+          <div>
+            <nav className="navbar">
+              <div>
+                <img src={ironhack} alt="ironhack icon" className='ironhack-logo'/>
+              </div>
+              <div>
+                <img src={icon} alt="nav bar icon" className='hamburger-logo'/>
+              </div>
+            </nav>
+          </div>
+          <div>
+            <h1 className='hero-title'>
+              <div>Say hello to</div> 
+              <div>ReactJS</div>
+            </h1>
+            <p className='hero-text'>
+              You will learn how to use<br />
+              the most popular frontend library,<br /> 
+              and become a super Ninja developer. </p>
+            <button>  
+              Awesome!
+            </button>
+          </div>
+          <div>
+            <img src={logo} alt="logo icon" className="my-logo0"/>
+          </div>
+          <div>
+            <img src={logo} alt="logo icon1" className="my-logo1"/>
+          </div>
+          <div>
+            <img src={logo} alt="logo icon2" className="my-logo2"/>
+          </div>
+          <div>
+            <img src={logo} alt="logo icon3" className="my-logo3"/>
+          </div>
+          <div>
+            <img src={logo} alt="logo icon4" className="my-logo4"/>
+          </div>
+          <div>
+            <img src={logo} alt="logo icon5" className="my-logo5"/>
+          </div>
         </div>
-          <img src={logo} alt="logo icon" className="my-logo0"/>
-          <img src={logo} alt="logo icon1" className="my-logo1"/>
-          <img src={logo} alt="logo icon2" className="my-logo2"/>
-          <img src={logo} alt="logo icon3" className="my-logo3"/>
-          <img src={logo} alt="logo icon4" className="my-logo4"/>
-          <img src={logo} alt="logo icon5" className="my-logo5"/>
-          <h5 className='hero-text'>Say hello to ReactJS</h5>
-          <p className='hero-text'>You will learn how to use<br />
-          the most popular frontend library,<br /> 
-          and become a super Ninja developer. </p>
-        </nav>
       </div>
     </div>
       <div>
