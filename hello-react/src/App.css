@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hero {
+  background-color: #272829;
+
+}
+
+.hero-text {
+  color: white;
+  
+}
+
+.my-logo0 {
+  width: 600px;
+}
+.my-logo1 {
+  width: 500px;
+}
+
+.my-logo2 {
+  width: 500px;
+}
+
+.my-logo3 {
+  width: 300px;
+}
+
+.my-logo4 {
+  width: 300px;
+}
+
+.my-logo5 {
+  width: 300px;
+}
+
+.ironhack-logo {
+  padding-right: 70%;
+}
+
