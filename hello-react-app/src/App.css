@@ -1,0 +1,158 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.heroContainer{
+  background-color: #282c34;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+h1{
+  color: white;
+  font-size: 6rem;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+
+.heroContainer p{
+  color: white;
+}
+
+button{
+  margin-top: 4rem;
+  color: #282c34;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8rem;
+}
+
+.heroImg1 img{
+position: absolute;
+top: 0;
+left: 50%;
+height: 400px;
+}
+
+.heroImg2 img{
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  height: 300px;
+}
+
+.heroImg3 img{
+position: absolute;
+top: 60%;
+left: 45%;
+height: 300px;
+}
+
+.heroImg4 img{
+position: absolute;
+top: 30%;
+left: 85%;
+height: 200px;
+}
+
+.heroImg5 img{
+position: absolute;
+top: 50%;
+left: 85%;
+height: 200px;
+}
+
+.heroImg6 img{
+position: absolute;
+top: 70%;
+left: 85%;
+height: 200px;
+}
+
+.endingContainer{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  
+}
+
+.endingContainer h3{
+  text-align: center;
+}
+
+.endingImg1 {
+  flex: 1;
+  border: none;
+  padding: 20px;
+ text-align: center;
+}
+
+.endingImg2{
+  flex: 1;
+  border: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.endingImg3{
+  flex: 1;
+  border: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.endingImg4{
+  flex: 1;
+  border: none;
+  margin-right: 10px;
+  padding: 20px;
+  text-align: center;
+}
