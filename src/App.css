@@ -1,0 +1,60 @@
+.functions{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-evenly;
+  margin: 0px 20px;
+  
+}
+
+.functions-inline >h3{
+  font-size: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.functions-inline>p{
+  width: 150px;
+}
+
+#hello{
+  width: 200px;
+}
+
+.Header{
+  background-color: #1F2535;
+  margin: 40px;
+  padding: 40px;
+}
+
+.Header h1{
+  font-size: 90px;
+  width: 600px;
+  margin-bottom: 0px;
+}
+
+.text{
+  margin-left: 100px;
+  margin-top: 0px;
+  color: white;
+  font-size: 25px;
+  width: 400px;
+}
+
+#awesome{
+  background-color: white;
+  color: #1F2535;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 190px;
+}
+
+#logo{
+  margin-left: 100px;
+  width: 70px;
+}
+
+#menu{
+  margin-left: 1100px;
+  width: 50px;
+}
