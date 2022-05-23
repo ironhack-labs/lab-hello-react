@@ -1,0 +1,120 @@
+/* .App {
+  text-align: center;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 1rem 3rem;
+  background-color: grey;
+}
+
+.nav-bar {
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+#burger {
+  max-height: 1.5vh;
+  max-width: 1.5vw;
+}
+
+.welcome-section {
+  padding: 0 3rem;
+  color: white;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-section h1 {
+  font-size: 5rem;
+  width: 25vw;
+}
+
+.welcome-section p {
+  margin: 1rem 0;
+  font-size: 2rem;
+  width: 30vw;
+}
+
+.button {
+  margin: 1rem 0;
+  border: transparent;
+  border-radius: 3px;
+  color: grey;
+  background-color: white;
+  width: 8vw;
+  height: 5vh;
+  font-size: 1.5rem;
+}
+
+.all-cards {
+  padding: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card h4 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card p {
+  width: 13vw;
+  color: grey;
+}
+
+.card-img {
+  min-height: 50px;
+  /* width: 10px; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
