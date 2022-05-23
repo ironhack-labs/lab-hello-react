@@ -1,0 +1,84 @@
+.indexBody {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.indexBackground {
+  background-image: url("https://blog.vulpi.com.br/wp-content/uploads/2018/01/react.jpg");
+  background-size: cover;
+  width: 50vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.indexHeader {
+  width: 45vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
+.indexText {
+  width: 20vw;
+  margin: 0px 0px 80px 50px;
+}
+
+.indexAllCards {
+  margin-top: 50px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.indexCard {
+  width: 200px;
+  margin-left: 20px;
+}
+
+/* indexText */
+h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.indexText p {
+  color: white;
+  font-size: 18px;
+  width: 250px;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* indexAllCards */
+
+h2 {
+  margin: 0;
+}
+
+.indexCard p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: grey
+}
+
+.indexCard img{
+  width: 120px;
+}
