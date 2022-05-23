@@ -3,7 +3,7 @@ import logo from "../images/logo.png";
 import hamburger from "../images/hamburger.png";
 function Navbar(props) {
   return (
-    <div>
+    <div className="navbar">
       <img src={logo} alt="" />
       <img src={hamburger} alt="" />
     </div>
