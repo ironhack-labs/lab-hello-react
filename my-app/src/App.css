@@ -1,23 +1,24 @@
 .App {
-  text-align: center;
-  background-color: black;
+  
 }
+
 .LandingPage {
-  text-align: center;
-  background-color: black;
+  
+  text-align: left;
+  background-color: rgb(33, 33, 41);
+  padding: 0px 50px;
+
+}
+.Container1{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-.Iron-Logo {
-  padding: 10px  800px 10px 1px ;
+.Container2{
+  color:aliceblue;
 }
 
-.Iron-Menu {
-  padding: 1px  1px 20px 10px ;
-}
-
-.Text1{
-  color: rgb(252, 252, 252);
-}
-.Text2{
-  color: rgb(252, 252, 252);
+.Container3 {
+  padding: 0px 0px 50px;
 }
