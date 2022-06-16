@@ -9,7 +9,7 @@ function Declarative(){
             <h1 className='Text1'>
                 Declarative
             </h1>
-            <br/>
+  
             <h3 className='Text2'>
                 React makes it <br/> painless to create <br/>
                 interactive UIs.

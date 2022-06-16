@@ -9,7 +9,7 @@ function   SingleWay (){
             <h1 className='Text1'>
                 Single-Way
             </h1>
-            <br/>
+            
             <h3 className='Text2'>
                 A set of immutable <br/> values are passed to <br/>
                 the component´s

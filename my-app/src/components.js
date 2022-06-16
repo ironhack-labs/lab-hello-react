@@ -9,7 +9,7 @@ function   Components (){
             <h1 className='Text1'>
                 Components
             </h1>
-            <br/>
+            
             <h3 className='Text2'>
                 Build encapsulated <br/> components that <br/>
                 manage their state.

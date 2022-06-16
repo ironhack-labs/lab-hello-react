@@ -11,9 +11,9 @@ function LandingPage(){
         </div>
         
         <div className='Container2'>
-            <h1 className='Text1'>Say Hello to <br/> ReactJS</h1>
-            <p/>
-            <h3 className='Text2'> You will to use <br/> the most popular frontend library, <br/>and become a super Ninja developer</h3>
+            <h1 className='Text3'>Say Hello to <br/> ReactJS</h1>
+            
+            <h3 className='Text4'> You will to use <br/> the most popular frontend library, <br/>and become a super Ninja developer</h3>
         </div>
 
         <div className='Container3'>

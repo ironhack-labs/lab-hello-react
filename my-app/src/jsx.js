@@ -9,7 +9,7 @@ function   JSX (){
             <h1 className='Text1'>
                 JSX
             </h1>
-            <br/>
+            
             <h3 className='Text2'>
                 Statically-typed, <br/> designed to run on <br/>
                 modern browsers.
