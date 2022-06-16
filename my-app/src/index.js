@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LandingPage from './landingPage';
 import Declarative from './declarative';
+import Components from './components';
+import SingleWay from './single-way';
+import JSX from './jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,9 +15,11 @@ root.render(
       <App/>
       <LandingPage/>
 
-      <div className='conteinerBotton'>
-
+      <div className='conteinerBotton'>  
       <Declarative/> 
+      <Components/>
+      <SingleWay/>
+      <JSX/>
       </div>
    
   </React.StrictMode>

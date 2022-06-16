@@ -1,6 +1,6 @@
-.App {
+/* .App {
   
-}
+} */
 
 .LandingPage {
   
@@ -23,6 +23,13 @@
   padding: 0px 0px 50px;
 }
 
-.conteinerDeclar{
+/* .conteinerDeclar{
+
+} */
+
+.conteinerBotton {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
   
 }
