@@ -23,7 +23,6 @@ function App() {
           <button>Awsome!</button>
         </div>
       </div>
-
       <SecondContainer />
     </div>
   );
