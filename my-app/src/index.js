@@ -4,12 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LandingPage from './landingPage';
+import Declarative from './declarative';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LandingPage/>
-    <App/>
+      <App/>
+      <LandingPage/>
+
+      <div className='conteinerBotton'>
+
+      <Declarative/> 
+      </div>
+   
   </React.StrictMode>
 );
 

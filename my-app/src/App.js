@@ -1,12 +1,13 @@
 import './App.css';
-import  landing  from './landingPage';
+import LandingPage  from './landingPage';
+ import Declarative from './declarative'; 
 
 function App(){
   return (
     <div className="App">
-
-        {landing}
- 
+        
+      {LandingPage}
+      {Declarative}
     </div>
   );
 }
