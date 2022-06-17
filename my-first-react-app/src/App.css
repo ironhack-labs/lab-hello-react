@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;700&display=swap");
+
+.App {
+  font-family: "Sora", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  padding: 3em 5em;
+  min-height: 30vh;
+  background-color: #25283b;
+  color: #fff;
+}
+
+.App-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Hello-React {
+  width: 50%;
+  margin-top: 10em;
+  margin-bottom: 2em;
+}
+
+.Hello-React h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 0.9;
+  margin: 0;
+}
+
+.Hello-React p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.Hello-React button {
+  color: #25283b;
+  font-size: 2rem;
+  padding: 0.8em 1em;
+  margin-top: 3em;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+}
+
+.Features {
+  display: flex;
+  margin: 7em 2em;
+  font-size: 1.3rem;
+  color: #25283b;
+}
+
+.Features > * {
+  margin: 0em 1em;
+}
+
+.Features h2 {
+  margin-bottom: -0.5em;
+}
