@@ -1,0 +1,84 @@
+body * {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: white;
+  padding: 2rem 5rem;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-msg {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 35rem;
+  margin-top: 8rem;
+}
+
+h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 5.4rem;
+  margin: 0;
+}
+
+.welcome-msg p {
+  font-size: 1.4rem;
+  width: 27rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.reaction {
+  background-color: #fff;
+  color: #515151;
+  width: min-content;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: .3rem;
+}
+
+main {
+  display: flex;
+  padding: 8rem;
+  justify-content: center;
+  gap: 3rem;
+}
+
+article {
+  text-align: left;
+}
+
+article h2, article, p {
+  margin: 0 1.2rem;
+}
+
+article h2 {
+  font-size: 2rem;
+  margin-bottom: .4rem;
+}
+
+article p {
+  color: rgb(107, 107, 107);
+  font-size: 1.1rem;
+  font-weight: 500;
+  width: 12.5rem;
+}
