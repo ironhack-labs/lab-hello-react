@@ -1,0 +1,100 @@
+html {
+  padding: 0px 50px 50px 50px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  color: white;
+  background-color: #1f253b;
+  text-align: left;
+  padding: 20px 50px 50px 50px;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-size: 5.8rem;
+  margin-bottom: 0px;
+}
+
+button {
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 40px;
+  padding: 20px 40px;
+}
+
+section {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 140px 0;
+  /* gap: 50px; */
+}
+
+section .feature-bloc {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+section h3 {
+  color: black;
+  margin-bottom: 0px;
+}
+
+section p {
+  color: grey;
+}
