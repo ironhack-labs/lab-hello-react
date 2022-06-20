@@ -1,11 +1,13 @@
-// import React from 'react'
+import React from "react";
 
-// const infoBloc = (props) => {
-//   return (
-//     <img src={props.text}/>
-//     <h3>{props.text}</h3>
-//     <p>{props.text}</p>
-//   )
-// }
+const articles = (props) => {
+  return (
+    <article>
+      <img src={props.img} alt="" />
+      <h3>{props.title}</h3>
+      <p>{props.text}</p>
+    </article>
+  );
+};
 
-// export default infoBloc
+export default articles;
