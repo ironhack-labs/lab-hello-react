@@ -1,0 +1,53 @@
+.dark{
+  min-height: 65vh;
+  color: white;
+  background-color: #1F2535;
+  padding: 1.5rem 4rem;
+}
+.App-header {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.title{
+  font-size: 2.5rem;
+  max-width: 10em;
+  line-height:1;
+}
+h1{
+  margin-bottom: 0.2em;
+  margin-top: 5rem;
+}
+h2{
+  margin: 0;
+}
+p{
+  font-size: 1.1em;
+  margin-top: 0.1em;
+}
+.btn{
+  padding: 1em 1.1em;
+  font-weight: 600;
+  font-size: 1.2em;
+  border-radius: 0.4em;
+  margin: 2em auto;
+}
+.icons{
+  margin: 6em 9em;
+  display: flex;
+  justify-content: space-around;
+  color: black;
+}
+.each-icon{ 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 9em;
+}
+.each-icon img{
+  max-width: 10rem;
+  margin: 0px 0px;
+}
+
+
+
