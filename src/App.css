@@ -1,0 +1,72 @@
+*
+{
+  margin: 12px;
+}
+
+.container{
+  background-color: #1F2535;
+  height: 600px;
+  width: 99%;
+  border: #FFFFFF;
+}
+
+nav{
+  display: flex;
+  justify-content:space-between;
+}
+
+.ironhack-logo{
+  flex-direction: row;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.menu{
+  height: 10px;
+  padding-top: 10px;
+}
+
+.images{
+  padding-top: 150px;
+  height: 120px;
+}
+
+.imagesContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.title{
+  font-size: 60px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding-left: 20px;
+  padding-top: 70px;
+}
+
+.text{
+  font-size: 17px;
+  color: #FFFFFF;
+  padding-left: 23px;
+}
+
+.buttonContainer{
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.button{
+  border-radius: 5px;
+  padding: 20px;
+  color: #1F2535;
+  font-size: 17px;
+  padding-left: 20px;
+  font-weight: bold;
+  }
+
