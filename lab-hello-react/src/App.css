@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.myNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  
+}
+
+.myBody{
+  color: white;
+  width: 600px;
+  height: 500px;
+  margin: 100px;
+  
+}
+.myBody h1{
+font-size: 80px;
+text-align: left;
+line-height: 68px;
+
+}
+
+.myBody p{
+font-size: 18px;
+text-align: left;
+padding-bottom: 40px;
+line-height: 23px;
+
+
+}
+
+.myButton{
+  border-radius: 7px;
+  border-color: aliceblue;
+  height: 60px;
+  width: 130px;
+  font-size: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: center;
+  padding-left: 17px;
+  padding-top: 15px;
+  
+}
+
+.iconNav2{
+  width: 30px;
+  height: 15px;
+}
+
+.noBody{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px;
+  text-align: left;
+}
+
+.cardInfo{
+  width: 200px;
+}
+
+.cardInfo img{
+  width: 150px;
+}
+
+.cardInfo h3{
+  font-size: 22px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #282c34;
+}
+
+.cardInfo p{
+  opacity: 0.5;
+  font-size: 18px;
+}
