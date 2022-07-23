@@ -1,0 +1,21 @@
+.container {
+max-width: 1000px;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.column {
+    flex: 1 1 auto;
+      margin-right: 30%;
+      font-size: 1.5rem;
+}
+
