@@ -64,8 +64,7 @@ h1 {
 }
 
 p {
-  font-size: 1.5rem; 
-  
+  font-size: 1.5rem;
 }
 
 #intro {
@@ -79,4 +78,17 @@ p {
   border-radius: 5px;
   padding: 3rem;
   font-size: 1.5rem;
+  width: fit-content;
+  margin: 60px 0px 60px 0px;
+}
+
+article {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+  margin-top: 170px;
+}
+
+.container {
+  text-align: left;
 }
