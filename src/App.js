@@ -23,6 +23,7 @@ function App() {
     <header className='header'>
     <nav>
       <div className='nav'>
+      <img src={logo} className='' />
       <img src={burguerMenu} className='' />
       </div>
       <div className='bodyHeader'>

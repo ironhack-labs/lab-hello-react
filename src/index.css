@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header {
+  height: 700px;
+  background-color: #003865;
+  background-size: cover;
+}
+
+.nav {
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bodyHeader{
+  padding: 50px;
+}
+
+.title {
+  font-size: 5px;
+  font-weight:bolder;
+  color: white;
+}
