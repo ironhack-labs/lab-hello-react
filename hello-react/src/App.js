@@ -1,23 +1,27 @@
 // src/App.js
 
-import icon1 from './images/icon1.png'
-import icon2 from './images/icon2.png'
-import icon3 from './images/icon3.png'
-import icon4 from './images/icon4.png'
-import ironLogo from './images/ironhack-logo-xs.png'
-import menu from './images/menu-top-xs.png'
+
+import {NavBar} from './components/NavBar'
+import {Main} from './components/Main'
+import {Icons} from './components/Icons'
 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <img src={ironLogo}  alt="ironLogo" />
-<img src={menu}  alt="menu" />
-    <img src={icon1}  alt="icon1" />
-    <img src={icon2}  alt="icon2" />
-    <img src={icon3}  alt="icon3" />
-    <img src={icon4}  alt="icon4" />
+
+    <header>
+<NavBar/>
+
+<Main/>
+
+</header>
+
+<section>
+  <Icons/>  
+    </section>
+
     </div>
   );
 }

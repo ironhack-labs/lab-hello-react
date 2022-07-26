@@ -1,0 +1,19 @@
+.img-container{
+
+display: flex;
+justify-content: space-evenly;
+margin-top: 100px;
+margin-bottom:100px;
+align-items: center;
+
+}
+
+.icon-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.icon-text > p{
+margin: 0px 50px
+}
