@@ -44,7 +44,7 @@ function App() {
         
         <div className = "bodycard1">
           <img className = "icon" src={icon1} alt="First Icon Ironhack"/>
-          <div className ="description">
+          <div className ="description1">
           {declarative }
           </div>
           <div className = "descriptiontext">
@@ -55,7 +55,7 @@ function App() {
 
         <div className = "bodycard1">
           <img className = "icon" src={icon2} alt="Second Icon Ironhack"/>
-          <div className ="description">
+          <div className ="description1">
           {components}
           </div>
           <div className = "descriptiontext">
@@ -65,7 +65,7 @@ function App() {
 
         <div className = "bodycard1">
           <img className = "icon" src={icon3} alt="Third Icon Ironhack"/>
-          <div className ="description">
+          <div className ="description1">
           {singleWay}
           </div>
           <div className = "descriptiontext">
@@ -75,7 +75,7 @@ function App() {
 
         <div className = "bodycard1">
           <img className = "icon" src={icon4} alt="Fourth Icon Ironhack"/>
-          <div className ="description">
+          <div className ="description1">
           {jsx}
           </div>
           <div className = "descriptiontext">
