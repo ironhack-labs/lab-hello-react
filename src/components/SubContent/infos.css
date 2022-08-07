@@ -1,0 +1,27 @@
+.infos img {
+    width: 100px;
+    margin: 0;
+}
+
+.infos {
+    width: 150px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.infos h1 {
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.infos p {
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: left;
+}

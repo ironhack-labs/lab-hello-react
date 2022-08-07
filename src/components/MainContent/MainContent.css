@@ -1,0 +1,33 @@
+.main-content {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+    width: 30%;
+}
+
+.main-content h1 {
+    color: white;
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.main-content p {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+}
+
+.main-content button {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 35px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
