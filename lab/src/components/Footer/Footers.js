@@ -11,12 +11,18 @@ export default function Footers() {
     },
     {
       "img": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon2.png",
-      "text": "  Build encapsulated componets that manage their state"
+      "text": "Build encapsulated componets that manage their state"
     },
     {
       "img": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon3.png",
-      "text": " Sigle-Way A set of immutable values are passed to the component's"
+      "text": "Sigle-Way A set of immutable values are passed to the component's"
     },
+    {
+      "img": "https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon4.png",
+      "text": "Statically-typed. designed to run on modern browsers."
+    }
+
+
 
   ])
   return (
