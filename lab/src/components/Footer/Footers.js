@@ -3,7 +3,6 @@ import React, { useState } from "react"
 
 import './Footers.css';
 
-
 export default function Footers() {
   const [gridData, setGridData] = useState([
     {
@@ -21,15 +20,15 @@ export default function Footers() {
 
   ])
   return (
-    <>
+    <div id="element-color">
       {gridData.length > 0 && (gridData.map(m => (
         <><img src={m.img} ></img>
           <ul>
-            <li>{m.text}</li>
+            <li id="element-li">{m.text}</li>
           </ul>
         </>
       )))}
-    </>
+    </div>
   )
 }
 

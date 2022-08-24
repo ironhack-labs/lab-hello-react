@@ -1,6 +1,8 @@
 ul {
+  list-style-type: none;
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-family: Lato, sans-serif;
 }
 
 button {
@@ -11,5 +13,9 @@ button {
 
 li {
 
-  color: black
+  color: white
+}
+
+div {
+  background-color: black;
 }
