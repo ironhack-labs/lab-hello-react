@@ -1,0 +1,15 @@
+ul {
+
+  list-style-type: none;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#element-li {
+  color: black
+}
+
+#element-color {
+  background-color: white;
+}
