@@ -1,0 +1,63 @@
+.backgroundBlack {
+background-color: rgb(39, 38, 38);
+color: white;
+}
+h1{
+  font-size: 70px;
+  display: flex;
+  margin: 0;
+}
+h2{
+  display: flex;
+  margin: 0;
+}
+.textBoxing{
+  margin: 10% 0 0 4%;
+  padding-bottom: 0.1%;
+}
+
+#logos{
+  display: flex;
+}
+.navbar-logo1{
+  width: 4%;
+  display: flex;
+  padding: 2% 0 0 4%;
+}
+.navbar-logo2{
+  width: 4%;
+  display: flex;
+  position: absolute;
+  padding: 2% 4% 0 0;
+  right: 1%;
+}
+article{
+  display: flex;
+  text-align: left;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+img{
+  display: flex;
+
+}
+button {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 25px;
+  padding: 1%;
+  border-radius: px;
+}
+
+
+#bottompart{
+  padding: 10%;
+  display: flex;
+  justify-content: space-evenly;
+}
+img{
+  margin-left: -20px;
+}
