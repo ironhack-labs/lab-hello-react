@@ -1,5 +1,43 @@
 .upper-section {
-  background-color: #282c34;
+  background-color: rgb(39, 38, 38);
+  color: white;
+  padding-left: 45px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.ironhack-logo {
+  width: 5%;
+  padding: 2px, 0px, 2px, 1px;
+}
+
+.menu-top {
+  width: 5%;
+  display: flex;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+
+button {
+  background-color: white;
+  color: rgb(39, 38, 38);
+  margin: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 5%;
+}
+
+.bottom-section {
+  display: flex;
+flex-direction: row;
 }
 
 

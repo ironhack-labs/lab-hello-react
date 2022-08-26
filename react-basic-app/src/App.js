@@ -15,8 +15,11 @@ function App() {
           <img src={ironhackLogo} className="ironhack-logo" alt="ironhack logo" />
           <img src={menuTop} className="menu-top" alt="menu logo" />
         </div>
-        <h1>Say hello to ReactJS</h1>
-        <article>You will learn how to use the most popular frontend library, and become a super Ninja developer.</article>
+        <h1>Say hello to<br></br>
+          ReactJS</h1>
+        <article>You will learn how to use<br></br>
+          the most popular frontend library,<br></br>
+          and become a super Ninja developer.</article>
         <button>Awesome!</button>
       </div>
 
