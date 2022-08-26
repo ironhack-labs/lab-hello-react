@@ -1,0 +1,67 @@
+h1 {
+    font-size: 45px;
+}
+
+.principal {
+    background-color: #1E2434;
+    margin: 2% 4%;
+    padding: 1% 3%;
+}
+
+.App {
+    background-color: white;
+}
+
+.div-1{
+    min-height: 350px;
+}
+
+
+.welcome {
+   width: 50%;
+   padding-top: 10%;
+   padding-left: 3%;
+    
+    
+}
+.welcome > p, h1 {
+    color: white;
+}
+
+.button-welcome {
+    background-color: white;
+    color: black;
+    padding: 3% 4%;
+    border-radius: 7%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+/*Cards*/
+.div-cards{
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+
+}
+
+.card {
+    margin: 2%;
+    width: 15rem;
+}
+
+.card > img {
+    width: 70%;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+
+h5 {
+    font-size: 20px;
+}
+
+
+
