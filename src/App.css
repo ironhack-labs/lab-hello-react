@@ -1,0 +1,40 @@
+.app {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1em;
+}
+.container-app {
+  background-color: #1F2535;
+  padding-top: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.first-element {
+  padding-bottom: 7.5em;
+}
+
+.second-element {
+  padding-bottom: 3.5em;
+}
+
+.second-element-title__fs{
+  font-size: 4em;
+}
+.second-element-description__fs{
+  font-weight: 100;
+}
+
+.third-element{
+  padding-bottom: 3.5em;
+}
+
+.container-tools{
+  margin-top: 7em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.tools-element-description{
+  font-size: 0.8em;
+}
