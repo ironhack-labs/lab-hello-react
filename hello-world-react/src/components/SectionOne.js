@@ -8,7 +8,6 @@ function SectionOne() {
             and become a super ninja developer.
             </p>
         </div>
-      
     );
   }
   

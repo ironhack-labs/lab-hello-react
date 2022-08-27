@@ -13,6 +13,7 @@ body{
     padding-top: 0px;
     margin: 20px;
     color: white;
+    height: 500px;
 }
 
 #nav-img{
@@ -33,4 +34,25 @@ body{
 
 h1 {
     font-size: 60px;
+}
+.btn {
+    padding: 15px;
+    font-weight: 800;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px red solid; */
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#icon{
+    width: 110px;
+}
+
+#textGallery {
+    text-align: center;
+    color: red;
 }
