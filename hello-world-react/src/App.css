@@ -1,3 +1,36 @@
 body{
     margin: 0px;
+    
+}
+
+.App {
+    background-color: white;
+}
+
+#first-part{
+    background-color: #1F2536;
+    padding: 50px;
+    padding-top: 0px;
+    margin: 20px;
+    color: white;
+}
+
+#nav-img{
+    width: 30px;
+    margin-top: 10px;
+}
+
+#nav-hamburger{
+    height: 10px;
+}
+
+#navbar{
+    display: flex;
+    /* border: red 2px solid; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
 }

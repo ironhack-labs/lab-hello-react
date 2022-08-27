@@ -1,14 +1,19 @@
+// import hamburgerImg from './images/menu-top-xs.png'
 
 function Navbar() {
     return (
-      <nav>
+      <div id="navbar">
         <img
           id="nav-img"
-          src="https://avatars.githubusercontent.com/u/54281267?s=280&v=4"
+          src="/images/ironhack-logo-xs.png"
           alt="logo"
         />
-        <h1>Hello</h1>
-      </nav>
+        <img
+          id="nav-hamburger"
+          src="/images/menu-top-xs.png"
+          alt="hamburger"
+        />
+      </div>
     );
   }
   
