@@ -1,0 +1,86 @@
+
+.TopContainer {
+  background-color: darkslateblue;
+  padding: 40px 30px 60px 30px;
+  margin: 50px;
+  border: 40px;
+  color: white;
+}
+
+.NavBar {
+  text-align: left;
+}
+
+.NavBar2 {
+  text-align: right;
+}
+
+.Header {
+  text-align: left;
+  font-size: 60px;
+  padding-bottom: 0;
+}
+
+.Text {
+  text-align: left;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.Btn {
+  text-align: center;
+  background-color: white;
+  padding: 20px 26px;
+  color: black;
+  font-size: large;
+}
+
+h3 {
+  color: black;
+  font-size: x-large;
+  padding: 5px 5px 5px 0;
+
+}
+.AllItems {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+.Item  {
+  flex: 1 0 20%;
+  margin: 5px 15px;
+  height: 100px;
+  color: gray;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.Item2 {
+  flex: 1 0 20%;
+  margin: 5px 15px;
+  height: 100px;
+  color: gray;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.Item3 {
+  flex: 1 0 20%;
+  margin: 5px 15px;
+  height: 100px;
+  color: gray;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.Item4 {
+  flex: 1 0 20%;
+  margin: 5px 15px;
+  height: 100px;
+  color: gray;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
