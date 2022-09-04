@@ -1,22 +1,18 @@
+
 import './App.css';
-import logo from "./components/logo";
-import menu from "./components/menu";
-import icon1 from "./components/icon1";
-import icon2 from "./components/icon1";
-import icon3 from "./components/icon1";
-import icon4 from "./components/icon1";
+import Navbar from './components/Navbar';
+import Body from './components/Body';
+import Button from './components/Button';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
 
-      <navbar>
-        
-      </navbar>
-
-     <p>Say Hello to ReactJS</p>
-     <p>You will learn how to use the most popular frontend library, and become a super Ninja developer.</p>
-
+      <Navbar />
+      <Body />
+      <Button />
+      <Footer />
 
     </div>
   );
