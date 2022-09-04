@@ -3,7 +3,7 @@ import menu from "./menu.png";
 
 function Navbar() {
     return (
-        <nav>
+        <nav class="Navbar">
             <img src={logo} />
             <img src={menu} />
         </nav>

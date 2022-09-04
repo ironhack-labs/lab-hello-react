@@ -6,7 +6,7 @@ import icon4 from "./icon4.png"
 
 function Footer() {
     return (
-        <footer>
+        <footer class="Footer">
         <img src={icon1} />
         <img src={icon2} />
         <img src={icon3} />
