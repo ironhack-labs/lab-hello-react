@@ -1,0 +1,7 @@
+#page-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1344px;
+    height: 500px;
+}
