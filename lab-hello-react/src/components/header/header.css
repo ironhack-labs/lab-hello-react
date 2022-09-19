@@ -1,0 +1,18 @@
+.header {
+    background-color:hsl(226deg 25% 14%);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.header img {
+    height: 60px;
+}
+
+.header .imgsmall{
+    height: 10px;
+}
+
