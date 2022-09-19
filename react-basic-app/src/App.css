@@ -1,0 +1,81 @@
+.upper-section {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  padding-left: 45px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.ironhack-logo {
+  width: 5%;
+  padding: 2px, 0px, 2px, 1px;
+}
+
+.menu-top {
+  width: 5%;
+  display: flex;
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 0px;
+}
+
+button {
+  background-color: white;
+  color: rgb(39, 38, 38);
+  margin: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 5%;
+}
+
+.bottom-section {
+  display: flex;
+flex-direction: row;
+}
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
