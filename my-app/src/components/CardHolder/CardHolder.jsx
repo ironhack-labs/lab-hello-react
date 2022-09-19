@@ -4,6 +4,7 @@ import Icon2 from '../../images/icon2.png';
 import Icon3 from '../../images/icon3.png';
 import Icon4 from '../../images/icon4.png';
 import { v4 as uuidv4 } from 'uuid';
+import './CardHolder.css';
 
 function CardHolder() {
     const data = [
@@ -14,7 +15,7 @@ function CardHolder() {
     ]
 
     return (
-        <div>
+        <div class='cardholder'>
             {data.map((card) => {
                 return <Card src={card.src} key={uuidv4()} title={card.title} description={card.description} />
              })}

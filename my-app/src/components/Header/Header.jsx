@@ -1,5 +1,6 @@
 import IronhackLogo from '../../images/nav-logo.png';
 import NavLogo from '../../images/nav-menu.png';
+import './Header.css';
 
 function Header(){
     return (

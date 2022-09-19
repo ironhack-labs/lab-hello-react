@@ -1,0 +1,38 @@
+.headline {
+    background-color: #1f2533;
+    color: white;
+    margin-top: 0;
+    margin-left: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 98%;
+    height: 700px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.content {
+    margin-left: 60px;
+    margin-bottom: 50px;
+    max-width: 500px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+   font-size: 20px; 
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    color: #1f2533;
+    font-weight: bold;
+}
