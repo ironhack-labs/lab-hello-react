@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+// src/App.js
 import './App.css';
-
+import React from 'react';
+import Encabezado from './components/encabezado'
+import Main from './components/main';
+import declarative from './images/declarative.png'
+import components from './images/components.png'
+import singleWay from './images/singleWay.png'
+import JSX from './images/jsx.png'
+import ironHackLogo from './images/ironHackLogo.png'
+import hamburguerMenu from './images/hamburguerMenu.png'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+		<header className='headerTop'>
+       <Encabezado/>
+		</header>
+		 
+     <Main/>
+		</div>
+
   );
 }
-
 export default App;

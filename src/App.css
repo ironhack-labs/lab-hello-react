@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+	align-items: center;
 }
 
 .App-logo {
@@ -35,4 +36,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-bar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.button{
+	width: 60%;
+	height: 50px;
+	font-size: 15px;
+}
+
+.say-hello{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	color:white;
+  width: 15%;
+	margin-left: 8%;
+}
+.sayHello{
+	font-size: 50px;
+	height: 10%;
+}
+
+.logo{
+	width: 5%;
+	height: 5%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+	margin-top: 15%;
+	margin-bottom: 10%;
+	width: 90%;
+	margin-left: 5%;
+
+}
+
+.header{
+	background-color:#1F2535 ;
+	height: 700px;
+	width: 100%;
+	justify-content: center;
+}
+.headerTop{
+	padding: 2%;
 }
