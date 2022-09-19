@@ -1,0 +1,15 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}    
+
+.menu img{
+    height: 200px;
+}
+
+.container{
+    width: 20%;
+    margin: 10px
+}
