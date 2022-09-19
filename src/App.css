@@ -1,0 +1,8 @@
+.App {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  gap:40px;
+  grid-template-areas: "header" "cardHolder";
+}
