@@ -1,0 +1,19 @@
+.GalleryCard {
+    width: 20%;
+}
+
+.GalleryCard img {
+    width: 80%;
+}
+
+.GalleryCard h2 {
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.GalleryCard p{
+    font-size: 1rem;
+    padding: 3px;
+    text-align: left;
+    width: 75%;
+}
