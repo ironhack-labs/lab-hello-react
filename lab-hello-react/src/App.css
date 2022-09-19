@@ -1,0 +1,65 @@
+.App {
+  text-align: left;
+  padding: 40px 40px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Background{
+  background-color: #202535;
+  color: white;
+  padding-top: 40px 20px
+}
+.Navbar{
+  margin: 15px 20px;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.img{
+  width: 30px;
+  height: 30px;
+}
+.Header{
+  padding: 40px 60px 100px 60px;
+}
+.Header > h1{
+  font-size: 70px;
+}
+.Header > p{
+  font-size: larger;
+}
+.Btn{
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: bold;
+}
+.Info{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 100px;
+}
