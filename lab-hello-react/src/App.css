@@ -1,0 +1,36 @@
+.container {
+  background-color: #202535;
+  height: 650px;
+  width: 95%;
+  margin: 20px auto;
+
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar img {
+  width: 50px;
+}
+
+.title-button {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: center;
+  color: aliceblue;
+  width: 50%;
+  margin-left: 62px;
+  font-size: 40px;
+  
+}
+
+.props-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
