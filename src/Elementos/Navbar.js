@@ -4,9 +4,9 @@ import menu from "../images/menu-top-xs.png"
 function Navbar() {
     return(
         <>
-        <div className="fondo">
-            <img src={logo} alt="ImgLogo"/>
-            <img src={menu} alt="ImgMenu"/>
+        <div className="nav">
+            <img src={logo} alt="ImgLogo" className="img"/>
+            <img src={menu} alt="ImgMenu"className="img"/>
         </div>
         </>
     )
