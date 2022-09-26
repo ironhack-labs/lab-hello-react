@@ -1,0 +1,101 @@
+body {
+  margin: 2%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.head{
+  background-color: #1f2535;
+  padding-bottom: 5%;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 3%
+}
+.nav.image{
+  width: 3%
+}
+.nav.image.two{
+  width: 3%;
+  height: 2%
+}
+.head.body{
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%
+}
+.main.head{
+  color: white;
+  font-size: 4em;
+  width: 40%
+}
+.head.para{
+  color: white;
+  font-size: 1.3em;
+  width: 35%
+}
+.head.btn{
+  background-color: white;
+  font-size: 1.7em;
+  margin-left: 5%;
+  display: flex;
+  padding: 2% 2%;
+  border-radius: 6px;
+  width: 18%
+}
+.logoOne{
+  position: absolute;
+  width: 40%;
+  top: 1%;
+}
+.logoTwo{
+  position: absolute;
+  width: 30%;
+  top: 32%;
+  right: 10%
+}
+.logoThree{
+  position: absolute;
+  width: 30%;
+  top: 47%;
+  right: 22%
+}
+.logoFour{
+  position: absolute;
+  width: 20%;
+  top: 20%;
+  right: -2%
+}
+.logoFive{
+  position: absolute;
+  width: 20%;
+  top: 35%;
+  right: -2%
+}
+.logoSix{
+  position: absolute;
+  width: 20%;
+  top: 50%;
+  right: -2%
+}
+.bottom{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 15% 5%;
+}
+.subject{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
