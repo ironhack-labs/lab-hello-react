@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header {
+  background-color: darkolivegreen;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.Ironhack-logo {
+  width: 20px;
+  height: 20px;
+}
