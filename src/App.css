@@ -1,0 +1,82 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Header */
+header {
+  padding: 1rem 3rem 4rem;
+  background-color: #282828;
+  color: white;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  height: 50%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 250px;
+  background-image: url(./logo.svg);
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  opacity: 0.03;
+}
+
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.nav > img {
+  height: 100%;
+}
+
+.heading {
+  width: 400px;
+}
+
+.heading > h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  line-height: 90%;
+}
+
+.header-button {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #282828;
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 5px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  max-width: 20vw;
+}
+
+.card > img {
+  width: 50%;
+}
+.card > h2 {
+  margin-bottom: 0;
+  color: #282828;
+}
+.card > p {
+  width: 70%;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #9f9f9f;
+  line-height: 15px;
+}
