@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: white;
+}
+
+header {
+  background-color: darkolivegreen;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.Ironhack-logo {
+  width: 20px;
+  height: 20px;
+}
