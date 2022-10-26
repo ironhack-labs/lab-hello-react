@@ -1,20 +1,23 @@
 // src/App.js
 import "./App.css";
 import { Header } from "./components/Header";
-import icon1 from "./images/icon1.png"
-import icon2 from "./images/icon2.png"
-import icon3 from "./images/icon3.png"
-import icon4 from "./images/icon4.png"
+import icon1 from "./images/icon1.png";
+import icon2 from "./images/icon2.png";
+import icon3 from "./images/icon3.png";
+import icon4 from "./images/icon4.png";
 
 function App() {
   return (
     <div className="App">
       <header>
-        <Header/>
+        <Header />
       </header>
       <section className="mainSection">
         <h1>Say hello to ReactJS</h1>
-        <h3>You will learn to use the most popular frontend library, and become a super Ninja developer.</h3>
+        <h3>
+          You will learn to use the most popular frontend library, and become a
+          super Ninja developer.
+        </h3>
         <button>Awesome!</button>
       </section>
       <section className="bottomSection">
