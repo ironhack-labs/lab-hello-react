@@ -1,11 +1,13 @@
 .App {
   text-align: start;
-  padding: 15px 40px;
-  background-color: rgb(40, 40, 40);
+  margin: 0;
+  padding: 0;
 }
 
-.mainSection {  
-  color: white;  
+.mainSection {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  padding: 40px;
 }
 
 .bottomSection {
@@ -13,22 +15,22 @@
   color: black;
   display: flex;
   flex-wrap: wrap;
-  padding-top: 10%;
+  padding: 10px 40px 0 40px;
 }
 
 .header {
   display: flex;
-  justify-content: space-between;  
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgb(40, 40, 40);
+  justify-content: space-between;
+  align-items: center;
 }
 
 #menuSymbol {
   height: 10%;
   width: auto;
-}
-
-.mainSection {
-  margin-top: 10%;
-  padding-bottom: 5%;
 }
 
 .mainSection h1 {
@@ -53,4 +55,5 @@
 
 .block {
   width: 20vw;
+  padding-right: 10px;
 }
