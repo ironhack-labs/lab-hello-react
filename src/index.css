@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  margin: 10px;
+}
+
+.sec1 {
+  background-color: #1F2536;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  margin-left: 45px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  margin: 20px 0 0 45px;
+  width: 30px;
+}
+
+#menu {
+  margin: 20px 45px 0 0;
+  width: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 80px;
+}
+
+p {
+  font-size: .8rem;
+  margin-top: -20px;
+}
+
+button {
+  color: #1f2536cd;
+  font-weight: 600;
+  width: 90px;
+  height: 40px;
+  margin: 20px 0 60px 0;
+}
+
+.sec2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  padding-bottom: 45px;
+}
+
+.sec2 img {
+  width: 70px;
+}
+
+.sec2 h2 {
+  font-size: 2rem;
+  color: #1f2536c3;
+}
+
+.sec2 p {
+  font-size: 0.80rem;
+  color: #1f2536a2;
+  text-align: left;
+  width: 110px;
+  margin-top: -5px;
+}
+
+
