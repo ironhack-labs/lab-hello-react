@@ -1,0 +1,137 @@
+/* Css Reset Start */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+/* Css Reset End */
+
+/* Header Section Start */
+header{
+  background-color: #1f2535;
+}
+
+header .header-wrapper {
+  padding: 2% 5%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+/* Header Section End */
+
+
+/* Header Section Start */
+.content-wrapper {
+  color: #fff;
+  margin-bottom: 5%;
+}
+
+.content-wrapper h1 {
+  font-size: 100px;
+}
+
+@media (max-width: 800px) {
+  .content-wrapper h1 {
+    font-size: 50px;
+  }
+}
+
+.content-wrapper h1:first-child {
+  margin-top: 5%;
+}
+
+.content-wrapper .hero-button button{
+  padding:20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.content-wrapper .hero-button button:hover{
+  cursor: pointer;
+}
+
+.content-wrapper .info-about {
+  margin: 30px 0;
+}
+
+.content-wrapper .info-about span {
+  display: block;
+  font-size: 30px;
+
+}
+
+/* Header Section End */
+
+
+/* Footer Section Start */
+footer {
+  background-color: #fff;
+  padding: 2% 5%;
+  display: flex;
+  gap: 5%;
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+}
+
+footer .box{
+  flex:20%;
+}
+
+footer .box img{
+  width: 150px;
+  position: relative;
+  left: -17px;
+}
+
+footer .box .title{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer .box .content {
+  width: 70%;
+  font-size: 23px;
+}
+
+@media (max-width: 800px) {
+  footer { 
+    gap: 15%;
+  }
+  footer .box{
+    flex:30%;
+  }
+  footer .box .content{
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  footer .box{
+    flex:100%;
+    text-align: center;
+  }
+
+  footer .box img {
+    left: 0px;
+}
+
+}
+
+/* Footer Section End */
