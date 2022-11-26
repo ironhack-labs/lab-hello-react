@@ -33,6 +33,11 @@ header nav {
   display: flex;
   justify-content: space-between;
 }
+
+header nav .burger-icon {
+  width: 24px;
+  height: 13px;
+}
 /* Header Section End */
 
 

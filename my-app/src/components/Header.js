@@ -13,7 +13,7 @@ function Header(){
             <section className="header-wrapper">
                 <nav>
                     <img src={Logo} alt='Iron-hack Logo'></img>
-                    <img src={Menu} alt="Menu" ></img>
+                    <img className="burger-icon" src={Menu} alt="Menu" ></img>
                 </nav>
                 <Content/>
             </section>
