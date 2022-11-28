@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  background-color: #1F2535;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vh 2vw;
+}
+
+button {
+  font-size: inherit;
+  padding: 0.75em;
+  border-style: none;
+  background-color: white;
+  border-radius: 0.25em;
+  margin-top: 4vh;
+  font-size: 2em;
+}
+
+.hero {
+  color: white;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  width: 50%;
+  margin-left: 5vw;
+  text-align: left;
+}
+
+.hero-content h1 {
+  font-size: 8em;
+  line-height: 1em;
+  margin-bottom: 0;
+}
+
+.hero-content p {
+  font-size: 2em;
+  line-height: 1em;
+  margin-top: 1em;
+}
+
+.feature-bar {
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10vh 0;
+}
+
+.feature-card {
+  width: 10vw;
+  text-align: left;
+  color: #282c34;
+  padding: 2vw 2vw;
+}
+
+.feature-card h2, p {
+  margin: 0;
+}
