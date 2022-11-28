@@ -4,9 +4,9 @@ function App() {
   return (
     <div className="App">
     <header>
-      <div class="imgs">
-      <img  src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/ironhack-logo-xs.png" alt="Ironhack logo" />
-      <img  src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/menu-top-xs.png" />
+      <div className="imgs">
+      <img  src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/ironhack-logo-xs.png" />
+      <img className="menu" src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/menu-top-xs.png" />
       </div>
     <h1>Say hello to <br/> ReactJS</h1>    
     <p>You will learn how to use <br/> the most popular frontend library, <br/> and become a super Ninja developer.</p>
