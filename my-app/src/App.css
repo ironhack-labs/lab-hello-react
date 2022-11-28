@@ -1,0 +1,67 @@
+.App {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding-left: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  padding: 20px 50px 100px 0;
+  display: flex;
+  flex-direction:  row;
+  justify-content: space-between;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  margin-bottom: 80px;
+  margin-top: 40px;
+ border: none; 
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 0;
+}
+
+.icons-container p {
+  width: 180px;
+}
