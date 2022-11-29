@@ -1,0 +1,17 @@
+.header-color {
+    background-color: #1F2535;
+    color: #fff;
+    height: 24rem;
+    display: flex;
+    align-items: center;
+}
+.button-header {
+    background-color: #fff ;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    width: 130px;
+    height: 50px;
+    margin-top: 40px;
+
+}
