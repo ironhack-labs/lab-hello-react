@@ -1,0 +1,22 @@
+.blue{
+  padding: 5px;
+  height: 50vh;
+  background-color: #1F2535 ;
+  color: aliceblue;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+ display: flex;
+ flex-direction: row;
+ align-items:center;
+ justify-content: space-around;
+}
+
+.icons{
+  height: 400px;
+  width: 180px;
+}
