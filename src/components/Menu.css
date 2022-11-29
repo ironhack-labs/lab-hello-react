@@ -1,0 +1,8 @@
+.CenterAll {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Img-size-menu {
+    width: 10rem;
+}

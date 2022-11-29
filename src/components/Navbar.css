@@ -1,0 +1,9 @@
+.Navigate {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2535;
+}
+.Nav-image-size {
+    width: 100px;
+}
