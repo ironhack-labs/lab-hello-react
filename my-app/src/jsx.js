@@ -1,4 +1,4 @@
-import JSXImg from './images/icon2.png'
+import JSXImg from './images/icon4.png'
 
 function   JSX (){
     return(
