@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+}
+nav {    
+    display: flex;    
+    justify-content: space-between;
+    height: 100px;        
+}
+
+.logoIron {
+        margin-top: 30px;
+        margin-left: 80px;
+        height: 37px;
+
+}
+
+.bouton {
+    margin-top: 40px;
+    margin-right: 80px;
+    height: 10px;
+    width: 22px;    
+}
+
+
