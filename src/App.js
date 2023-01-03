@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
+import MainSection from "./components/mainSection/mainSection.component";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <MainSection />
+    </div>
+  );
 }
 
 export default App;
