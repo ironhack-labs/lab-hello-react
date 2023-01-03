@@ -1,0 +1,71 @@
+.body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.backGroundTop {
+  position: absolute;
+  background-color: #1f2535;
+  height: 700px;
+  width: 100%;
+}
+
+.topContainer {
+  width: 90%;
+  height: 55vh;
+  margin-left: 6em;
+  margin-top: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconIronhack {
+  height: 5vh;
+}
+
+.iconMenu {
+  height: 1vh;
+}
+
+.innerBox {
+  max-height: 100%;
+  max-width: 23em;
+  margin-top: 130px;
+}
+
+.titleLanding {
+  position: auto;
+  color: white;
+  font-size: 5em;
+  font-weight: 600;
+  letter-spacing: -5px;
+}
+
+.textPres {
+  color: white;
+  font-size: 1.3em;
+  font-weight: 200;
+  letter-spacing: -0.5px;
+  margin: 0.4% 0 0 0;
+}
+
+p {
+  margin: 0.1em;
+}
+
+.awesomeButton {
+  width: 8em;
+  height: 3.5em;
+  font-weight: 600;
+  font-size: medium;
+  letter-spacing: -0.6px;
+  margin-top: 3em;
+}
+
+.containerbot {
+  width: 180px;
+  margin-top: 16em;
+}
