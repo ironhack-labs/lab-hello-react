@@ -22,17 +22,21 @@
       max-width: 400px;
       font-size: 4em;
     }
+    p {
+      font-size: 1.2em;
+      line-height: 1.5;
+      max-width: 18em;
+    }
     h1,
     p {
       color: #fff;
       padding: 0;
-      width: 400px;
     }
     button {
-      font-size: 16px;
+      font-size: 1em;
       font-weight: 700;
       padding: 1.2em;
-      border-radius: 4px;
+      border-radius: 0.25em;
       border: none;
       margin: 3em 0 3em 0;
     }
