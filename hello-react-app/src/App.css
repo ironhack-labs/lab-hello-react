@@ -1,0 +1,35 @@
+.App {
+  text-align: left;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-navbar{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+}
+.blackBox{
+  height: 170px;
+  background-color: black;
+  padding: 20px 20px 40px 20px;
+}
+.whiteBox{
+  height: 100px;
+  background-color: white;
+  padding: 20px 20px 40px 20px;
+  
+  color: black;
+}
+
+.cardMenu {
+  display: flex;
+  justify-content: space-around;
+}
