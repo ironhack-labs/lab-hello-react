@@ -1,0 +1,20 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+
+  img {
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0;
+    color: rgba($color: gray, $alpha: 1);
+  }
+  h3 {
+    margin: 0 0 0.5em 0;
+  }
+  h3,
+  p {
+    padding-left: 0.7em;
+  }
+}
