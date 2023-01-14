@@ -83,7 +83,7 @@ h3 {
 .mainSection {
   display: flex;
   padding: 30px 50px;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 
