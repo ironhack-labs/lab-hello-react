@@ -1,0 +1,62 @@
+.App {
+  text-align: left;
+}
+
+#hero-header {
+  background-color: #1F2535;
+  color: white;
+  padding: 30px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.hero-text {
+  width: 50%;
+  margin: 100px 0 60px 0;
+}
+
+h1 {
+  font-size: 4.5rem;
+  margin: 0;
+}
+
+p {
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+button {
+  background-color: white;
+  border: 0;
+  padding: 20px 30px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.feature {
+  width: 20%;
+}
