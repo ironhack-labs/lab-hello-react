@@ -164,7 +164,7 @@ For now, don't worry about creating more than one component, we will cover that 
 </details>
 
 <details>
-  <summary>I got the error: "Cannot find module" Node.js". How can I resolve it?</summary>
+  <summary>I got the error: "Cannot find module 'Node.js'". How can I resolve it?</summary>
 
   The error "Cannot find module" in a Node.js application means that the module you are trying to import or use does not exist in your project or cannot be found by Node.js.
 
