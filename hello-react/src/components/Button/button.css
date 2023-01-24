@@ -1,0 +1,14 @@
+.Button{
+    display: flex;
+    justify-content: flex-start;
+}
+
+h5{
+    color: rgb(82, 82, 82);
+    background-color: aliceblue;
+    width: 100px;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+}
