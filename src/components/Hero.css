@@ -1,0 +1,39 @@
+
+.text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.text h1 {
+    text-align: left;
+    font-size: 50px;
+    max-width: 300px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.text p {
+    text-align: start;
+    max-width: 250px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.divbtn {
+    display: flex;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    border-radius: 6px;
+    font-size: 24px;
+    padding: 15px;
+    background-color: white;
+    text-decoration: none;
+    margin: 0 0 0px 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
