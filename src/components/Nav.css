@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(20, 13, 40);
+}
+
+.logo {
+    margin: 10px 0px 10px 30px;
+}
+
+.menu {
+    margin: 10px 30px 10px 0px;
+}
