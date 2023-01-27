@@ -1,0 +1,30 @@
+/* Archivo Card.css */
+.card-container {
+    display: flex; /* Para que las tarjetas se muestren en una hilera horizontal */
+  }
+  
+  .card {
+    width: 200px; /* Tamaño de cada tarjeta */
+    margin: 10px; /* Espacio entre las tarjetas */
+    border: 1px solid #ccc; /* Borde de las tarjetas */
+    border-radius: 5px; /* Bordes redondos de las tarjetas */
+    overflow: hidden; /* Oculta cualquier contenido que sobresalga de la tarjeta */
+  }
+  
+  .card-img {
+    width: 100%; /* Hace que la imagen ocupe toda la anchura de la tarjeta */
+  }
+  
+  .card-title {
+    padding: 10px; /* Espacio interior de la tarjeta */
+    text-align: center; /* Centra el título */
+    font-weight: bold; /* Negrita para el título */
+    color: white;
+  }
+  
+  .card-text {
+    padding: 10px; /* Espacio interior de la tarjeta */
+    text-align: justify; /* Justifica el texto */
+    color: white;
+  }
+  
