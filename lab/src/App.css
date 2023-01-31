@@ -1,6 +1,9 @@
 .navbar {
   display: flex;
-  align-items: baseline;
+  align-items: flex-end;
+}
+p {
+  align-items: center;
 }
 
 .top-text {
