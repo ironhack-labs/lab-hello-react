@@ -1,0 +1,23 @@
+.bottom {   
+    display: flex;
+    justify-content:space-around;    
+    margin-top: 80px;    
+    text-align: left; 
+    height: 20px;   
+    width: 100%;       
+}
+
+h1 {
+    margin-left: 10px;
+    font-size: 23px;
+}
+
+p {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+img {
+    height: 500%;
+}
+
