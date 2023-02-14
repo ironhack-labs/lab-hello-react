@@ -1,0 +1,99 @@
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 40px;
+}
+
+.Navbar {
+  background-color: rgb(40, 40, 40);
+  max-width: 850px;
+}
+
+.navbar-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 850px;
+  background-color: rgb(40, 40, 40);
+}
+
+.Navbar img {
+  margin: 30px 50px;
+  max-width: 80px;
+}
+
+
+
+.Headline {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  font-size: 30px;
+  max-width: 500px;
+  padding: 50px 300px 0px 50px;
+ 
+}
+
+.Content {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  max-width: 400px;
+  font-size: 18px;
+  padding: 1px 400px 10px 50px;
+  margin-top: -40px;
+  border: rgb(40, 40, 40);
+}
+
+.Button {
+  background-color: rgb(40, 40, 40);
+  max-width: 850px;
+  border: rgb(40, 40, 40);
+
+}
+
+
+.Button button {
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  border: none;
+}
+
+.Services {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: 50px;
+ 
+
+}
+
+.Services img {
+  max-width: 130px;
+  margin-left: -15px;
+}
+
+.services-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.Services h3 {
+  font-size: 16px;
+  font-weight: bolder;
+
+}
+
+.Services p {
+  font-size: 12px;
+  max-width: 120px;
+  color: darkgrey;
+  margin-top: -8px;
+}
+
+
