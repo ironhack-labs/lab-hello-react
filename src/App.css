@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+.headline {
+  background-color: #1F2535;
+  height: 500px;
+  color: white;
+  padding: 20px 70px;
+  margin-bottom: 30px;
+  
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation img {
+  padding: 10px;
+}
+
+.reactIntro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.welcome {
+  font-size: 4.5rem;
+}
+
+button {
+  margin-top: 30px;
+  width: 100px;
+  height: 50px;
+}
+
+.wrapper1 {
+  justify-content: center;
+  display: flex;
+  /* padding-left: 70px; */
+}
+
+.info {
+  width: 150px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.icons {
+  height: 100px;
+}
