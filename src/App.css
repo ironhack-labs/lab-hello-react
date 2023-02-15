@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+ 
+}
+
+.top {
+  background-color: #282c34;
+ padding: 2% 6%;
+ margin: 2%;
+  height: 80vh;
+  color: white;
+}
+
+.text {
+  text-align:left;
+  
+  
+}
+.logo {
+  height:200 px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.menu {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+} 
+
+.awesome {
+  padding: 20px;
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+
+
+
+
