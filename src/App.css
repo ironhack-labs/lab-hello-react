@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+.top {
+  background-color: #030730;
+  padding: 2% 6%;
+  margin: 2.5%;
+  height: 80vh;
+  color: white;
+}
+.top p {
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.text {
+  text-align: left;
+  position: relative;
+  top: 200px;
+}
+
+
+.logo {
+  
+  position: absolute;
+  top: 50px;
+  left: 120px;
+}
+
+.menu {
+  position: absolute;
+  top: 50px;
+  right: 120px;
+}
+
+#awesome {
+  padding: 3% 4%;
+  border-radius: 10%;
+  text-decoration: none;
+  background-color: white;
+  font-weight: 700;
+  font-size: medium;
+  margin-top: 10%;
+  right: 41%;
+  color: #030730;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 100px;
+  text-align: left;
+  object-fit: cover;
+
+}
+
+
