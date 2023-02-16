@@ -28,6 +28,39 @@
   color: #61dafb;
 }
 
+.nav-items{
+  display: flex;
+  justify-content: space-around;
+  padding: 14px;
+  align-self: stretch;
+}
+.slogan{
+  max-width: 150px;
+}
+
+.header{
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 60px;
+  max-width: 600px;
+}
+
+.awesome {
+background-color: rgb(254, 254, 254);
+border-radius: 5px;
+width: 120px;
+height: 80px;
+font-size: 20px;
+font-weight:bold;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
