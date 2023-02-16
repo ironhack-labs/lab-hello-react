@@ -2,7 +2,7 @@
 
 import "./App.css";
 import { Header } from "./components/Header";
-// import { Content } from "./components/Header";
+import { Content } from "./components/Content";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Header>
         <button className="awesome-btn">Awesome!</button>
       </Header>
-      {/* <Content /> */}
+      <Content />
     </div>
   );
 }
