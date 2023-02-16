@@ -1,0 +1,72 @@
+.home {
+  height: 100vh;
+}
+
+.home__header {
+  display: flex;
+  flex-direction: column;
+
+  height: 50%;
+  margin: 20px 30px;
+
+  background-color: #1f2535;
+}
+
+.home__header__iconContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.home__header__iconContainer__ironhackIcon,
+.home__header__iconContainer__linesIcon {
+  margin: 20px 70px;
+  width: 50px;
+
+  background-color: #1f2535;
+}
+
+.home__header__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 70px;
+}
+
+.home__header__content__title {
+  width: 60%;
+  margin-bottom: 1px;
+
+  text-align: left;
+  line-height: 65px;
+  color: #fff;
+  font-size: 70px;
+}
+
+.home__header__content__copy {
+  width: 35%;
+
+  font-size: 18px;
+  text-align: left;
+  color: #fff;
+}
+
+.home__header__content__button {
+  margin-top: 30px;
+  padding: 20px;
+
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.featuresContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 130px 50px;
+}

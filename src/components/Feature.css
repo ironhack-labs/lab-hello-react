@@ -1,0 +1,21 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__img {
+  width: 150px;
+}
+
+.feature__title {
+  margin: 0;
+}
+
+.feature__description {
+  margin-top: 2px;
+  width: 70%;
+
+  text-align: center;
+}
