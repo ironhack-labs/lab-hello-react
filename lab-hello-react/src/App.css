@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: left;
+  background: rgb(57, 57, 89);
+  color: white;
+  padding: 50px;
+  margin: 0px;
+}
