@@ -1,0 +1,79 @@
+.App {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+}
+
+.logo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: flex-start;
+  margin: 20px;
+}
+
+.splash {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+  text-align: left;
+  margin-left: 10px;
+}
+
+h1 {
+  font-size: 84px;
+}
+
+p {
+  font-size:30px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.button {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #282c34;
+  background-color: white;
+  border-radius: 6px;
+  outline: none;
+  margin: 10px;
+  font-size: 30px;
+  
+}
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+  color: #282c34;
+  background-color: white;
+  text-align: center;
+}
+
+.icon {
+  margin: 5px;
+  float: left;
+  width: 180px;
+}
+
+div.icon.img {
+  width: 100%;
+  height: auto;
+}
+
