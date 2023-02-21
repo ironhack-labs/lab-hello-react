@@ -1,0 +1,62 @@
+.app{
+  font-family: helvetica;
+}
+
+.imgNav{
+  width: 30px;
+  height: 30px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;  
+  padding: 1rem 1rem 5.5rem 1rem;
+}
+
+.box{
+  background-color: black;
+  height: 620px;
+  position: relative;
+  margin-bottom: 7.5rem;
+}
+
+#text{
+width: 50%;
+padding-bottom: 3.5rem;
+padding-left: 2rem;
+}
+
+.box h1{
+  font-size: 70px;
+  margin: 0;
+}
+
+.box p{
+  font-size: 17px;
+  margin: .5;
+}
+
+#btn{
+ margin-left: 2rem;
+ margin-bottom: 5rem;
+}
+
+.second{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.second img{
+  height: 100px;
+  width: 100px;
+}
+
+h2{
+  color: black;
+}
+
+p{
+  color: black;
+}
+
