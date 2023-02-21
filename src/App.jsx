@@ -16,9 +16,9 @@ function App() {
 
           <div id='text' >
             <h1>Say hello to reactJS</h1>
-            <p>You will learn how to use</p>
-            <p>the most popular frontend library</p>
-            <p>and become a super Ninja developer</p>
+            <p className='parag'>You will learn how to use</p>
+            <p className='parag'>the most popular frontend library</p>
+            <p className='parag'>and become a super Ninja developer</p>
           </div>
 
           <div id='btn'>
