@@ -1,32 +1,48 @@
 import React from 'react';
-import Components from '/images/image3.png';
-import Singleway from '/images/image4.png';
-import JSX from '/images/image5.png';
+import icon1 from 'https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon1.png';
+import icon2 from 'https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon2.png';
+import icon3 from 'https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon3.png';
+import icon4 from 'https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/icon4.png';
 
-function MainSection() {
-  return (
-    <section className="main-section">
-      <div className="main-section__container">
-        <div className="main-section__row">
-          <div className="main-section__column">
-          <img className="main-section__image" src={images/image3.png} alt="image3" />
-            <h2 className="main-section__title">Components</h2>
-            <p className="main-section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </div>
-          <div className="main-section__column">
-            <img className="main-section__image" src={images/image4.png} alt="image4" />
-            <h2 className="main-section__title">Single-Way</h2>
-            <p className="main-section__text">Pellentesque sit amet libero nec lacus tempor bibendum.</p>
-          </div>
-          <div className="main-section__column">
-            <img className="main-section__image" src={images/image5.png} alt="image5" />
-            <h2 className="main-section__title">JSX</h2>
-            <p className="main-section__text">Suspendisse vehicula massa eget erat pulvinar eleifend.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
+const arrayCard = [
+  {
+    title: "Declarative",
+    image: icon1,
+    text: "React maskes it painless to create interactive UIs",
+  },
+  {
+    title: "Components",
+    image: icon2,
+    text: "Build encapsulated components that manage their state",
+  },
+  {
+    title: "Single-Way",
+    image: icon3,
+    text: "A set of immutable values are passed to the components",
+  },
+  {
+    title: "JSX",
+    image: icon4,
+    text: "Statically-typed, designed to run on modern browsers",
+  },
+];
+
+const MainSection = () => {
+  // your component code here
 }
 
 export default MainSection;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

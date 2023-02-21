@@ -4,8 +4,8 @@ p
 function Header() {
   return (
     <header className="header" style={{ backgroundImage: `url(${backgroundImage})` }}>
-      <h1 className="header__title">Welcome to my website</h1>
-      <p className="header__subtitle">This is a sample landing page</p>
+      <h1 className="header__title">Example</h1>
+      <p className="header__subtitle">landing page</p>
     </header>
   );
 }
