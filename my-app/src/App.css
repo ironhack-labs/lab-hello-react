@@ -8,6 +8,7 @@
   height: 10px;
   margin-top:20px;
   margin-left: 20px;
+  
 }
 
 .App-logo {
@@ -45,21 +46,33 @@
   }
 }
 
+.icono{
+  position: absolute;
+  margin-top: -460px;
+  margin-left: 30px;
+}
+
+.menu{
+  position: absolute;
+  margin-top: -460px;
+  margin-left: 1150px;
+}
+
 h1{
   position: absolute;
   text-align: left;
-  margin-top: -280px;
+  margin-top: -350px;
   color:white;
-  
   font-size: 60px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 
 h2{
-  font-size: 20px;
+  position: relative;
+  font-size: 15px;
   padding-top: 13%;
-  margin-left: -100px;
+  margin-left: -80px;
 }
 
 p{
@@ -73,31 +86,72 @@ p{
   width: 100px;
   height: 100px;
   padding-top: 80px;
+  padding-left: 100px;
 }
 
 .icono2 img{
   width: 100px;
   height: 100px;
   padding-top: 80px;
+  padding-left: 100px;
 }
 
 .icono3 img{
   width: 100px;
   height: 100px;
   padding-top: 80px;
+  padding-left: 100px;
 }
 
 .icono4 img{
   width: 100px;
   height: 100px;
   padding-top: 80px;
+  padding-left: 100px;
 }
 
-h3{
+.dos{
   position: absolute;
-  text-align: justify;
-  margin-top: -180px;
   color:white;
-  font-size: 20px;
-  margin-left: -400px;
+  margin-top: -16%;
+  margin-left: 2%;
+  text-align: left;
+}
+
+.texto1{
+  vertical-align:middle;
+  margin-left: 40px;
+  margin-top: 200px;
+}
+
+.texto2{
+  vertical-align:middle;
+  margin-left: 40px;
+  margin-top: 200px;
+}
+
+.texto3{
+  vertical-align:middle;
+  margin-left: 40px;
+  margin-top: 200px;
+}
+
+.texto4{
+  vertical-align:middle;
+  margin-left: 220px;
+  margin-top: 0px;
+}
+
+.titulo0{
+  padding-top: 0px;
+  margin-left: 90px;
+}
+
+.principal{
+  padding-top: 50px;
+}
+
+.boton{
+  margin-top: -60px;
+  margin-left: -900px;
 }
