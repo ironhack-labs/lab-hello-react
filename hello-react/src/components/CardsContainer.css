@@ -1,0 +1,8 @@
+.cards-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+    margin-bottom:150px;
+    
+}
