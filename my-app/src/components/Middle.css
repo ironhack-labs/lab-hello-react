@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+.middle {
+    margin-top: 10%;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 2em;
+    margin-right: 30%;
+
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    font-family: Roboto;
+};
