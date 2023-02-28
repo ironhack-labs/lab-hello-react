@@ -1,0 +1,13 @@
+.Navbar {
+  margin: 0;
+  height: 7rem;
+  background-color: rgb(21, 28, 43);
+  color: whitesmoke;
+}
+.Navbar ul {
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
