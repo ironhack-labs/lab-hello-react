@@ -1,0 +1,49 @@
+.topo{
+  background-color: #282828;
+  color: white;
+  padding: 20px 25%;
+}
+.topo h1{
+  font-size: 35px;
+  margin: 5px;
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.menu img{
+  max-width: 50px;
+  max-height: 50px;
+}
+.conteudo{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.botao-topo{
+  background-color: white;
+  color: #282828;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+.vantagens{
+  display: flex;
+  width: 100%;
+  text-align: left;
+  justify-content: center;
+}
+.card{
+  width: 150px;
+  margin: 0 25px
+}
+.card img{
+  max-width: 80%;
+}
+.card h4, .card p{
+  margin: 5px;
+}
