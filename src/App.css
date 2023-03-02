@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App .navbar {
+  width: 100vw;
+  background-color: #282828;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App .navbar img{
+  width: 80px;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.App .headline{
+  width: 100vw;
+  height: 450px;
+  background-color: #282828;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  
+}
+
+.App .headline h1 {
+  font-size: 80px;
+  width: 450px;
+  text-align: left;
+  line-height: 70px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+.App .headline p {
+  font-size: 20px;
+  width: 450px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.App .headline button {
+  width: 100px;
+  height: 45px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+}
+
+.App .sectionTwo-element {
+  width: 200px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.App .sectionTwo-element img {
+  width: 150px;
+}
+
+.App .sectionTwo-element h4 {
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.App .sectionTwo-element p {
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 30px;
+  color: #333;
+}
+
+.App .section-two {
+  display: flex;
+  justify-content: space-around;
+}
