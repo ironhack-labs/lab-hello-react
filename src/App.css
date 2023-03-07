@@ -1,0 +1,76 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App .nav-bar{
+  background-color:#1F2535;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width:90vw;
+  color: white;
+}
+
+.App .nav-bar #iron-logo{
+ padding-left:10vw ;
+ margin-top: 2vh;
+}
+.App .nav-bar #menu-bar {
+  padding-right: 10vw;
+}
+
+.App .information-class{
+  background-color: #1F2535;
+  width: 90vw;
+  color:white;
+  padding-top: 13vh;
+  padding-bottom: 10vh;
+
+}
+
+.App .information-class h1 {
+  font-size: 4.5em;
+  width: 30vw;
+  margin-left: 10vw;
+  margin-bottom: 1vh;
+}
+
+.App .information-class p {
+  font-size: 1.3em;
+  line-height: 1.5;
+  width: 23vw;
+  margin-left: 10vw;
+}
+
+
+.App .information-class button{
+  width: 10vw;
+  height: 8vh;
+  font-size: 1.2em;
+  font-weight: bolder ;
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+
+.App .bottom-information {
+  display: flex;
+  margin-top: 10vh;
+  width: 80vw;
+  margin-bottom: 10vh;
+  justify-content: space-between;
+}
+
+.App .bottom-information h4{
+  font-size: 1.5em;
+  margin-left: 2vw;
+}
+
+.App .bottom-information p{
+  width: 10vw;
+  font-size: 1.2em;
+  margin-left: 2vw;
+  color: rgb(143, 137, 137);
+}
