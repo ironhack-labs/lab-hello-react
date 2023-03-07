@@ -1,6 +1,6 @@
 const Card = (props) => {
   return (
-    <div>
+    <div className="card-container">
       <div className="card-img">
         <img src={props.img} alt={props.title} />
       </div>

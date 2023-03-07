@@ -1,0 +1,87 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.navbar img {
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.navbar img:hover {
+  transform: scale(1.2);
+}
+
+.header-container {
+  height: 100vh;
+  background-color: rgb(29, 26, 44);
+  padding-inline: 3rem;
+}
+
+.header-container .header {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: aliceblue;
+  width: 50%;
+}
+
+.header-container .header h1 {
+  font-size: 8rem;
+  margin-bottom: 3rem;
+  line-height: 8rem;
+}
+
+.header-container .header p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-bottom: 5rem;
+  width: 80%;
+}
+
+.header-container .header button {
+  font-size: 2rem;
+  color: rgb(56, 56, 56);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  transition: ease-in-out 0.2s;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.header-container .header button:hover {
+  transform: scale(1.1);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 0;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 2rem;
+  border-radius: 10px;
+  padding: 1rem 1rem 2rem;
+  color: rgb(56, 56, 56);
+  box-shadow: 10px 10px 5px 0px rgb(158, 158, 158);
+  transition: ease-in-out 0.2s;
+}
+
+.card-container:hover {
+  transform: scale(1.1);
+}
+
+.card-container .text-card h2 {
+  margin-bottom: 1rem;
+}
