@@ -3,8 +3,21 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60px;
   pointer-events: none;
+  background-color: #282c34;
+}
+
+
+.Toggle-logo {
+  height: 20px;
+  pointer-events: none;
+  background-color: #282c34;
+}
+
+
+.Navbar {
+  background-color: #282c34;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -18,7 +31,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -35,4 +48,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.say {
+  font-size: 80px;
 }
