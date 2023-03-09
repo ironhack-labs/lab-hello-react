@@ -78,4 +78,33 @@
   font-weight: 500;
 }
 
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 80px 60px;
+}
+
+.body div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.body div img {
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.body div h3 {
+  color: #282c34;
+  font-weight: 700;
+}
+
+.body div p {
+  margin: 0px;
+  color: grey;
+  font-weight: 500;
+  font-size: 15px;
+}
+
 

@@ -1,7 +1,8 @@
 // src/App.js
 import './App.css';
 import Navbar from './components/Navbar';
-import Header from './components/Header'
+import Header from './components/Header';
+import Body from './components/Body';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
+      <Body />
     </div>
   );
 }
