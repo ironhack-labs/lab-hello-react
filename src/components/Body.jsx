@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 function Body() {
   return (
-    <div className="App-header mt-3 mb-5 container">
+    <div className="App-header container">
       <Navbar />
       <div className="row col-md-6 ms-5 mt-5">
         <h1 className="h1"> Say hello to ReactJs</h1>

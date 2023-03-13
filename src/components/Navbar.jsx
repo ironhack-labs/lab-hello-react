@@ -3,13 +3,13 @@ import menuTop from "../images/menu-top-xs.png";
 
 function Navbar() {
   return (
-    <nav class=" Navbar navbar">
-      <div className="container mt-3 mb-5 mx-5">
-        <a class="navbar-brand" href="">
-          <img src={ironhackLogo} class="Ironhack-Logo" class="mr-auto"></img>
+    <nav class="navbar">
+      <div className="d-flex justify-content-between">
+        <a className="p2" href="">
+          <img src={ironhackLogo} alt="Ironhack-Logo"></img>
         </a>
-        <a class="navbar-brand ml-auto" href="">
-          <img src={menuTop} class="Menu-Top"></img>
+        <a className="p2" href="">
+          <img src={menuTop} alt="Menu-Top"></img>
         </a>
       </div>
     </nav>

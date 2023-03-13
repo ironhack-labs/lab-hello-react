@@ -1,10 +1,10 @@
-function Icon(props) {
+function Icon({ img, name, text }) {
   return (
     <div className="card mt-4 border-light" style={{ width: "9rem" }}>
-      <img src={props.img} className="card-img-top" alt="" />
+      <img src={img} className="card-img-top" alt="" />
       <div className="card-body mt-3">
-        <h5 className="card-title">{props.name}</h5>
-        <p className="card-text">{props.text}</p>
+        <h5 className="card-title">{name}</h5>
+        <p className="card-text">{text}</p>
       </div>
     </div>
   );
