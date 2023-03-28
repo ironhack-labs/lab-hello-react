@@ -7,7 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   background-color: #1f2535;
 
 
@@ -99,7 +98,7 @@ body {
 .top {
   display: flex;
   flex-direction: column;
-  height: 40vh;
+  height: calc(40vh - 50px);
 justify-content: center;
 align-items: flex-start;
 gap: 50px;

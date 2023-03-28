@@ -6,6 +6,7 @@ import four from '../images/6.png';
 
 
 function Gallery(){
+
     return (
         <div id="gallery">
         <div className="card"><img src="{one}" alt="" />
