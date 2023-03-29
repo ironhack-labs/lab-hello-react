@@ -8,8 +8,8 @@ import menu from '../images/menu-top-xs.png';
 function Navbar(){
     return (
         <nav id="nav">
-            <img src="{logo}" alt="logo"/>
-            <img src="{menu}" alt="menu"/>
+            <img src={logo} alt="logo"/>
+            <img src={menu} alt="menu"/>
         </nav>
     )
 }
