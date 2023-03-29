@@ -1,14 +1,15 @@
 
-import logo from '../images/ironhack-logo-xs.png';
-import burger from '../images/menu-top-xs.png';
 import '../App.css';
+
+import logo from '../images/ironhack-logo-xs.png';
+import menu from '../images/menu-top-xs.png';
 
 
 function Navbar(){
     return (
         <nav id="nav">
-            <img src="{logo}" alt="Ironhack logo"/>
-            <img src="{burger}" alt="menu"/>
+            <img src="{logo}" alt="logo"/>
+            <img src="{menu}" alt="menu"/>
         </nav>
     )
 }
