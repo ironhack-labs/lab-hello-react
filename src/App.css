@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .top {
+    background-color: #1f2535;
+    color: white;
+    text-align: left;
+    padding-bottom: 40px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px 80px 100px;
+  }
+  
+  .text-top {
+    padding-left: 100px;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    padding: 10px 0;
+    width: 22rem;
+  }
+  
+  .top-page {
+    padding: 10px 0;
+    width: 16rem;
+  }
+  
+  button {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px;
+    margin: 30px 0;
+  }
+  
+  .Characteristics {
+    display: flex;
+    justify-content: space-between;
+  
+    text-align: left;
+    padding: 120px 100px;
+  }
+  
+  article img {
+    width: 110px;
+    text-align: left;
+  }
+  
+  article h3 {
+    font-size: 1.5rem;
+  }
+  
+  article p {
+    width: 10rem;
+    color: rgb(84, 84, 84);
+  }
