@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1F2535;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.avocado-toast {
+  margin-left: 70%;
+  width: 10%;
+}
+
+.ironhack-logo {
+margin-left: 5%;
+  width: 10%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+
+h1 {
+  font-size: 100px;
+  margin-left: 10%;
+  margin-right: 40%;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-size: 25px;
+  margin-left: 10%;
+  margin-right: 50%;
+  margin-top: -50px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.white-box {
+  background-color: #FFFFFF;
+  margin-left: 10%;
+  margin-right: 50%;
+  margin-bottom: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  width: 30%;
+}
+
+h2 {
+  font-size: 30px;
+  color: #1F2535;
+}
+
+.white-space {
+  padding-top: 20%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+}
+
+.footer-item {
+  width:8%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  text-align: left;
+}
+
+p {
+  color: gray;
+  text-align: left;
+  font-size: 80%;
+  margin-top: -10px;
+}
+
