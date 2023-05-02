@@ -2,6 +2,25 @@
 
 # LAB | Hello React
 
+<details>
+  <summary>
+   <h2>Learning Goals</h2>
+  </summary>
+
+  This exercise allows you to practice and apply the concepts and techniques taught in class. 
+
+  Upon completion of this exercise, you will be able to:
+
+  - Set up a new React app and run it in development mode.
+  - Create and render React function component.
+  - Use JSX to render content within a React component.
+  - Import and render images in a React component.
+
+  <br>
+  <hr> 
+
+</details>
+
 ## Introduction
 
 We just learned the basics of React and JSX. We saw how to create a new React app using the Create React App package. In this exercise, we will practice what we just learned by creating a simple landing page (hopefully with some styles :blossom:).
