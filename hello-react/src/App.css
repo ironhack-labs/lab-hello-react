@@ -1,0 +1,86 @@
+.top {
+  background-color: #282c34;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 26px 100px;
+}
+
+.menu {
+  width: 30px;
+  height: 20px;
+  margin: 26px 60px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #282c34;
+  color: white;
+  padding: 80px 0 0 100px;
+
+}
+
+h1 {
+  font-size: 5rem;
+  width: 480px;
+  text-align: left;
+  margin: 20px 0 0 0px;
+}
+
+.titleText {
+  font-size: 1.6rem;
+  width: 400px;
+  text-align: left;
+  margin: 0;
+}
+
+button {
+  background-color: white;
+  padding: 20px 20px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  display: flex;
+  align-items: top;
+  margin: 0 0 80px 0;
+  border-radius: 6%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.col {
+  width: 20%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.col h4, p {
+  text-align: left;
+  width: 160px;
+}
+
+.icon {
+  width: 120px;
+
+}
+
+h4 {
+  text-align: left;
+}
+
+.section3 {
+  margin: 100px 0 0 0;
+
+}
