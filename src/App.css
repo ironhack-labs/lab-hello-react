@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+#under-navbar {
+  height: 400px;
+  background-color: gray;
+}
+
+.footer {
+  display: flex;
+}
