@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* New classes */
+
+.First-module {
+  margin: 5px;
+  background-image: url(./images/react-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1% 10% 5% 10%;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Intro {
+  text-align: left;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Intro h1 {
+  font-size: 100px;
+  color: white;
+  margin-bottom: 0;
+}
+.Intro h1 span::before {
+  content: "\A";
+  white-space: pre;
+}
+
+.Intro p {
+  font-size: 20px;
+  color: white;
+}
+
+.Intro p span::before {
+  content: "\A";
+  white-space: pre;
+}
+
+.Intro a {
+  text-decoration: none;
+  background-color: white;
+  width: 80px;
+  padding: 20px 40px;
+  margin-top: 20px;
+  color: black;
+  font-weight: 700;
+}
+
+.Features {
+  padding: 0 10% 20% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.Feature {
+  text-align: left;
+}
+
+.Feature h3 {
+  font-size: 30px;
+}
+
+.Feature p {
+  font-size: 20px;
+  width: 200px;
+}
