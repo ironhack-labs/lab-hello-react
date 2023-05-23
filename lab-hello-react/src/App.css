@@ -1,0 +1,92 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    color: white;
+
+}
+.background{
+  background-color: #282c34;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    width: 300px;
+}
+p{
+    font-size: 20px;
+    width: 300px;
+}
+
+.navbar, .style-button, h1, p {
+  margin: 50px  50px 50px 50px;
+}
+
+.navbar {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+min-height: 0;
+padding-top: 0;
+
+}
+
+.style-button {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border: 2px solid #282c34;
+    border-radius: 5px;
+    padding: 15px;
+    width: 120px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.row {
+  color: black;
+display: flex;
+flex-direction: wrap;
+}
+
+.col {
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  width: 300px;
+  height: 300px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card{
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.p-component{
+  color:gray;
+  font-size: 15px;
+  width: 150px;
+  font-weight: normal;
+  text-align: left;
+  margin: 0px;
+}
+
+
