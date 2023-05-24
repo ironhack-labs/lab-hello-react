@@ -1,15 +1,14 @@
-
 import ironhack from "../images/ironhack.png";
-import menu from "../images/menu.png"
+import menu from "../images/menu.png";
 
 function Navbar() {
   return (
-    <div className="flex flex-row justify-between">
+    <div className="flex flex-row justify-between p-6 px-11">
       <div>
-        <img className="scale-50" src={ironhack} alt="logo" />
+        <img className="w-14" src={ironhack} alt="logo" />
       </div>
       <div>
-        <img className="scale-50" src={menu} alt="menu" />
+        <img className="w-14" src={menu} alt="menu" />
       </div>
     </div>
   );
