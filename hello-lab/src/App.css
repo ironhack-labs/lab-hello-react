@@ -1,0 +1,66 @@
+.App {
+  
+}
+
+#top-container {
+  background-color: #1C202C;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  margin: 20px;
+}
+
+#navbar {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar img {
+  background-color: #1C202C;
+}
+
+#text-and-button {
+  color: white;
+  padding-top: 100px;
+}
+
+#text-and-button h1 {
+  margin-bottom: 0;
+  font-size: 100px;
+  width: 600px;
+  line-height: 90%;
+}
+
+#text-and-button p {
+  font-size: 30px;
+  width: 450px;
+  padding-bottom: 50px;
+}
+
+#text-and-button button {
+  color: #1C202C;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 30px;
+}
+
+#bottom-container {
+  display: flex;
+  margin: 150px 100px;
+  gap: 50px;
+}
+
+.icon-card img {
+  margin-left: -20px;
+}
+
+.icon-card h5 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 35px;
+}
+
+.icon-card p {
+  margin-top: 0;
+}
