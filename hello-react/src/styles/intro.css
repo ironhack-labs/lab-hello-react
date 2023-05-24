@@ -1,0 +1,62 @@
+.introContainer {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+  background-color: #282828;
+  margin: 2vh;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0%;
+}
+
+.footerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.textIntro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40vw;
+  margin-left: 3vw;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.singleItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #282828;
+  margin: 2vh;
+  /* background-color: #282828; */
+  border-radius: 10px;
+  border: 1px solid #282828;
+  transition: 0.3s;
+}
+
+.black {
+  color: black;
+}
