@@ -1,3 +1,11 @@
+*{
+  /* border:1px solid red; */
+}
+
+.text-xl{
+  font-size: 4.5rem;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -9,8 +17,7 @@
 }
 
 #under-navbar {
-  height: 400px;
-  background-color: gray;
+  background-color: #1F2535;
 }
 
 .footer {

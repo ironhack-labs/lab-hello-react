@@ -4,7 +4,7 @@ import "../App.css";
 
 function NavBar() {
   return (
-    <div className="navbar" style={{ backgroundColor: "gray" }}>
+    <div className="navbar">
       <img src={IronhackLogo} alt="Ironhack-logo" />
       <img id="menu" src={Menu} alt="Menu-icon" />
     </div>
