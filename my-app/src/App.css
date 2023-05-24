@@ -1,0 +1,120 @@
+body {
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logo-container {
+  background-color: #1f2533;
+  height: 80vh;
+  margin: 30px;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.ironhack-logo {
+  padding: 30px;
+  margin: 10px;
+}
+
+.menu-logo {
+  padding: 50px;
+  margin: 10px;
+}
+
+.p-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 50%;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  padding-left: 60px;
+  width: 50%;
+}
+p {
+  font-size: 25px;
+  color: white;
+  margin-left: 55px;
+  width: 60%;
+}
+
+button {
+  padding: 20px;
+  font-size: 30px;
+  color: #1f2533;
+  border-radius: 10px;
+  border: none;
+  margin: 50px;
+}
+.images-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+h2,
+h4 {
+  margin: -10px;
+}
+
+h4 {
+  color: grey;
+  padding: 20px;
+  margin: 10px;
+  font-size: 15px;
+}
