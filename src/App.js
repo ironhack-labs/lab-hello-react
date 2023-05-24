@@ -2,11 +2,11 @@ import Header from "./components/Headline";
 import Button from "./components/Button";
 
 import iron from "./imagenes/iron.png";
-import icon from "./images/icon.png";
+import icon from "./imagenes/icon.png";
 import logo1 from "./imagenes/logo1.png";
-import logo2 from "./images/logo2.png";
-import logo3 from "./images/logo3.png";
-import logo4 from "./images/logo4.png";
+import logo2 from "./imagenes/logo2.png";
+import logo3 from "./imagenes/logo3.png";
+import logo4 from "./imagenes/logo4.png";
 
 import "./App.css";
 
