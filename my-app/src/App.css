@@ -1,0 +1,94 @@
+ .App {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Main{
+  background-color: #282c34;
+  margin: 1%;
+  width: 900px;
+  padding-bottom: 20px;
+     margin: 0 7% 5% 5%;
+}
+
+.Navbar {  
+  display: flex;
+  justify-content: space-between;
+  margin: 0 7% 5% 5%;
+}
+
+.Ironhack-Logo {
+  height: 60px;
+  width: 60px;
+  margin-top: 30px;
+}
+
+.Menu-Img {
+  height: 20px;
+  width: 20px;
+  margin-top: 40px;
+}
+
+.Section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 7% 7% 5% 5%;
+
+}
+
+.Section1 h1, p{
+  color: white;
+}
+
+.Section1 h1 {
+  font-size: 70px;
+  text-align: left;
+  margin: 0;
+}
+
+.Section1 p {
+  font-size: 18px;
+  text-align: left;
+}
+
+.Section1 button {
+  font-weight: bold;
+  font-size: 18px;
+  color: #282c34;
+  border-radius: 5px;
+  background-color: white;
+  width: 120px;
+  height: 60px;
+  margin-top: 30px;
+}
+
+.footer{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin: 0 7% 5% 5%;
+}
+
+.footer-div{
+  padding: 15px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-div>p{
+  color: grey;
+  text-align: left;
+}
+
+.footer-div>h3{
+  text-align: left;
+}
+
+.icon{
+  width: 120px;
+}
