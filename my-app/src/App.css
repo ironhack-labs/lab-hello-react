@@ -1,7 +1,6 @@
 .App {
-  
   text-align: center;
-  background: #282c34;
+  /* background: #282c34; */
 }
 
 
@@ -9,6 +8,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.main{
+  background-color: #282c34;
+  margin: 1%
 }
 
 .App-header {
@@ -55,4 +59,33 @@
 
 .Section1 h1, p{
   color: white;
+}
+
+
+.footer{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  margin: 7% 7% 5% 5%;
+}
+
+.footer-div{
+  padding: 15px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-div>p{
+  color: grey;
+  text-align: left;
+}
+
+.footer-div>h3{
+  text-align: left;
+}
+
+.icon{
+  width: 120px;
 }

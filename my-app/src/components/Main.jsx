@@ -1,6 +1,6 @@
-import "./App.css";
-import ironhackLogo from "./images/ironhack-logo-xs.png";
-import menuImg from "./images/menu-top-xs.png";
+import "../App.js";
+import ironhackLogo from "../images/ironhack-logo-xs.png";
+import menuImg from "../images/menu-top-xs.png";
 
 function Main() {
   return (
