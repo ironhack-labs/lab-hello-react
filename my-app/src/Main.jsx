@@ -5,13 +5,17 @@ import menuImg from "./images/menu-top-xs.png";
 function Main() {
   return (
     <div className="main">
-      <div className="navbar">
-        <img src={ironhackLogo} alt="ironhack-logo" />
-        <img src={menuImg} alt="menu-logo" />
+      <div className="Navbar">
+        <img className="Ironhack-Logo" src={ironhackLogo} alt="ironhack-logo" />
+        <img className="Menu-Img" src={menuImg} alt="menu-logo" />
       </div>
-      <section className="section1">
+      <section className="Section1">
         <h1>Say hello to ReactJS</h1>
-        <p>ahsahsuahusahushau</p>
+        <p>
+          You will learn how to use the most popular frontend library, and
+          become a super Ninja developer.
+        </p>
+        <button>Awesome!</button>
       </section>
     </div>
   );
