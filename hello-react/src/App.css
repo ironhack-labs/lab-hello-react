@@ -41,6 +41,9 @@
   display: flex;
   justify-content: space-between;
 }
+.img-menu {
+  height: 100%;
+}
 .text-line {
   display: flex;
 }

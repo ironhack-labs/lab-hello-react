@@ -12,9 +12,8 @@ function App() {
       <nav className="navbar"> </nav>
       <div className="first-container">
         <div className="img1">
-          {" "}
           <img src={ironhack} alt="" />
-          <img src={topmenu} alt="" />
+          <img className="img-menu" src={topmenu} alt="" />
         </div>
 
         <div className="text-line">
@@ -41,17 +40,17 @@ function App() {
         <div className="text-container">
           <img className="img-icon" src={icon2} alt="" />
           <h2>Components</h2>
-          <h5>React makes it painless to create interactive UIs.</h5>
+          <h5>Build encapsulated components that manage their state.</h5>
         </div>
         <div className="text-container">
           <img className="img-icon" src={icon3} alt="" />
           <h2>Single-Way</h2>
-          <h5>React makes it painless to create interactive UIs.</h5>
+          <h5>A set of immutable values are passed to the component's.</h5>
         </div>
         <div className="text-container">
           <img className="img-icon" src={icon4} alt="" />
           <h2>JSX</h2>
-          <h5>React makes it painless to create interactive UIs.</h5>
+          <h5>Statically-typed designed to run on modern browers.</h5>
         </div>
       </div>
     </div>
