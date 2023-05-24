@@ -1,0 +1,70 @@
+#topDiv {
+  margin: 3vw;
+  background-color: #282828;
+  height: 50vh;
+}
+
+#imagesDiv {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 1%;
+}
+
+#textDiv {
+  color: white;
+  width: 50%;
+  margin-left: 5%;
+  top: 10%;
+  height: 90%;
+}
+
+h1 {
+  font-size: 400%;
+  margin-bottom: 0;
+}
+
+#smallText {
+  width: 50%;
+}
+
+button {
+  color: #282828;
+  background-color: white;
+  top: 70%;
+  font-size: 120%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+#bottomDiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 3vw;
+  top: 12%;
+  padding: 3vw;
+}
+
+#bottomDiv > div {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 15%;
+}
+
+#bottomDiv > div > img {
+  max-width: 120px;
+}
+
+h2 {
+  margin: 0;
+  margin-left: 6%;
+}
+
+#bottomDiv > div > p {
+  margin-left: 6%;
+  color: grey
+}
