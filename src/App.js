@@ -1,4 +1,4 @@
-import Headline from "./components/Headline";
+import Header from "./components/Headline";
 import Button from "./components/Button";
 
 import iron from "./imagenes/iron.png";
