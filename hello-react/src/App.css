@@ -89,12 +89,12 @@
   padding: 50px 150px 0 150px;
   display: flex;
   justify-content: space-evenly;
+  text-align: left;
 }
 
 .text-container {
-  width: 200px;
+  width: 150px;
   padding: 0 20px;
-  text-align: left;
 }
 .text-container h5 {
   color: grey;
