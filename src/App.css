@@ -1,0 +1,25 @@
+*{
+  /* border:1px solid red; */
+}
+
+.text-xl{
+  font-size: 4.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+#under-navbar {
+  background-color: #1F2535;
+}
+
+.footer {
+  display: flex;
+}
