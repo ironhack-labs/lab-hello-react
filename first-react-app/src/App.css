@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+   background-color: #282c34; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.top{
+  display: flex;
+  height: 650px;
+  width: 100vw;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  flex-direction: column;
+  
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 25px;
+
+}
+.menu{
+  display: flex;
+  height: 20px;
+}
+.sayHello{
+  display: flex;
+  color: whitesmoke;
+  flex-direction: column;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 50px;
+
+}
+.sayHello h1{
+  font-size: 50px;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+.react{
+  display: flex;
+  flex-direction: column;
+  opacity: 0.05;
+}
+.button{
+  margin-top: 20px;
+  width: 110px;
+  height: 60px;
+}
+.bottom {
+  display: flex;
+  justify-content:space-evenly;
+  margin: 120px 30px;
+  
+}
+.bottom div{
+  width: 150px;
+}
