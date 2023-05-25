@@ -37,7 +37,29 @@
   }
 }
 
-.App-header {
+.container-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.text-header {
+  color: white;
+}
+
+.text-h3 {
+  color: white;
+}
+
+#logo {
+  justify-content: end;
+}
+
+.text-icons {
+/* align-self: auto; */
 }

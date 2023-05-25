@@ -9,17 +9,17 @@ function App() {
     <div className="container-fluid" style={{ backgroundColor: "#1F2535" }}>
     <div className="container">
       <Header />
-      <div id="under-navbar" className="w-50 py-5">
-        <h1 className="text-white text-xl">Say Hello to ReactJS</h1>
-        <h3 className="text-white fs-4 my-3">
+      <div className="under-header">
+        <h1 className="text-header">Say Hello to ReactJS</h1>
+        <h3 className="text-h3">
           You will learn to use the most popular frontend library, and become a
           super Ninja Developer
         </h3>
-        <button class="btn btn-light fs-5 px-4 py-3 rounded-1 my-4">Awesome</button>
+        <button class="btn-awesome">Awesome</button>
       </div>
       </div>
     </div>
-    <div className="container py-5">
+    <div className="container-footer">
     <Footer />
     </div>
     </div>
