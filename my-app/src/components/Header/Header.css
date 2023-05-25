@@ -1,0 +1,23 @@
+.head-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    padding: 3em 10em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 10%;
+}
+
+.hello-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 80%;
+    width: 50vw;
+}
