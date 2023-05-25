@@ -17,14 +17,18 @@ function App() {
         </div>
 
         <div className="text-line">
-          <h1>Say hello to</h1>
-          <h1>ReactJs</h1>
+          <h1>
+            Say hello to <br />
+            ReactJs
+          </h1>
         </div>
 
         <div className="head">
           <h4>
             You will learn how to use
-            <h4>The most popular front end library,</h4>
+            <br />
+            The most popular front end library,
+            <br />
             And become a super Ninja developer.
           </h4>
         </div>
