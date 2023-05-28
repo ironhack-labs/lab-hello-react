@@ -1,0 +1,48 @@
+.App {
+  
+  border-color: red;
+}
+.Section1 {
+  background-color: grey;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-right: 2.5rem;
+  height: 500px;
+}
+.Nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5cm;
+}
+h1{
+  display: flex;
+  margin-left: 0.5cm;
+}
+p{
+  display: flex;
+  margin-left:0.5cm;
+}
+.Boxes{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 5rem;
+  margin-left: 7rem;
+  margin-right: 6.5rem;
+}
+.box{
+
+  align-items:center;
+  
+ 
+}
+h3{
+margin-left: 0.5cm; 
+}
+button{
+  margin-left:0.5cm;
+}
+
+
+
+
+
