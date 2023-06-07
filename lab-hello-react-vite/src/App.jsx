@@ -17,11 +17,13 @@ function App() {
     <div className='background'>
    <div className='mainImages'> <img className ="logo" src={ironhacklogo} alt="ironhacklogo" />
     <img className ="burgerbar" src={bugerbar} alt="bugerbar" /></div>
+    <div className='mainText'>
    <h1>Say hello to <span>ReactJS</span></h1>
    <p className='pmain'>You will learn how to use</p>
     <p className='pmain'>the most popular frontend library,</p>
     <p className="pmain">and become a super Ninja developer.</p>
     <button>Awesome!</button>
+    </div>
     </div>
     <div className="container">
         <div className="item">
