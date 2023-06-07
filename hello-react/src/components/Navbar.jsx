@@ -13,7 +13,7 @@ function Navbar() {
         
         
       </nav>
-    );
+    )
   }
   
   // 2. Export the function:
