@@ -18,6 +18,11 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+img {
+  display: block;
+  height: 100%;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -39,4 +44,48 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.top {
+  background-color: rgba(31, 37, 53, 1);
+  height: 30vh;
+  padding: 3rem;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.main {
+  text-align: left;
+  margin-bottom: 1rem;
+  color: white;
+  max-width: 20rem;
+}
+.main p {
+  margin: 0;
+}
+.main button {
+  background-color: white;
+  color: rgba(31, 37, 53, 1);
+  border-radius: 3px;
+  margin-block: 1.5rem;
+}
+
+.images {
+  display: flex;
+  color: rgba(31, 37, 53, 1);
+  background-color: white;
+}
+.image__content img {
+  height: 6rem;
+}
+.image__content {
+  width: 13rem;
+  text-align: left;
+}
+header {
+  display: flex;
+  justify-content: space-between;
 }
