@@ -29,22 +29,22 @@ function App() {
         <div className="item">
           <img src={key} alt="key" />
           <h2>Declarative</h2>
-          <p>React makes <span> it painless to create</span> interactive UIs.</p>
+          <p className='psecond'>React makes <span> it painless to create</span> interactive UIs.</p>
         </div>
         <div className="item">
           <img src={play} alt="play" />
           <h2>components</h2>
-          <p>Build encapsulated <span> components that</span> manage their state.</p>
+          <p className='psecond'>Build encapsulated <span> components that</span> manage their state.</p>
         </div>
         <div className="item">
           <img src={settings} alt="settings" />
           <h2>Single-Way</h2>
-          <p>A set of immutable <span>values are passed to </span>the component's.</p>
+          <p className='psecond'>A set of immutable <span>values are passed to </span>the component's.</p>
         </div>
         <div className="item">
           <img src={code} alt="code" />
           <h2>JSX</h2>
-          <p>Statically-typed, <span>designed to run on</span> modern browsers.</p>
+          <p className='psecond'>Statically-typed, <span>designed to run on</span> modern browsers.</p>
         </div>
       </div>
     </>
