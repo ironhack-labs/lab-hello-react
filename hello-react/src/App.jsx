@@ -1,8 +1,16 @@
-import './App.css';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Headline from "./components/Headline";
+import Intro from "./components/Intro";
 
 function App() {
   return (
-    <div className="App">HELLO WORLD</div>
+    <div>
+      <Navbar />
+      <Headline />
+
+      <Intro />
+    </div>
   );
 }
 
