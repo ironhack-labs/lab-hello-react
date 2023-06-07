@@ -1,0 +1,73 @@
+.App {
+  width : 100vw;
+}
+
+.backgroundTop{
+  background-color : #1e2333;
+  height: 80vh;
+}
+
+.navbar{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10vw;
+  margin-right : 10vw;
+}
+
+.firstSection {
+  margin-left: 10vw;
+}
+
+.firstSection h1 {
+  font-size: 4rem;
+  text-align: left;
+  width : 30vw;
+  color : white;
+}
+
+.firstSection p{
+  font-size: 1.5rem;
+  width : 30vw;
+  color : white;
+}
+
+.firstSection a {
+  background-color: white;
+  font-size: 1.5rem;
+  color : black;
+  padding : 5px 10px;
+  border-radius: 3px;
+}
+
+.bottom {
+  display : flex;
+  flex-direction: row;
+  margin-left: 10vw;
+  margin-top:5vh;
+  margin-bottom: 10vh;
+  margin-right : 10vw;
+  justify-content: space-between;
+}
+
+
+.paragraph{
+  width :15vw;
+}
+
+.bottom h2 {
+  font-size: 2rem;
+  margin-top : 0;
+  margin-bottom : 0;
+}
+
+.bottom img{
+  width: 10vw;
+}
+
+.bottom p{
+  font-size : 1rem;
+  margin-top : 0;
+  margin-bottom : 0;
+}
+
