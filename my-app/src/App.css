@@ -1,0 +1,67 @@
+
+/* .App {
+  padding: 0 20px; /* Adiciona padding nos lados esquerdo e direito */
+  /* margin: 20px; */
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: #2C323F;
+  padding: 10px 50px;
+}
+
+.burgerMenu {
+  height: 50%;
+  align-self: center;
+}
+
+#firstSection {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 100vw;
+  padding-left: 18px;
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  justify-content: flex-end;
+  background-color:  #2C323F;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  width: 60%;
+  font-weight: 600;
+}
+
+#firstSection p {
+  color: white;
+  padding-left: 18px;
+  line-height: normal;
+
+
+}
+
+#secondSection {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+#secondSection h2 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+article {
+  padding: 80px 0;
+  width: 200px;
+}
+
+article h2,
+article p {
+  padding-left: 18px;
+}
