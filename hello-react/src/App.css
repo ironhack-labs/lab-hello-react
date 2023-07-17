@@ -1,0 +1,72 @@
+:root {
+  --black: rgb(41, 41, 41);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+}
+
+body {
+  color: var(--black);
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: white;
+  background-color: var(--black);
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.subText {
+  max-width: 40ch;
+  line-height: 160%;
+}
+
+.homePageButton {
+  background-color: white;
+  color: var(--black);
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  gap: 50px;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.footer > img {
+  width: 100px;
+  text-align: center;
+}
+
+.footer > h3 {
+  text-align: center;
+}
+
+.footer > p {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
