@@ -20,12 +20,10 @@ function App() {
           <Logo />
           <Menu />
         </navbar>
-
         <section className="section-container text-light">
           <Headline />
           <Button />
         </section>
-
         {ReactIcon("react-icon react-icon-1")}
         {ReactIcon("react-icon react-icon-2")}
         {ReactIcon("react-icon react-icon-3")}

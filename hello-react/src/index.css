@@ -75,22 +75,26 @@ code {
   position: absolute;
   filter: brightness(0%);
   opacity: 0.1;
+  z-index: 0;
 }
 .react-icon-1 {
   right: 25%;
-  top: 0;
+  top: 0vh;
   transform: rotate(0deg);
-  width: 28%;
+  width: 25%;
 }
 .react-icon-2 {
   right: 5%;
-  top: 35%;
+  top: 35vh;
   transform: rotate(124deg);
-  width: 25%;
+  width: 20%;
 }
 .react-icon-3 {
   right: 27%;
-  top: 51%;
+  top: 50vh;
   transform: rotate(44deg);
-  width: 25%;
+  width: 18%;
+}
+header {
+  min-height: 700px;
 }
