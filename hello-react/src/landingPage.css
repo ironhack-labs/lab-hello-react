@@ -1,0 +1,48 @@
+header {
+    background-color: #303846;
+    height: 500px;
+    margin: 20px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+li {
+    list-style: none;
+    margin: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    padding: 15px 35px;
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+    margin-top: 80px;
+    font-weight: bolder;
+}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 60px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+}
