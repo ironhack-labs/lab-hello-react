@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.bg-dark {
+  background-color: rgb(31, 37, 53) !important;
+}
+
+.app-logo { 
+  margin-left: 50px;
+}
+
+.menu-icon {
+  margin-right: 50px;
+}
+
+.btn {
+  border-radius: 5px;
+}
+.btn span {
+  font-weight: 600 !important;
+  color: rgb(31, 37, 53)
+}
+
+.card {
+  border: none !important;
+}
+.card-img-top {
+  width: 100px !important;
+}
+.card p {
+  font-size: 14px;
+}
+.card-body {
+  width: 80%;
+}
+.card-group {
+  padding-top: 8%;
+  width: 95%;
+  padding-bottom: 10%;
+}
+
+.heading {
+  font-weight: 800;
+}
+
+.section-container {
+  margin-left: 4%;
+  padding: 8% 0;
+  width: 50%;
+}
+.headline h2 {
+  font-size: 80px;
+}
+.headline p {
+  margin: 0;
+}
+
+.headline p:last-child {
+  margin-bottom: 8%;
+}
+
+.react-icon-1 {
+  position: absolute;
+  right: 25%;
+  top: 0;
+  filter: brightness(0%);
+  opacity: 0.1;
+  transform: rotate(0deg);
+  width: 28%;
+}
+
+.react-icon-2 {
+  position: absolute;
+  right: 5%;
+  top: 35%;
+  filter: brightness(0%);
+  opacity: 0.1;
+  transform: rotate(124deg);
+  width: 25%;
+}
+.react-icon-3 {
+  position: absolute;
+  right: 27%;
+  top: 51%;
+  filter: brightness(0%);
+  opacity: 0.1;
+  transform: rotate(44deg);
+  width: 25%;
+}
