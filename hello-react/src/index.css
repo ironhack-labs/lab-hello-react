@@ -81,17 +81,17 @@ code {
   right: 25%;
   top: 0vh;
   transform: rotate(0deg);
-  width: 25%;
+  width: 20%;
 }
 .react-icon-2 {
   right: 5%;
-  top: 35vh;
+  top: 25vh;
   transform: rotate(124deg);
   width: 20%;
 }
 .react-icon-3 {
   right: 27%;
-  top: 50vh;
+  top: 40vh;
   transform: rotate(44deg);
   width: 18%;
 }

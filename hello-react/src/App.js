@@ -20,13 +20,17 @@ function App() {
           <Logo />
           <Menu />
         </navbar>
-        <section className="section-container text-light">
-          <Headline />
-          <Button />
+        <section className="row section-container">
+          <div className="col-sm-6 text-light">
+            <Headline />
+            <Button />
+          </div>
+          <div className="col-sm-6">
+            {ReactIcon("react-icon react-icon-1")}
+            {ReactIcon("react-icon react-icon-2")}
+            {ReactIcon("react-icon react-icon-3")}
+          </div>
         </section>
-        {ReactIcon("react-icon react-icon-1")}
-        {ReactIcon("react-icon react-icon-2")}
-        {ReactIcon("react-icon react-icon-3")}
       </header>
       <main>
         <div className="card-group">
