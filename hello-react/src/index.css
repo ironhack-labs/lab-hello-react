@@ -71,31 +71,26 @@ code {
   margin-bottom: 8%;
 }
 
-.react-icon-1 {
+.react-icon {
   position: absolute;
-  right: 25%;
-  top: 0;
   filter: brightness(0%);
   opacity: 0.1;
+}
+.react-icon-1 {
+  right: 25%;
+  top: 0;
   transform: rotate(0deg);
   width: 28%;
 }
-
 .react-icon-2 {
-  position: absolute;
   right: 5%;
   top: 35%;
-  filter: brightness(0%);
-  opacity: 0.1;
   transform: rotate(124deg);
   width: 25%;
 }
 .react-icon-3 {
-  position: absolute;
   right: 27%;
   top: 51%;
-  filter: brightness(0%);
-  opacity: 0.1;
   transform: rotate(44deg);
   width: 25%;
 }

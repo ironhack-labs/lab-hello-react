@@ -26,9 +26,9 @@ function App() {
           <Button />
         </section>
 
-        {ReactIcon("react-icon-1")}
-        {ReactIcon("react-icon-2")}
-        {ReactIcon("react-icon-3")}
+        {ReactIcon("react-icon react-icon-1")}
+        {ReactIcon("react-icon react-icon-2")}
+        {ReactIcon("react-icon react-icon-3")}
       </header>
       <main>
         <div className="card-group">
