@@ -2,7 +2,7 @@
 // src/App.js
 import './App.css';
 
-import LandingPage from './components/landingPage';
+import LandingPage from './components/landingPage.js';
 
 function App() {
   return (
