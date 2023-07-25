@@ -1,0 +1,63 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+}
+
+#dark-container {
+    height: 700px;
+    width: 98%;
+    background-color: #1f2535;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 50px;
+}
+
+.navbar-image {
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+
+h1, #dark-container > p, button {
+    text-align: left;
+    margin: 50px;
+}
+
+h1 {
+    width: 300px;
+    margin-top: 100px;
+}
+
+#dark-container > p {
+    width: 250px;
+}
+
+button {
+    background: white;
+    color: #1f2535;
+}
+
+#light-container {
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    color: #1f2535;
+    text-align: center;
+}
+
+.article-image {
+    height: 150px;
+    width: 150px;
+}
+
+article {
+    width: 150px;
+    margin-top: 200px;
+}
