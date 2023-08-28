@@ -1,0 +1,14 @@
+.cards-list{
+    display: grid;
+    /* grid de 4 columnas */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 5vw;
+}

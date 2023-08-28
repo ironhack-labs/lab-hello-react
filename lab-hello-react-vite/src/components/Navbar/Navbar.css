@@ -1,0 +1,18 @@
+nav{
+    background: #2A2E2E;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    padding: 1vw 5vw;
+}
+nav img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+
+
+
+
