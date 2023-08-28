@@ -1,0 +1,11 @@
+.nav-bar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.barra{
+    height: 10px;
+}
