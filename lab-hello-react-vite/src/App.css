@@ -1,0 +1,88 @@
+.LandingPage {
+  background-image: url("/src/assets/background_image.jpg");
+  height: 800px;
+  width: auto;
+  color: white;
+  background-image: no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.Navbar > img {
+  width: 40px;
+}
+
+.LandingText {
+  margin-left: 90px;
+  margin-right: 40px;
+  margin-top: 50px;
+  font-size: 60px;
+  font-weight: bold;
+  width: 600px;
+}
+
+.LandingText > p {
+  font-size: 25px;
+  font-weight: normal;
+  margin-top: -40px;
+  margin-left: 5px;
+  width: 400px;
+}
+
+.LandingText > button {
+  margin-top: 40px;
+  width: 150px;
+  height: 70px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.FeaturesList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 120px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+}
+
+.card > img {
+  width: 150px;
+  height: 150px;
+  margin-left: -15px;
+}
+
+.card > h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.card > p {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -10px;
+    width: 200px;
+}
