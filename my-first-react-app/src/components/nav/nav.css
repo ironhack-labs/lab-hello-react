@@ -1,0 +1,15 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.menu {
+    margin-right: 50px;
+}
