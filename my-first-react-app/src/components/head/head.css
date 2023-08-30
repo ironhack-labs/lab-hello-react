@@ -1,0 +1,28 @@
+.header {
+    background-image: url('../../assets/Interview-React-2.jpg');
+    height: 600px;
+    width: 100%
+}
+
+.header-content {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.header-text {
+    width: 300px;
+    color: white
+}
+
+.header-text h1 {
+ font-size: 60px;
+ margin: 0;
+}
+
+.header-text p {
+    font-size: 18px;
+}
+
+.header-btn {
+    margin-top: 50px;
+}

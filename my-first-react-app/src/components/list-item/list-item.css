@@ -1,0 +1,22 @@
+.box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 0
+}
+
+.item-img {
+    width: 150px;
+}
+
+.item-text h3 {
+    font-size: 25px;
+    margin: 0;
+    color:rgb(30, 40, 64);
+}
+
+.item-text p {
+    color:rgb(103, 103, 103);
+    font-size: 18px;
+}

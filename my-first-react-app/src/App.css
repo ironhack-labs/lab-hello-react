@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    max-width: 1400px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.boxes-content {
+    height: 700px;
+}
