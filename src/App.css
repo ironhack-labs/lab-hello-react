@@ -1,0 +1,38 @@
+
+.header {
+  background-color: #282c34;
+  min-height: 40vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav img {
+  width: 30px;
+}
+.App {
+  padding: 30px;
+}
+
+.btn {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+.actions-container {
+  padding: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
