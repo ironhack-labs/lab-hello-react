@@ -1,0 +1,68 @@
+.App {
+  padding: 2rem;
+  color: white;
+}
+
+.header {
+  background-color: rgb(33, 33, 45);
+  padding: 2rem 4rem 4rem;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  max-width: 400px;
+  text-align: left;
+}
+
+.header-content > h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+.header-content > p {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header-content > button {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: white;
+  border: none;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: black;
+  margin-top: 4rem;
+}
+
+.list-item {
+  max-width: 200px;
+}
+
+.list-item > img {
+  height: 10rem;
+}
+
+.list-item > h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.list-item > p {
+  color: rgba(0, 0, 0, 0.75);
+  margin: 1rem 0;
+}
