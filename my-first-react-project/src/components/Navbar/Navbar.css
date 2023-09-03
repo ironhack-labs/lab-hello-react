@@ -1,0 +1,19 @@
+.navbar {
+    width: calc(100% - (var(--body-padding) * 2));
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar .navbar-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-container img:first-child{
+    height: fit-content;
+}

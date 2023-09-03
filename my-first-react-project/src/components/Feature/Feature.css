@@ -1,0 +1,16 @@
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 5px;
+
+}
+
+.feature-card img {
+    width: 100px;
+}
+
+.feature-card h3 {
+    font-size: 25px;
+    color: rgb(34, 34, 46);
+}
