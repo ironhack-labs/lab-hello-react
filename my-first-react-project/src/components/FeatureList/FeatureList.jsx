@@ -32,8 +32,8 @@ function FeatureList() {
 
     return (
         <div className='feature-list'>
-            {features.map((feature) => (
-                <Feature image={feature.image} title={feature.title} description={feature.description} key={feature.title}/>
+            {features.map((feature, index) => (
+                <Feature image={feature.image} title={feature.title} description={feature.description} key={index}/>
             ))}
         </div>
     )
