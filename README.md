@@ -42,7 +42,7 @@ We just learned the basics of React and JSX. We saw how to create a new React ap
   git push origin master
   ```
 
-- Create a Pull Request so that your TAs can check your work.
+- Create a Pull Request and submit your assignment.
 
 ## Instructions
 
