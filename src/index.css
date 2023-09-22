@@ -1,0 +1,28 @@
+body {
+    margin: 1.5rem 2rem 1.5rem 1.5rem ;
+}
+
+.header-general {
+    padding: 0 4rem 2rem;
+}
+
+.header-title{
+    margin-top: 6rem;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.button-header {
+    width: 140px;
+    padding: 15px;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+.cards-general {
+    margin: 7rem 4rem;
+}
+
+.img-cards {
+    width: 150px;
+}
