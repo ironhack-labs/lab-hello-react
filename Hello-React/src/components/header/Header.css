@@ -1,0 +1,58 @@
+
+.header-body{
+  background-color: blue;
+  width: 100vw;
+  
+
+}
+
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 70px;
+  height: 8vh;
+  
+}
+
+.header-intro{
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+
+}
+
+.menu-icon{
+  width: 30px;
+  height: 20%;
+  margin-top: 2%;
+  
+}
+
+.header-button{
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  height: 90px;
+  width: 190px;
+  font-size: larger;
+  color: blue;
+  background-color: white;
+}
+
+.header-title{
+  color: white;
+  font-size: 3.5em;
+  font-weight: bold;
+  width: 500px;
+  margin: 10px;
+}
+
+.header-text{
+  color: white;
+  width: 300px;
+  margin: 10px;
+}
+
+
