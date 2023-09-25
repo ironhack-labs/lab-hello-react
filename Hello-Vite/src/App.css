@@ -1,0 +1,11 @@
+
+body {
+    font-family: 'Arial', sans-serif; 
+}
+
+.title {
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 5em;
+}
