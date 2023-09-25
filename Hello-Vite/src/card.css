@@ -1,0 +1,20 @@
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    }
+
+.card-container {
+    flex-basis: 110px;   
+    margin: 25px; 
+    padding-left: 10px;
+   
+}
+.card-image {
+   padding-top: 100px;
+    margin-left: -40px;
+  
+}
+
+
+
