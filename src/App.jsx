@@ -1,4 +1,3 @@
-import React from 'react'
 import Body from './Funtions/Body';
 import Section from './Funtions/Section';
 

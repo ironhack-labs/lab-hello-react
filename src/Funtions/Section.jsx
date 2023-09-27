@@ -1,4 +1,3 @@
-import React from "react";
 import IconSetting from "../images/setting.png";
 import IconDraw from "../images/draw.png";
 import IconDatas from "../images/datas.png";

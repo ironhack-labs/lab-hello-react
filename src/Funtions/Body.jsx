@@ -1,8 +1,7 @@
-import React from 'react'
 import IconLogo from "../images/logoicon.png"
 import IconBurguer from "../images/burguericon.png"
 
-export default function Body() {
+function Body() {
   return (
     <>
     <div className="container bg-dark col-lg-8">
@@ -28,3 +27,4 @@ export default function Body() {
    </>
   )
 }
+export default Body;
