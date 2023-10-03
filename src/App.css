@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto;
+  padding: 2rem; */
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.App {
+  width: 100vw;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 110px;
+}
+nav img {
+  width: 80px;
+  height: 80px;
+}
+.hero {
+  color: white;
+  text-align: left !important;
+  width: 50%;
+  margin-left: 118px;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+.hero h1 {
+  font-size: 65px;
+  font-weight: bold;
+  width: 50%;
+}
+.hero p {
+  font-size: 20px;
+  width: 50%;
+}
+.hero button {
+  margin-top: 30px;
+  padding: 20px;
+  font-weight: bold;
+}
+.icons-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 100px 50px;
+}
+.icons-wrap {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.icons-wrap h3 {
+  font-size: 20px;
+  text-align: left;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+}
+.icons-wrap p {
+  text-align: left;
+  font-size: 14px;
+  width: 40%;
+}
+.icons-wrap img {
+  padding-left: 0px !important;
+  text-align: left;
+}
