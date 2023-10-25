@@ -1,0 +1,62 @@
+/* NavBar */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+
+.menu{
+  height: 20px;
+  margin-top: 10px;
+}
+
+
+/* Header */
+
+.header{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 300px;
+  height: 70vh;
+}
+
+.header h1{
+  color: white;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.header p{
+  color: white;
+  font-size: 1em;
+}
+
+.header button{
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+/* Features */
+
+.features{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: center;
+  padding: 80px 0;
+  gap: 20px;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.info h2,
+.info p{
+  margin-left: 25px;
+}
