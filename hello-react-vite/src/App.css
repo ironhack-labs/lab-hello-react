@@ -1,0 +1,130 @@
+
+.App{
+  background-color: white;
+  padding-top: 20px;
+  width: 850px;
+  height: 1250px;
+
+}
+
+.whole-blue-part{
+  background-color: rgb(32, 37, 52);
+  width: 810px;
+  height: 550px;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.nav-bar{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  height: 50px;
+  width: 800px;
+  
+}
+
+#grey-logo{
+  padding-left: 45px;
+  width: 50px;
+  height: 50px;
+
+}
+
+#menu-logo{
+  padding-right: 45px;
+  width: 50px;
+  height: 50px;
+  display:inline-flex
+
+}
+
+#h2-1{
+  color: rgb(32, 37, 52);
+}
+
+#h2-2{
+  color: rgb(32, 37, 52);
+}
+
+#h2-3{
+  color: rgb(32, 37, 52);
+}
+
+#h2-4{
+  color: rgb(32, 37, 52);
+}
+
+#p1{
+  color: rgb(32, 37, 52);
+}
+
+#p2{
+  color: rgb(32, 37, 52);
+}
+
+#p3{
+  color: rgb(32, 37, 52);
+}
+
+#p4{
+  color: rgb(32, 37, 52);
+}
+
+.blue-part{
+  background-color: rgb(32, 37, 52);
+  width: 700px;
+  padding-left: 30px;
+  padding-top: 20px;
+  height: 400px;
+  margin: 20px;
+  text-align: left;
+}
+
+.white-part{
+  background-color: white;
+  display: flex;
+  margin-top: 140px;
+  justify-content:center;
+  justify-content:last baseline ;
+
+}
+
+
+#button-awesome{
+  color: black;
+  background-color: white;
+  margin-top: 30px;
+}
+
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
