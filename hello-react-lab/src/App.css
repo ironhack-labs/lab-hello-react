@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#blue-block{
+  padding: 50px;
+  background-color: #2C323F;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+#burger-menu {
+  align-self: center;
+  height: 50%;
+}
+
+#icons-section{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.icons{
+  color: #242424;
+}
