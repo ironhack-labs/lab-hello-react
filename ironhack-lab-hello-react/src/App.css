@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#App {
+  background-color: rgb(32, 37, 52);
+  width: 1200px;
+  height: 750px;
+  margin-left: 100px;
+  padding: 0;
+  align-self: center;
+  margin-bottom: 100px;
+}
+
+#appBody{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 35px;
+  color: white;
+  margin-right: 450px;
+  margin-top: 50px;
+  padding: 15px;
+  text-align: left;
+  font-size: larger;
+}
+
+#appBody p {
+  margin-top: 0;
+  padding: 0;
+}
+
+#appBody button{
+  margin-top: 50px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  margin-right: 50px;
+  padding-top: 20px;
+}
+
+#menuicon{
+  height: 20px;
+}
+
+#descriptions {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  margin-left: 100px;
+  text-align: left;
+  padding-left: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#descriptions h3 {
+  font-size: larger;
+}
+
+/* .card {
+  padding: 2em;
+} */
+
+/* .read-the-docs {
+  color: #888;
+} */
