@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#header-background{
+    top: 0;
+    height: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(32, 37, 50);
+}
+
+.react-container{
+    position: relative;
+}
+
+.react{
+    position: absolute;
+    filter:grayscale(0.2) contrast(0.1) brightness(0.7);
+    opacity: 0.09;
+    width: 50px;
+}
+.react-1{
+    width: 120px;
+    right: -30px;
+    top: 170px;
+}
+.react-2{
+    width: 120px;
+    right: -60px;
+    top: 290px;
+}
+
+.react-3{
+    width: 120px;
+    right: -40px;
+    top: 410px;
+}
+.react-4{
+    width: 280px;
+    right: 200px;
+    top: 0px;
+}
+.react-5{
+    width: 200px;
+    right: 100px;
+    top: 200px;
+}
+.react-6{
+    width: 170px;
+    top: 330px;
+    right: 250px;
+}
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+
+#logo{
+    width: 35px;
+}
+
+#menu{
+    width: 20px;
+}
+
+#header-content{
+    padding: 70px 7%;
+    width: 60%;
+    color: white;
+}
+
+
+#header-content h1{
+    font-weight: 900;
+    font-size: 3.6rem;
+}
+
+#header-content p{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 23px;
+
+}
+
+#header-content div{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    width: 125px;
+    height: 53px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(32, 37, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    user-select: none;
+    cursor: pointer;
+
+}
+/* -------------------------------------------- */
+
+#content-div{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    padding: 0px 40px;
+    gap: 30px;
+    
+}
+.content-entry{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+}
+
+#content-div img{
+    width: 100px;
+    margin-left: -9px;
+    margin-bottom: 15px;
+}
+#content-div h3{
+    font-size: 1.4rem;
+    color: rgb(76, 76, 76);
+}
+#content-div p{
+    margin-top: 5px;
+    font-size: 0.9rem;
+
+    color: rgb(76, 76, 76);
+
+}
