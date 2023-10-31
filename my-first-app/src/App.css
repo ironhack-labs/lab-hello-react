@@ -1,0 +1,44 @@
+/* #root{
+  max-width: 1300px;
+} */
+
+/* html,body{
+  margin: 0;
+  padding: 0;
+} */
+
+.App{
+  width: 1500px;
+}
+
+.nav-bar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+
+.main-body {
+  background-color: black;
+  padding: 10px 40px 80px 40px;
+  margin: 0;
+  color: white;
+}
+
+.images-with-text {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  margin-top: 200px;
+  margin-right: 50px;
+  margin-bottom: 150px;
+}
+
+.firstOne p{
+  text-align: left;
+  width: 200px;
+}
+
