@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.header {
+  background-color: rgb(20, 31, 63);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > div {
+  max-width: 30vw;
+  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.list-functionalities {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.functionality {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  max-width: 20vw;
+}
+
+.functionality > img {
+  max-width: 200px;
+}
+
+.button {
+  margin-top: 40px;
+  background-color: #fff;
+  color: rgb(20, 31, 63);
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border: none;
+}
