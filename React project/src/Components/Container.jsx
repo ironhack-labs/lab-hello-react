@@ -1,5 +1,9 @@
-function Container() {
-  return;
-  <h2>Declarative</h2>;
+function Container(props) {
+  const styles = {
+    container: {
+      display: "flex",
+    },
+  };
+  return <div style={styles.container}>{props.children}</div>;
 }
 export default Container;
