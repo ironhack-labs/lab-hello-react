@@ -3,18 +3,39 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: grey;
+  background-color: #0f2368;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.white-background {
+  background-color: white;
+  color: black;
+}
+
+#general-information {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Card {
+  width: 100%;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.Container {
+  display: flex;
+  width: 100%;
+  align-items: space-evenly;
+  flex-direction: row;
 }
 
 .NavBar {
   display: flex;
   justify-content: space-between;
-}
-
-.card {
-  padding: 2em;
-  border-radius: 20px;
-  color: white;
 }
 
 .read-the-docs {
@@ -24,7 +45,7 @@
 }
 
 .app {
-  width: 50%;
+  width: 100%;
 }
 
 .button onClick {
