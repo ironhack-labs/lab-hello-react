@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #0f2368;
+  background-color: #1e294f;
 }
 
 h2 {
@@ -26,13 +26,6 @@ h2 {
   padding: 75px 0;
 }
 
-.Container {
-  display: flex;
-  width: 100%;
-  align-items: space-evenly;
-  flex-direction: row;
-}
-
 .NavBar {
   display: flex;
   justify-content: space-between;
@@ -48,8 +41,18 @@ h2 {
   width: 100%;
 }
 
-.button onClick {
-  border-radius: 50px;
+.btn {
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  border-radius: 3%;
+  border: 1px solid transparent;
+  width: 8rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 50px;
 }
 
 h1 {

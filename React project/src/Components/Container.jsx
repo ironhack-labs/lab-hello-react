@@ -4,6 +4,6 @@ function Container(props) {
       display: "flex",
     },
   };
-  return <div style={styles.container}>{props.children}</div>;
+  return <div>{props.children}</div>;
 }
 export default Container;

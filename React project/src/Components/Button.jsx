@@ -1,4 +1,4 @@
 function Button() {
-  <button onClick="Awesome!"></button>;
+  return <button class="btn">Awesome!</button>;
 }
 export default Button;
