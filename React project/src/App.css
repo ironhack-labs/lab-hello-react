@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #1e294f;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.white-background {
+  background-color: white;
+  color: black;
+}
+
+#general-information {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Card {
+  width: 100%;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.read-the-docs {
+  color: white;
+  width: 40%;
+  text-align: left;
+}
+
+.app {
+  width: 100%;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  border-radius: 3%;
+  border: 1px solid transparent;
+  width: 8rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 50px;
+}
+
+h1 {
+  text-align: left;
+  width: 50%;
+  font-size: 10rem;
+}
