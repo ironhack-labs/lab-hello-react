@@ -1,0 +1,18 @@
+.navbar {
+  height: 100px;
+  width: 100vw;
+  background-color: #1e2333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar-logo{
+  margin-left: 60px;
+}
+
+#navbar-hamburger{
+    margin-right: 60px;
+}
+
+

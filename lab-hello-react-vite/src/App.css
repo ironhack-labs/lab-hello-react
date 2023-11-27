@@ -1,0 +1,14 @@
+#react-benefits {
+  margin: 60px 120px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column ;
+  justify-content: space-between;
+}
+
+.tileGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
