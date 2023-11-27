@@ -1,0 +1,47 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+  height: 550px;
+  background-color: rgb(22, 27, 44);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5em;
+}
+
+.navbar img {
+  margin: 1em;
+  height: 2%;
+}
+
+.textAndButton {
+  margin-left: 2em;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 5em;
+  line-height: 0.9em;
+  font-weight: bold;
+}
+.title {
+  margin-bottom: 2em;
+}
+p {
+  color: whitesmoke;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+.button {
+  all: unset;
+  background-color: whitesmoke;
+  color: rgb(22, 27, 44);
+  margin-top: 2em;
+  padding: 1em;
+  font-weight: bolder;
+  border-radius: 0.3em;
+}
