@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline {
+  color: white;
+  padding: 150px 0;
+}
+
+.text {
+  width: 60%;
+  padding-left: 10%;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text1 {
+  width: 60%;
+  padding-left: 10%;
+  font-size: 15px;
+}
+
+.navbar {
+  background-color: rgb(14, 17, 17);
+}
+
+.btn {
+  color: black;
+  background-color: white;
+  margin-left: 10%;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 100px;
+}
