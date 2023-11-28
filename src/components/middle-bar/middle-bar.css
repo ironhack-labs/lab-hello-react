@@ -1,0 +1,18 @@
+/* middle  */
+.middle-section {
+    background: #1f2535;
+    color: whitesmoke;
+    height: 350px;
+}
+
+.middle-section>h1 {
+    margin: 0;
+    padding-top: 25px;
+}
+
+.button {
+    background: whitesmoke;
+    color: #1f2535;
+}
+
+/* middle  */

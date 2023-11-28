@@ -1,0 +1,24 @@
+/* navbar */
+.navbar {
+    background: #1f2535;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    height: auto;
+    justify-content: space-between;
+}
+
+
+.company-logo {
+    width: 30px;
+    height: auto;
+}
+
+.burger-menu {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* navbar */
