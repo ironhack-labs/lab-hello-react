@@ -1,0 +1,73 @@
+:root {
+  --dark-color: rgb(32, 37, 52);
+}
+
+nav {
+  height: 5rem;
+}
+
+#ironhack-logo {
+  margin-left: 3.5rem;
+  margin-right: 33.5rem;
+  margin-top: 1rem;
+  width: 2rem;
+}
+
+#menu-logo {
+  margin-bottom: 1rem;
+  width: 1.1rem;
+}
+
+nav, #dark-section {
+  background-color: var(--dark-color);
+}
+
+#dark-section {
+  height: 27rem;
+}
+
+#dark-section h1, #dark-section p {
+  color: white;
+}
+
+#hello-react {
+  width: 17rem;
+  margin-left: 3rem;
+  padding-top: 1rem;
+}
+
+#hello-react h1 {
+  margin-bottom: 0;
+}
+
+#dark-section button {
+  margin-left: 3rem;
+  margin-top: 2rem;
+  padding: 1rem 1.25rem;
+  border-radius: 3px;
+}
+
+#clear-section {
+  height: 20rem;
+}
+
+#items-ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.container-item {
+  width: 10rem;
+  margin: 0 0.08rem;
+}
+
+.container-item p {
+  color: rgb(108, 108, 108);
+}
+
+.container-img {
+  width: 6.5rem;
+}
