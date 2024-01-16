@@ -1,0 +1,30 @@
+.navbar{
+    top: 0px;
+    width: 100%;
+    margin: 0px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    position:absolute;
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+     
+  
+    position:relative;
+    cursor: pointer;
+    margin: 30px 30px;
+}
+.menu-icon{
+    width: 55px;
+    height: 55px;
+    margin: 30px 30px;
+    cursor: pointer;
+    position: relative;
+  
+
+}
