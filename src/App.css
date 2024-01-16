@@ -1,0 +1,74 @@
+.ironhack-logo {
+  width: 50px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.menu-top {
+  width: 50px;
+  margin-top: 10px;
+  padding: 20px;
+  color: #fff;
+  float: right;
+}
+
+
+main {
+  background-image: url('./assets/bg.jpg');
+  background-repeat: repeat;
+  height: 600px;
+  margin: 30px;
+}
+
+h1 {
+  color: white !important;
+  font-size: 80px !important;
+  padding: 0%;
+  margin-bottom: 0 !important;
+}
+
+.main-section {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.main-section {
+  margin-top: -100px;
+  margin-left: 180px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 90px;
+  padding: 10px;
+  border-radius: 1px;
+  width: 150px;
+  height: 60px;
+}
+
+.footer-section {
+  display: flex;
+  text-align: justify;
+  margin: 50px;
+}
+
+.footer-section div {
+  text-align: left;
+  margin: 50px;
+
+}
+
+p {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+
+
+.App {
+
+  justify-content: center;
+  align-items: center;
+
+}
