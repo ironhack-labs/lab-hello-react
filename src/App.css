@@ -1,0 +1,103 @@
+html,
+body,
+h1,
+h2,
+h3,
+p,
+main {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 0;
+  padding: 10px 20px 0px 20px;
+}
+
+header {
+  background-color: rgb(39, 42, 59);
+  padding: 4% 8% 0px 8%;
+}
+
+#nav-bar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#ironhack-logo {
+  width: 40px;
+}
+
+#menu-logo {
+  width: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 3.6em;
+  width: 60%;
+  margin-top: 100px;
+  line-height: 1em;
+  max-width: 400px;
+}
+
+h2 {
+  color: white;
+  width: 50%;
+  font-size: 1em;
+  margin-top: 20px;
+  font-weight: lighter;
+  line-height: 1.4em;
+  max-width: 300px;
+}
+
+button {
+  padding: 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  margin: 50px 0 80px 0;
+}
+
+main {
+  padding: 0px 8% 100px 8%;
+}
+
+#cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.card {
+  width: 25%;
+}
+
+.card img {
+  width: 70%;
+  margin-left: -10%;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 1.3em;
+}
+
+p {
+  font-size: 0.9em;
+  width: 80%;
+  margin-top: 8px;
+  color: gray;
+}
