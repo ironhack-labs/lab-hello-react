@@ -1,0 +1,11 @@
+#header-container{
+    margin: 0;
+    width: 100vw;
+    height: 20%;
+    top: 0;
+    display: flex;
+    position: relative;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: top;
+}
