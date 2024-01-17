@@ -1,0 +1,32 @@
+#header{
+    background-color: #1F2535;
+    width: 80%;
+    padding: 1.5em 5em;
+}
+
+#images{
+    display: flex;
+    justify-content: space-between;
+}
+
+#text{
+    width: 35%;
+    margin: 7em 0 4em 0;
+}
+
+#textH1{
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+#textP{
+    width: 50%;
+    font-size: 1em;
+    margin-bottom: 3em;
+}
+
+
+#barsIcon{
+    width: 25px;
+    height: 10px;
+}
