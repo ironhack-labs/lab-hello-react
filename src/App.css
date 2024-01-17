@@ -1,0 +1,10 @@
+#root {
+  padding: 1rem;
+  text-align: flex-start;
+  margin: auto;
+}
+
+.App{
+display: flex;
+justify-content: center;
+}

@@ -1,0 +1,25 @@
+#icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin:  10em 0 10em 0;
+}
+
+.icon{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 25%;
+}
+
+h2{
+   color: #1F2535;
+   margin: 0;
+}
+
+p{
+    color: #acacac;
+    width: 40%;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+}
