@@ -1,4 +1,5 @@
 #root {
+  height: 100vh;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -45,6 +46,7 @@
 
 #top-page {
   background-color: black;
+  height: 50vh;
 }
 
 #images {
