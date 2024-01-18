@@ -1,0 +1,24 @@
+#section-two-container{
+    position:relative;
+    height: 500px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.info-box{
+    
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    text-align: left;
+}
+
+.text-container{
+    margin-left: 20px;
+    width: 75%;
+}
