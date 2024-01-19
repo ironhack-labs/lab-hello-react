@@ -1,0 +1,33 @@
+.container {
+    margin-left: 100px;
+    position: relative;
+    margin-top: -400px;
+    margin-right: 200px;
+}
+
+.column {
+    padding: 10px;
+}
+
+/* Limpia los flotadores para evitar problemas de diseño */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Asegura que las columnas floten y ocupen el 100% del ancho en dispositivos móviles */
+.col-12 {
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+}
+
+/* Ajusta el ancho de las columnas en dispositivos más grandes */
+@media (min-width: 768px) {
+    .col-md-3 {
+        box-sizing: border-box;
+        width: 25%;
+        float: left;
+    }
+}

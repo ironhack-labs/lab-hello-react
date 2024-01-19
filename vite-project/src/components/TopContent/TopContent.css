@@ -1,0 +1,42 @@
+.top-content {
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+}
+
+.background {
+    opacity: 0.5;
+    filter: brightness(5%);
+    background-image: url('../../assets/react.svg');
+    background-size: 20%;
+    background-color: #000000;
+    background-repeat: repeat;
+    width: 1000px;
+    height: 600px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.nav-logo {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 150px;
+
+    z-index: 1;
+}
+
+.nav-menu {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 900px;
+    z-index: 1;
+}
+
+.main-text {
+    position: absolute;
+    margin-left: 200px;
+    margin-right: 700px;
+    margin-top: 80px;
+    text-align: left;
+
+}
