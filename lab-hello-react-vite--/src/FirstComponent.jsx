@@ -1,6 +1,6 @@
 import './App.css'
 import logo from "./images/ironhack-logo-xs.png"
-import image1 from "./images/icon-1.png"
+import image1 from "./images/icon-1-removebg-preview.png"
 
 
 function FirstComponent () {
