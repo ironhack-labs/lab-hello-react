@@ -1,0 +1,8 @@
+.List {
+    display: flex;
+    padding-top: 100px;
+  }
+  
+  .List-item {
+    width: 33%;
+  }
