@@ -1,0 +1,47 @@
+#main-div {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+  
+}
+ #main-div header{  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    padding: 20px 40px;
+    
+ }
+ #Ironhack-logo {
+    width: 50px;
+    height: 50px;  
+ }
+ #menu {
+    width: 50px;
+    height: 50px; 
+ }
+
+ #body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-right: 800px;
+    margin-bottom: 50px;
+    text-align:left;
+    font-size: 20px;
+ }
+
+ #body h1{
+   font-weight:700;
+   margin-bottom: 10px;
+ }
+
+ #body button{
+    margin: 40px 0px;
+    font-weight: bold;
+    border-radius: 3px;
+    
+ }
