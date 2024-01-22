@@ -1,0 +1,9 @@
+.List {
+    display: flex;
+}
+
+.List-item {
+    width: 33%;
+    margin-top: 100px;
+    color: black;
+}
