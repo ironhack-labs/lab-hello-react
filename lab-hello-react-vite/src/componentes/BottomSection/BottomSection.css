@@ -1,0 +1,12 @@
+.BottomSection {
+  display: flex;
+  justify-content: center;
+}
+.item {
+  width: 25%;
+  margin-top: 2rem;
+}
+
+.BottomSection img {
+  width: 30%;
+}
