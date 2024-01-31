@@ -1,0 +1,51 @@
+.navbar,.hero {
+  background-color:black
+}
+
+.navbar-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.hero {
+  color: seashell;
+  padding: 80px;
+}
+
+.hero > h1 {
+  margin-top: 0;
+  width:30%;
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 12px;
+  }
+  .hero > p{
+    width:30%;
+    margin-top: 0;
+  }
+.hero > button {
+  padding: 14px;
+  margin-top: 12px;
+}
+
+.features{
+  display: flex;
+  justify-content: center;
+  gap: 0 24px;
+  padding: 24px;
+  margin-top: 48px;
+}
+
+.feature-card {
+  width: 150px;
+}
+
+.feature-card > img {
+  height: 90px;
+  width: 90px;
+}
