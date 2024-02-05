@@ -1,0 +1,15 @@
+.upperHalf {
+    
+        min-height: 100vh;
+        min-height: 100svh;
+        background-color: #282828;
+        color:white;
+        display: flex;
+        flex-direction: column;
+    
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+}
