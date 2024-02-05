@@ -1,0 +1,20 @@
+.List {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+.List-item {
+   width: 15%;
+
+}
+
+.P2 {
+    color: rgb(126, 125, 125);
+}
+
+img {
+    margin-left: -25px;
+}
