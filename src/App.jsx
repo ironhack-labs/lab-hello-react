@@ -1,5 +1,7 @@
 import "./App.css";
 import Card from "./components/Card/Card";
+import ReactLogo from "./assets/react.svg";
+
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
           </h2>
           <button className="main-cta">Awesome!</button>
         </section>
+        <div className="spinning-logo">
+          <img src={ReactLogo} alt="Spinning React Logo" className="logo-img" />
+        </div>
       </header>
       <section className="cards">
         <Card
