@@ -1,0 +1,111 @@
+.nav-bar {
+  background-color: #333c87;
+  /* Color de fondo de la barra de navegación */
+  padding: 10px;
+  /* Espaciado interno para los elementos dentro de la barra */
+  display: flex;
+  /* Utilizamos flexbox para alinear los elementos horizontalmente */
+  justify-content: space-between;
+  /* Alineamos los elementos a los extremos de la barra */
+  align-items: center;
+  /* Centramos verticalmente los elementos */
+}
+
+/* Estilos para el logotipo en la barra de navegación */
+.logo-bar {
+  width: 100px;
+  /* Ancho del logotipo */
+  height: auto;
+  /* Altura automática para mantener la proporción */
+
+}
+
+/* Estilos para el icono del menú en la barra de navegación */
+.nav-menu {
+  width: 30px;
+  /* Ancho del icono del menú */
+  height: auto;
+  /* Altura automática para mantener la proporción */
+  cursor: pointer;
+  /* Mostrar el cursor como un puntero al pasar sobre el icono */
+
+}
+
+.main-section {
+  padding: 20px;
+  /* Espaciado interno para el contenido de la sección */
+  background-color: #333c87;
+  /* Color de fondo de la sección */
+  text-align: center;
+  /* Centrar el contenido horizontalmente */
+}
+
+/* Estilos para el encabezado dentro de la sección principal */
+.main-section h1 {
+  color: white;
+  /* Color del texto del encabezado */
+  font-size: 4em;
+  /* Tamaño de fuente del encabezado */
+  font-weight: 400;
+  margin-bottom: 20px;
+  /* Espacio inferior para separar el encabezado del párrafo */
+}
+
+/* Estilos para el párrafo dentro de la sección principal */
+.main-section p {
+  color: white;
+  /* Color del texto del párrafo */
+  font-size: 2em;
+  /* Tamaño de fuente del párrafo */
+  margin-bottom: 20px;
+  /* Espacio inferior para separar los párrafos */
+}
+
+/* Estilos para el botón dentro de la sección principal */
+.main-section button {
+  background-color: #007bff;
+  /* Color de fondo del botón */
+  color: #fff;
+  /* Color del texto del botón */
+  border: none;
+  /* Sin borde */
+  padding: 10px 20px;
+  /* Espaciado interno del botón */
+  font-size: 18px;
+  /* Tamaño de fuente del botón */
+  cursor: pointer;
+  /* Mostrar el cursor como un puntero al pasar sobre el botón */
+  transition: background-color 0.3s ease;
+  /* Transición suave para el cambio de color de fondo */
+}
+
+/* Estilos para cambiar el color de fondo del botón al pasar el ratón por encima */
+.main-section button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+}
+
+.footer ul {
+
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer ul li {
+  display: inline-block;
+  /* Mostrar los elementos de la lista en línea */
+  margin-right: 20px;
+  /* Espacio derecho entre los elementos de la lista */
+  vertical-align: top;
+  /* Alinear los elementos verticalmente arriba */
+}
+
+
+.footer ul li p {
+  text-align: justify;
+}
