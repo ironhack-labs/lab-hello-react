@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  text-align: center;
+  padding-left: 40px;
+}
+li{
+  list-style: none;
+  text-align: left;
+}
+.titulo{
+  width: 50%;
+  text-align: left;
+}
+
+#main-title{
+  text-align: left;
+  font-size: 4em;
+  color: white;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+
+#descripcion{
+  text-align: left;
+  font-size: 1.3em;
+  color: white;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  color: black
+ }
+
+.bodyTop{
+  background-color: #01010aef;
+  padding: 40px;
+}
