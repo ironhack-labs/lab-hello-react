@@ -1,0 +1,13 @@
+:root {
+  max-width: 60vw;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 3em;
+  padding: 1.5em;
+  display: flex;
+  margin-left: 20px
+}
