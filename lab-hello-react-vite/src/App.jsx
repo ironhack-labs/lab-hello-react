@@ -5,12 +5,15 @@ import List from './Components/List/List'
 function App() {
   return (
     <div className="App">
-      <Navbar/> 
-      <div>
-        <h1>Say Hello to ReactJs</h1>
-        <p>You will learn how to use the most popular frontend library, and become a super Ninja developer</p>
+    <Navbar/> 
+      <div className="principal">
+        <h1 className='intro'>Say Hello to ReactJs</h1>
+        <p className="text">You will learn how to use the most popular frontend library, and become a super Ninja developer</p> 
+        <button>Awesome!</button>
       </div>
-      <List/>
+      <div className="secundario">
+        <List/>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,12 @@
+.List {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.List-item {
+    width: 200px;
+    text-align:center;
+    height: 100%;
+}
