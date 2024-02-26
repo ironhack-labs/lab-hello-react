@@ -1,0 +1,21 @@
+nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+} 
+
+.logo {
+    max-width: 40px;
+    max-height: 40px;
+    padding: 20px;
+    margin-left: 20px;
+} 
+
+.menu {
+    max-width: 40px;
+    max-height: 40px;
+    padding: 20px;
+}

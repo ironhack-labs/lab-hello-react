@@ -1,0 +1,39 @@
+body, html {
+  margin: 0; /* Elimina los márgenes predeterminados de la página */
+  padding: 0; /* Elimina el relleno predeterminado de la página */
+}
+
+#root {
+  width: 100vw; /* Ancho del viewport */
+  height: 100vh; /* Alto del viewport */
+  overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+} 
+
+.principal {
+  background-color: black; 
+  color: white; 
+  height: 500px;
+}
+
+.intro {
+  margin-top: 0;
+  padding-top: 10px; 
+  width: 400px;
+  margin-left: 40px;
+  padding-top: 60px;
+}
+
+.text {
+  width: 350px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+ 
+.secundario {
+  height: 500px;
+} 
+
+button {
+  margin-left: 40px;
+  margin-top: 20px;
+}
