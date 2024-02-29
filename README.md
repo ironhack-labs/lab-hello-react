@@ -25,7 +25,7 @@
 
 We just learned the basics of React and JSX. We saw how to create a new React app using Vite. In this exercise, we will practice what we just learned by creating a simple landing page (hopefully with some styles :blossom:).
 
-<!--  ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_3e87cc1f09c32a09911a65d94c1bd4f0.png) -->
+<!--  ![](https://github.com/Ladomirjak1989/lab-hello-react-vite.git) -->
 
 ## Requirements
 
