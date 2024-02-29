@@ -1,0 +1,27 @@
+
+/* Header */
+
+.header {
+    background-color: #282829;
+    height: 100vh;
+}
+
+
+/* Navbar */
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.burger-menu img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Hero */
