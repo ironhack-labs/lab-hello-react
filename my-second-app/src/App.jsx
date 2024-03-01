@@ -29,9 +29,8 @@ function App() {
       
     </div>
 
-    <div id = "functions">
     <Images/>
-    </div>
+    
 
     </div>
   );

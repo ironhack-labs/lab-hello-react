@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 70%;
 }
 
 a {
@@ -28,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  
 }
 
 h1 {
@@ -64,7 +66,7 @@ button:focus-visible {
 }
 
 #main {
-  background-color:#213547; 
+  background-color:#1a2936; 
   padding-bottom: 50px;
 }
 .top {
@@ -76,11 +78,32 @@ button:focus-visible {
   padding: 1.5em;
 }
 .hero {
-  margin: 10px 300px 0px 30px;
+  margin: 5% 55% 0% 10%;
   text-align: left;
 }
 #functions {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ padding: 50px 20px;
 
+}
+
+#functions>span>img {
+  height: 6em;
+}
+
+#functions>span>p {
+  text-align: left;
+  width: 70%;
+}
+#functions>span {
+  text-align: left;
+  width:20%
+}
+
+#functions>span>h3 {
+  text-align: left;
 }
 
 @media (prefers-color-scheme: light) {
