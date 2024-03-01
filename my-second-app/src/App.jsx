@@ -1,23 +1,37 @@
 // src/App.jsx
+
 import './App.css';
 import Awesome from './components/Awesome';
-import Images from './components/Images'
+import Images from './components/Images';
+import ironhacklogo from './assets/ironhacklogo.png';
+import menutop from './assets/menutop.png';
+
 
 function App() {
   return (
     <div className="App">
 
-    <img src = "../assets/ironhack-logo-xs (1).png.png"/>
+    <div id = "main">
+      
+        <div className="top">
+          <img src = {ironhacklogo} className="logo"/>
 
-    <img src = "../assets/menu-top-xs.png"/>
+          <img src = {menutop} className="menu"/>
+        </div>
 
-    <h1>Say hello to ReactJS</h1>
-      <p>You will learn how to use the most popular frontend library, and become a super Ninja developer</p>
+      <div className="hero">
+      <h1>Say hello to ReactJS</h1>
+      <p className="intro">You will learn how to use the most popular frontend library, and become a super Ninja developer</p>
 
       <Awesome/>
+      </div>
 
-      <Images/>
+      
+    </div>
 
+    <div id = "functions">
+    <Images/>
+    </div>
 
     </div>
   );

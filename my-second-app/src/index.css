@@ -33,6 +33,14 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: white;
+  margin-bottom: 0em;
+}
+.intro {
+  color: white;
+  margin-right: 40px;
+ 
+  
 }
 
 button {
@@ -45,6 +53,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  
 }
 button:hover {
   border-color: #646cff;
@@ -52,6 +61,26 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+#main {
+  background-color:#213547; 
+  padding-bottom: 50px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  height: 0.6em;
+  padding: 1.5em;
+}
+.hero {
+  margin: 10px 300px 0px 30px;
+  text-align: left;
+}
+#functions {
+
 }
 
 @media (prefers-color-scheme: light) {
