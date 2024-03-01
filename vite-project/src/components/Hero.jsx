@@ -1,8 +1,11 @@
-function Hero({title}, {description}) {
+import Button from './Button'
+
+function Hero({title, description}) {
   return (
-    <div>
+    <div className="hero">
         <h1>{title}</h1>
         <p>{description}</p>
+        <Button text="Awesome"/>
     </div>
   )
 }
