@@ -1,9 +1,13 @@
 // src/App.jsx
-import './App.css';
-
+import "./App.css";
+import Landing from "./components/Landing";
 function App() {
   return (
-    <div className="App"></div>
+    <div>
+      <div className="App">
+      <Landing />
+      </div>
+    </div>
   );
 }
 
