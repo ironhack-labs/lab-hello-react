@@ -1,0 +1,131 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: left;
+}
+
+button {
+  border-radius: 3px;
+  display: block;
+  text-align: left;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  padding: 1em 1.2em;
+  font-size: 1em;
+  color: rgb(0, 0, 128);
+  font-weight: 630;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+#nav-bar {
+  color: transparent;
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+  justify-content: space-between;
+}
+
+#icons {
+  width: 100%;
+}
+
+#icons p,
+h2 {
+  color: black;
+  text-align: left;
+  text-indent: 0px;
+}
+
+#icons h2 {
+  margin-top: 0px;
+}
+
+#icons > div {
+  text-align: left;
+  justify-content: center;
+}
+
+#top {
+  padding: 10px 50px 70px 50px;
+  background-image: url("https://cdn.vox-cdn.com/thumbor/2Aj4Ei5rEOBiXK-Ab2RbyST4r0Q=/0x0:1518x847/925x925/filters:focal(638x303:880x545):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66512640/Screen_Shot_2020_03_13_at_10.03.13_AM.0.png");
+  background-repeat: repeat;
+}
+
+#top > p {
+  text-align: left;
+}
+
+#bottom {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 0 100px 0;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.text-container {
+  padding-left: 20px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
