@@ -1,0 +1,66 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.App{
+    width: 100vw;
+}
+
+/* Header */
+
+.header {
+    padding: 20px 35px;
+    background-color: #282829;
+
+}
+
+
+/* Navbar */
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.burger-menu img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Hero */
+
+.hero {
+    color: #FFFF;
+    padding: 50px 0;
+
+}
+
+.hero h1 {
+    width: 30%;
+    padding-bottom: 20px;
+
+}
+
+.hero p {
+    width: 18%;
+    padding-bottom: 20px;
+
+}
+
+.primary-button {
+    padding: 20px;
+    background-color: #FFFF;
+}
+
+/* Section 1 */
+.section-1{
+    display: flex;
+    padding: 100px 35px;
+}
+
