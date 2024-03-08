@@ -1,0 +1,153 @@
+/* GENERIC STYLES */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  
+    color: #2d2f3b;
+    background-color: ghostwhite;
+  
+    background-color: #ecf0f4;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23d1dbe3' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+  
+  p {
+    line-height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  /* STYLES */
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  nav {
+    background: cornflowerblue;
+    color: white;
+    padding: 5px 20px;
+    box-shadow: 0px 1px 2px gray;
+    display: flex;
+  }
+  
+  nav p {
+    color: white;
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin: 50px 0px 20px 0px;
+  }
+
+  .background {
+
+            background-image:
+                "url('https://media.geeksforgeeks.org/wp-content/uploads/rk.png')";
+            height: "100vh";
+            margin-top: "-70px";
+            font-size: "50px";
+            background-size: "cover";
+            background-repeat: "no-repeat"
+
+  }
+  
+  .box {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 20px 40px;
+  
+    max-width: 700px;
+    min-height: 300px;
+    background: aliceblue;
+    box-shadow: 0px 1px 2px gray;
+  }
+  
+  .avatar {
+    width: 200px;
+    height: 200px;
+    margin: 0px 20px;
+    float: left;
+  }
+  
+  .App img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+  }
+  
+  .projects {
+    background: deepskyblue;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 40px 0px;
+  }
+  
+  .btn {
+    background: deepskyblue;
+    border: 0;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 800;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  .btn.yellow {
+    background: #ffd26f;
+  }
+  
+  #nav-img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    margin-right: 10px;
+    align-items: end;
+  }
+  
+  #gallery {
+    margin: 20px;
+    padding: 0px 20px;
+    background: rgba(255, 255, 255, 0.637);
+    border: 1px solid rgb(141, 141, 141);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.24);
+  }
+  
+  #gallery img {
+    max-width: 300px;
+    width: 80%;
+    height: auto;
+  }
+  
+  /* MEDIA QUERIES */
+  
+  @media only screen and (max-width: 425px) {
+    h2 {
+      text-align: center;
+    }
+  
+    .avatar {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      margin: 0;
+    }
+  }
+  
