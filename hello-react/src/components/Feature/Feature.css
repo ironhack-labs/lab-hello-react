@@ -1,0 +1,22 @@
+.Feature {
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  & img {
+    width: 5rem;
+  }
+}
+
+.FeatureName {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin: 0;
+  text-align: left;
+}
+
+.FeatureDesc {
+  margin-top: 0;
+  width: 75%;
+  text-align: left;
+}
