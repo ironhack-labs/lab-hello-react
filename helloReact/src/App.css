@@ -1,0 +1,55 @@
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.black {
+  background-color: #000;
+  color: #fff;
+  height: 48vh;
+  width: 98vw;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.menu {
+  width: 15px;
+  height: 15px;
+}
+
+.text {
+  width: 50%;
+  margin: 20px;
+  margin-top: 5%;
+}
+
+.heroText {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+button {
+  margin: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.white {
+  background-color: #fff;
+  height: 50vh;
+  width: 98vw;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.white p{
+  width: 95%;
+}
