@@ -1,0 +1,51 @@
+.app {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
+}
+.main {
+  background-color: rgb(35, 35, 49);
+  color: white;
+  padding-bottom: 5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main img {
+  margin: 1.5rem 3rem 
+}
+
+.content {
+  margin: 3rem
+}
+
+h1 {
+  font-size: 3rem
+}
+
+span {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 0.75rem 1rem;
+  border-radius: 5%;
+  margin-top: rem;
+  position: relative;
+  top: 2rem;
+}
+
+.react {
+  display: flex;
+  margin-top: 7rem;
+  justify-content: space-around;
+}
+
+section {
+  margin: 0 2rem;
+}
+
+.react img {
+  width: 91px;
+  height: 91px;
+}
