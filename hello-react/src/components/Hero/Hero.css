@@ -1,0 +1,25 @@
+.Hero{
+    background-color: rgb(28, 39, 50);
+    height: 800px;
+    padding: 100px;
+    margin-bottom: 100px;
+}
+
+.hero-h1 {
+    font-size: 6.2rem;
+    width: 30%;
+    line-height: 6.8rem;
+    margin-bottom: 10px;
+}
+
+.hero-p{
+    font-size: 1.8rem;
+    width: 20%;
+}
+
+.hero-btn{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 25px;
+    border-radius: 10px;
+}
