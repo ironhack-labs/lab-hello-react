@@ -1,0 +1,26 @@
+.Card{
+    color: rgb(28, 39, 50);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.Card img{
+    width: 170px;
+    margin: 0;
+}
+
+.Card h2{
+    font-size: 2.4rem;
+    margin: 0;
+    color: rgba(28, 39, 50, 0.766);
+
+}
+
+.Card p{
+    color: rgba(0, 0, 0, 0.504);
+    font-size: 1.6rem;
+    max-width: 200px;
+    margin-top: 0;
+}
