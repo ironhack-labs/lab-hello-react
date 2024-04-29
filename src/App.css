@@ -1,0 +1,57 @@
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  text-align: left;
+}
+
+#top{
+  background-color: rgb(35, 44, 75);
+  padding: 2rem;
+  position: relative;
+  min-height: 350px;
+  text-align: left;
+}
+#top p{
+  max-width:200px;
+  text-align: left;
+}
+
+#bot{
+  max-width: 650px;
+  margin: 50px auto;
+  color: black;
+  /*text-align: center;*/
+  display: flex;
+  gap: 15px;
+}
+
+#bot section{
+  flex-direction: column;
+}
+
+#bot h3 p{
+  max-width:200px;
+  text-align: left;
+}
+
+.icon{
+  height: 80px;
+}
+.logo{
+  position: absolute;
+  top: 25px;
+  left: 35px;
+  width: 25px;
+}
+.menu{
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  width: 25px;
+}
+.btn{
+  background-color: white;
+  color:rgb(35, 44, 75);
+}
