@@ -1,0 +1,15 @@
+#hero-section {
+  background-color: #1f2535;
+  padding: 50px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  gap: 32px;
+}
+
+#cards p {
+  color: grey;
+}
