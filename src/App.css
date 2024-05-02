@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* section1 */
+#section1 {
+  background-color: #213547;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 5% 5% 8%;
+}
+
+.ironhack-logo {
+  width: 5%;
+  align-self: center;
+}
+
+.menuTop {
+  height: fit-content;
+}
+
+.written-part {
+  width: 50%;
+  padding: 7% 5% 10% 8%;
+}
+
+.title {
+  color: white;
+  font-size: xxx-large;
+  margin-bottom: 0px;
+}
+
+.paragraph1 {
+  margin-top: 0px;
+}
+
+.button1 {
+  padding: 13px;
+  background-color: white;
+  border: 1px black;
+  border-radius: 3px;
+  font-weight: 700;
+  margin-top: 9%;
+}
+
+/* section2 */
+
+#outside-container {
+  color: black;
+  display: flex;
+  margin-top: 13%;
+  margin-left: 5%;
+}
+
+.container-image {
+  width: 95px;
+}
+
+.container-titles, .container-paragraphs {
+  margin: 0px;
+}
+
+
