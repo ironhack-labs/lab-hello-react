@@ -1,0 +1,6 @@
+.NavHeaderFrame {
+    padding: 10px 50px 60px;
+    /* top-10 left&right-20 bottom-60*/
+    background-color: navy;
+    background-image: url(https://i.pinimg.com/736x/c9/27/d5/c927d5d5a5a22ef621cae30bb882e234.jpg);
+}

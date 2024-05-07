@@ -1,0 +1,21 @@
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1; /* Adjust hight */
+    margin-bottom: 10px; /* shorten the gap between h1&P  */
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.4; /* Adjust hight */  
+    margin-bottom: 40px; /* shorten the gap between h1&P  */ 
+}
+
+/* Got to check about font size maybe use rem?
+
+CSSでフォントサイズを指定する方法はいくつかありますが、以下は一般的な方法です。
+
+絶対値（Absolute Value）: px, pt, cm などの単位を使用して特定の大きさを指定します。例えば、font-size: 16px;のようにします。この方法は、特定の画面サイズやデバイスに依存せず、一貫した大きさでテキストを表示することができます。しかし、ユーザーがブラウザのフォントサイズを変更しても、この設定は変わりません。
+相対値（Relative Value）: em, rem, % などの単位を使用して相対的なサイズを指定します。例えば、font-size: 1.2em;のようにします。この方法は、親要素のフォントサイズに基づいてテキストの大きさを決定します。emは親要素のフォントサイズに基づく相対的なサイズを指定し、remはルート要素（通常は<html>要素）のフォントサイズに基づきます。
+ビューポート幅に対する相対的な指定: vw, vh を使用して、ビューポートの幅や高さに対する相対的な大きさを指定することもできます。例えば、font-size: 3vw;はビューポートの幅の3%になるようにフォントサイズを設定します。
+これらの方法のうち、相対値を使用することで、レスポンシブなデザインにより柔軟に対応できる場合があります。*/

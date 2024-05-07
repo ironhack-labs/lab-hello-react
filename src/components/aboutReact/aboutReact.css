@@ -1,0 +1,23 @@
+#aboutReact {
+  display: flex; /* 子要素を横に配置する */
+  justify-content: space-between; /* 子要素を均等に配置する */
+}
+
+#aboutReact > div {
+  flex: 1;
+  text-align: center;
+  padding: 0 20px; /* 左右に20pxのパディングを追加 */
+}
+
+/* NOTE
+function AboutReact() {
+  return (
+    <>
+      <section id="aboutReact">
+        <Declarative />
+        <Components />
+        <SingleWay />
+        <JSX />
+      </section>
+    </>
+  );

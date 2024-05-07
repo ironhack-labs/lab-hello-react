@@ -1,0 +1,23 @@
+.Nav {
+  display: flex; /* <= flex-flow: row nowrap as default */
+  justify-content: space-between; /* 子要素を左右に均等に配置する */
+  align-items: center; /* 子要素を垂直方向に中央揃え */
+  width: 100%; /* 親要素を画面いっぱいに広げる */
+}
+
+.Nav div {
+  flex: 0 0 auto; /* 子要素の幅を固定 */
+}
+
+.Nav div:first-child {
+  margin-right: auto; /* 最初の子要素を左端に配置 */
+}
+
+.Nav div:last-child {
+  margin-left: auto; /* 最後の子要素を右端に配置 */
+}
+
+.Nav img {
+  width: 30px; /* 画像の幅を200pxに設定 */
+  height: auto; /* アスペクト比を保持して画像をリサイズ */
+}

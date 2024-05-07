@@ -1,0 +1,28 @@
+.commonContainer {
+    width:20%;
+}
+  .img {
+    display: flex;
+    justify-content: left;
+  }
+
+  .img img{
+    display: flex;
+    width: 80px;
+  }
+
+
+.title {
+    /* common style for 4div(s) in aboutReact components */
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-left: 5px;
+  }
+  
+  .p {
+    /* common style for 4div(s) in aboutReact components */
+    font-size: 0.8rem;
+    color: black;
+    padding-left: 5px;
+  }
