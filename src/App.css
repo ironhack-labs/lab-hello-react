@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+}
+
+body{
+  background-color: white;
+  
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#board{
+  background-color: black;
+  width: 90vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#boardText{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+h5{
+  margin: 0;
+}
+#topImages{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#ironLogo{
+  margin-top: 3vh;
+  margin-left: 4vw;
+}
+
+#menuSelecter{
+  height: 2vh;
+  width: 2vh;
+  margin-top: 3vh;
+  margin-right: 4vw;  
+}
+
+#boardText button{
+ background-color: whitesmoke;
+ color: darkgray
+}
+#smallBoardText{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+h1{
+  margin: 0;
+}
+#bottomImages{
+  display: flex;
+  color:darkgrey
+}
+#bottomImages img{
+  height: 18vh;
+}
