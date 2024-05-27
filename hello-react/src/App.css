@@ -1,0 +1,77 @@
+#bodyApp{
+margin:1vw;
+font-family: 'Roboto', sans-serif;
+}
+
+.heading{
+  background-color: rgb(36, 43, 56);
+  height: 50vh;
+  padding:2vh 5vh;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3vh;
+  
+}
+
+.navbar img{
+  height: 40%;
+}
+
+h1{
+  font-size: 3.6em;
+  margin:0;
+}
+
+.headingText{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 40vh;
+  justify-content: center;
+}
+
+.headingText p{
+  width: 60%;
+  margin-bottom: 5vh;
+  font-size: 1em;
+}
+
+
+button{
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+  color: rgb(36, 43, 56);
+  font-weight: bold;
+  width: fit-content;
+  padding: 2vw;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  height: 30vh;
+  margin: 10vw 5vw;
+  color:rgb(95, 95, 95)
+}
+
+.icons div{
+  padding: 0 1vh;
+  margin:0;
+  width: 20%;
+}
+
+.icons img{
+  height: 40%;
+}
+
+.icons h3{
+  color: rgb(36, 43, 56);
+  font-size: 1.5em;
+  margin: 0;
+}
