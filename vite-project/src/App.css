@@ -1,0 +1,42 @@
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+.App {
+  text-align: center;
+}
+header {
+  background-color: #1F2535;
+  color: white;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px ;
+}
+#header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 50px 50px 40px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+
+
