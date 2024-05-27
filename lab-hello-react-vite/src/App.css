@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@400;500&display=swap');
+body, html, #root, .App {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #101937;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+  border-top: 20px solid white;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 40px;
+}
+
+.tab-icon {
+  height: 25px;
+}
+
+.main-content {
+  padding: 50px;
+  color: white;
+  background-color: #101937;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+}
+
+.main-content h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content p {
+  font-size: 1rem;
+  margin: 1px;
+  
+}
+
+.main-content button {
+  padding: 15px 20px;
+  font-size: 1rem;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 10vh;
+  margin-left: 4vh;
+  margin-right: 4vh;
+}
+
+.icons img {
+  width: 11vh;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}  
+
+.icons h3,
+.icons p {
+  margin-left: 4vh;
+  margin-right: 4vh;
+}
