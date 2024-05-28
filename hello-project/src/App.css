@@ -1,0 +1,37 @@
+#root {
+  margin: 0 auto;
+}
+
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.navbar{
+  display: flex;
+  align-items: flex-start;
+  color: white;
+  background-color: rgb(38, 39, 150)
+  ;
+  width: 90vw;
+  height: 10vh;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  
+}
+
+.info{
+  display: flex;
+  width: 90vw;
+  height: 85vh;
+
+
+}
