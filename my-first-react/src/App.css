@@ -1,0 +1,52 @@
+
+.App {
+  background-color: #1F2535;
+  width: 50vw;
+  height: 50vh;
+  margin-left:25%;
+  margin-top: 30px;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 30px 80px;
+  color: black;
+}
+.menu-icon{
+  width: 50px;
+  background-color: #1F2535;
+  height: 30px;
+}
+.texto{
+  color: white;
+  padding-left: 50px;
+  font-size: 30px;
+}
+.texto .awesome{
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 0px 20px;
+  ;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+.card-container .card{
+  border: none;
+  
+}
+.card{
+  margin: 0px 25px;
+}
+h1{
+  font-size: 100px;
+  font-weight: bold;
+  
+}
