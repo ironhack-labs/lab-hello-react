@@ -1,0 +1,52 @@
+.App {
+  margin: 0;
+}
+
+.App-header {
+  background-image: url("https://opencollective-production.s3-us-west-1.amazonaws.com/b8042370-2933-11e8-9098-fb3966e8e1a3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 65vh;
+}
+
+.top {
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 4vh 6vw;
+}
+
+.menu {
+  width: 24px;
+  height: 13px;
+}
+
+h1 {
+  margin-top: 10vh;
+  font-size: 4em;
+  font-weight: 800;
+}
+
+button {
+  margin-top: 2em;
+  padding: .75em .9em !important;
+  border-radius: .25rem !important;
+}
+
+section {
+  padding: 7em 0;
+}
+
+h3 {
+  color: rgb(34,34,34);
+}
+
+section p {
+  color: rgb(119, 117, 117);
+}
+
+.section-img {
+  margin-left: 0;
+  height: 7em;
+}
