@@ -1,0 +1,77 @@
+.banner {
+  background-color: rgb(23,28,40);
+  color:white;
+  min-width: 100%;
+  min-height: 700px;
+  padding: 0;
+  text-align: center;
+  display: flex;
+}
+
+
+.header {
+  background-color: rgb(23,28,40);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.header > img {
+  object-fit: contain;
+}
+
+#banner-text {
+  text-align: left;
+  padding-left: 60px;
+  width: 35%;
+  text-wrap: wrap;
+  padding-bottom:30px;
+}
+
+#banner-text >h1 {
+font-size: 4.5em;
+}
+
+#banner-text >p {
+  font-size: 1.5em;
+}
+
+#banner-button {
+  height: 60px;
+  width: 150px;
+  margin-top: 30px;
+  font-size:1.2em;
+}
+
+.icon-box {
+  display:flex;
+  justify-content: space-between;
+  margin: 80px 0;
+  gap: 10px;
+}
+
+.icon-single {
+  display:flex;
+  flex-direction: column;
+  align-items:flex-start;
+  padding: 5px;
+}
+
+.icon-single > img {
+  width: 80%;
+}
+.icon-single > h3 {
+  font-size: 2em;
+}
+
+.icon-single > p {
+  font-size: 1.3em;
+}
+
+.App {
+  width: 100%;
+  padding: 0 30px;
+}
+body {
+  margin: 0;
+}
