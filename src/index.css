@@ -1,0 +1,46 @@
+.header {
+  background-color: #282c34;
+  color: white;
+  padding: 200px;
+  text-align: left;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.logo {
+  height: 40px;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.header-content {
+  margin-top: 10px;
+}
+
+.header-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.header-content p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.awesome-button {
+  background-color: white;
+  color: #282c34;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
