@@ -1,0 +1,7 @@
+.navbar {
+    @apply flex flex-row justify-between items-center mb-16;
+  }
+  
+  .card {
+    @apply flex flex-col justify-evenly items-start;
+  }
