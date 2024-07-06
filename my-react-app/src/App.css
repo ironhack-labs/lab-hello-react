@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 50px 20px;
+}
+
+.App-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.App-logo {
+  height: 40px;
+}
+
+.App-menu {
+  height: 30px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+button {
+  background-color: white;
+  color: #282c34;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+.App-main {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+.App-feature {
+  width: 200px;
+}
+
+.App-feature img {
+  height: 100px;
+}
+
+.App-feature h3 {
+  font-size: 1.5em;
+  margin: 20px 0 10px;
+}
+
+.App-feature p {
+  font-size: 1em;
+  color: #333;
+}
