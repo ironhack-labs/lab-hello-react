@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+header{
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  height: 50vh;
+  background-color: rgb(4, 4, 39);
+  width: 80vw;
+}
+header section{
+  display: flex;
+  justify-content: space-between;
+}
+header h1{
+  font-size: 3.5em;
+  width: 50%;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+header p{ 
+  margin-top: 0px;
+  padding-bottom: 20px;
+  width: 31%;
+}
+button{
+  font-weight: 1000; 
+  width: 15%;
+  height: 5vh;
+  color:rgb(4, 4, 39);
+}
+.seccion-img{
+  color:rgb(4, 4, 39);
+}
+.seccion-img{
+  display: flex;
+  flex-direction: row;
+}
+.seccion-img p{
+  padding-left: 35px;
+  text-align: start;
+  width: 80%;
+}
+.seccion-img h1{
+  padding-left: 35px;
+  text-align: start;
+}
+.seccion-img img{
+  padding-top: 80px;
+  height: 100px;
+}
