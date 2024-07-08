@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#main-header{
+  background-color: rgb(31, 37, 56);
+  color: white;
+  height: 85%;
+  width: 85%;
+  font-size: 15px;
+  border: 10px solid white;
+  padding: 40px;
+  text-align: left;
+  
+}
+
+#header-img{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+#divPadre{
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  justify-content: space-between;
+
+}
+
+.propiedades{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+  margin-right: 20px;
+
+
+}
+
+.propiedades img{
+  width: 150px;
+}
