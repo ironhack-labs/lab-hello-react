@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+}
+
+.container-header {
+  background-color: rgb(14, 14, 29);
+  
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  padding-top: 27px;
+  padding-left: 55px;
+}
+
+#img-logo{
+  height: 50px;
+}
+
+#img-menu{
+  height: 20px;
+  width: 30px;
+  margin-right: 55px;
+}
+
+#nav-bar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding-right: 50%;
+}
+
+.text-header h1{
+  font-size: 65px;
+
+}
+
+.text-header p{
+  font-size: 20px;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+
+#btn-section {
+  background-color: white;
+  color: rgb(17, 17, 46);
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.elements-container {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  justify-content: space-around;
+  margin: 110px 35px 70px 35px;
+  height: 200px;
+}
+.elements-container img{
+  height: 80px;
+  width: 80px;
+}
+
+.elements-container h4{
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+
+.elements-container p{
+  font-size: 13px;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.each-element {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  flex-direction: column;
+  margin: 2px;
+  width: 150px;
+}
+
+
