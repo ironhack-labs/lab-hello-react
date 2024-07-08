@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#body p {
+  text-align: left;
+  margin-top: 5px;
+}
+#body h1 {
+  text-align: left;
+  margin-bottom: 5px;
+}
+#body img {
+  display: flex;
+  text-align: left;
+}
