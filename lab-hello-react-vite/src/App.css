@@ -1,0 +1,68 @@
+/* landing page styling */
+body{
+  background-color: white;
+  margin: 3%;
+  font-family: 'Montserrat';
+}
+
+section.aboveFold{
+  background-color: #202536;
+  color: white;
+  padding: 4%;
+  
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+
+  img{
+    object-fit: contain;
+  }
+}
+
+div.container{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1.title{
+  font-size: 6rem;
+  margin-bottom: 0%;
+
+}
+
+p.introduction{
+  font-size: 2rem;
+}
+
+.container > button {
+  width: 200px;
+  height: 70px;
+  border-radius: 7px;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: white;
+  color: #202536;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.characteristics{
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.characteristic{
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 10px;
+  img{
+    height: 50%;
+  }
+}
