@@ -1,0 +1,82 @@
+
+.App{
+  margin-top: 50px;
+  align-content: center;
+}
+.Design{
+  background-color: rgb(31,37,53) ;
+  color: white;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.top-right-image{
+margin-left: 400px;
+margin-right: 20px;
+margin-top: 20px;
+
+}
+.logo{
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 70px;
+}
+.ironhack-component{
+  margin-left: 40px;
+}
+
+.ironhack-component h1, .ironhack-component p {
+  margin: 0;
+}
+
+.button-design{
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 70px;
+}
+.footer {
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;
+
+}
+.design-comp{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+
+}
+
+.small-img {
+  width: 120px;
+  height: auto;
+}
+.img-container {
+  text-align: left;
+  -webkit-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
+  -ms-text-size-adjust: auto;
+  text-size-adjust: auto;
+}
+
+.img-container h4 {
+  margin: 0;
+  margin-left: 20px;
+  
+}
+
+.img-container p {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 10px;
+}
+
