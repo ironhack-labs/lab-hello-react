@@ -1,0 +1,74 @@
+.App{
+    height: 1000px;
+    width: 750px;
+}
+#Intro{
+    background-color: rgb(31,37,53);
+    width: 100%;
+    height: 500px;
+}
+
+#Intro *{
+    color: white;
+    margin-left: 50px;
+}
+
+#Intro nav{
+  margin-left: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#Intro nav img + img{
+    margin-right: 50px;
+}
+
+#Intro h1{
+    width: 290px;
+    margin-top: 100px;
+}
+
+#Intro p{
+    width: 250px;
+}
+
+#Intro button{
+    margin-top: 25px;
+    color: rgb(31,37,53);
+}
+
+section+section{
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    height:300px
+}
+
+section+section div{
+    margin-top: 50px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section +section div *{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+section +section div img{
+    height: 100px;
+}
+
+section +section div h1{
+    font-size:xx-large;
+}
+
+
+
