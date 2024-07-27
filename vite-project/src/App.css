@@ -1,0 +1,71 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: white;
+ 
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+  background-color: #1f2434;
+  color: white;
+  width: 90%;
+  height: 70vh;
+  margin: auto;
+  margin-top: 20px;
+  padding: 40px;
+}
+
+.navBar{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* border: 2px solid white; */
+  
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.logoContainer{
+  justify-self: left;
+}
+
+.hamBurgerIcon{
+  justify-self: right;
+}
+
+.textContainer h1{
+  font-size: 80px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+
+.textContainer p{
+  padding-bottom: 40px;
+
+}
+
+.textContainer button{
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.textContainer button:hover{
+  background-color: rgb(220, 228, 227);
+  padding: 15px 42px;
+  transition-delay: 0.2s;
+  transition-duration: 1s;
+}
+
+.container2{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+
