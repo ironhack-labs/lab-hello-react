@@ -1,0 +1,56 @@
+nav {
+    width: 90vw;
+    height: 60rem;
+    background-image: url("../../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-icons{
+    padding: 2rem 2rem;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-img{
+    width: 4rem;
+}
+
+.nav-icons >  div:nth-child(2) > .nav-img {
+    width: 3rem;
+}
+
+.nav-icons >  div:first-of-type {
+    padding-left: 4rem;
+}
+.nav-icons >  div:nth-child(2) {
+    padding-right: 9rem;
+}
+
+.content{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.content-h1{
+    font-size: 6rem;
+    text-align: left;
+    padding-left: 6rem;
+}
+.content-p{
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 6rem;
+}
+
+.content > :nth-child(3){
+    padding-top: 4rem;
+    padding-left: 6rem;
+    
+}
+
+
