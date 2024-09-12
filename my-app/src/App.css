@@ -1,0 +1,59 @@
+.App {
+  text-align: start;
+  margin: 0;
+  padding: 0;
+}
+
+.mainSection {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  padding: 40px;
+}
+
+.bottomSection {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 40px 0 40px;
+}
+
+.header {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: rgb(40, 40, 40);
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menuSymbol {
+  height: 10%;
+  width: auto;
+}
+
+.mainSection h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  width: 35vw;
+  margin-bottom: 5px;
+}
+
+.mainSection h3 {
+  margin-top: 10px;
+  font-weight: lighter;
+  width: 35vw;
+}
+
+.mainSection button {
+  margin-bottom: 30px;
+  margin-top: 5px;
+  height: 5vw;
+  font-weight: bolder;
+}
+
+.block {
+  width: 20vw;
+  padding-right: 10px;
+}
