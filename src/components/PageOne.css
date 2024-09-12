@@ -1,0 +1,8 @@
+#page-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 1346px;
+    height: 700px;
+    background-color:#282c34;
+}
