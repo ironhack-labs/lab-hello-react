@@ -1,0 +1,59 @@
+.App {
+    background-color: #282828;
+}
+
+.App-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.nav-img {
+    height: 100%;
+    display: flex;
+    margin: 10px 40px 0 40px;
+}
+
+.text-section {
+    color: white;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.text-section h1 {
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+
+.text-section p {
+    font-size: 2rem;
+    margin-top: 0.5;
+}
+
+.button {
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.gallery {
+    margin-top: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 200px 50px;
+}
+
+.gallery-element {
+    margin: 0 20px
+}
+.gallery-element h5 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.gallery-element p {
+    font-size: 1.2rem;
+}
