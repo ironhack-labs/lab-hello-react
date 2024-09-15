@@ -1,0 +1,8 @@
+.containers {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    background-color: white;
+    color: black;
+
+}
