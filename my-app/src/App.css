@@ -1,0 +1,49 @@
+
+/* LandingPage */
+.LandingPage {
+  text-align: left;
+  background-color: rgb(33, 33, 41);
+  padding: 0px 50px;
+}
+
+.Container1{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Iron-Menu{
+  padding: 10px;
+  width: 30px;
+  height: 20px;
+}
+
+.Container2{
+  color:aliceblue;
+}
+
+.Container3 {
+  padding: 0px 0px 50px;
+}
+
+.Button1{
+  width: 200px;
+  height: 100px;
+  font-size:30px;
+}
+
+.Text3{
+  font-size:80px;
+}
+
+/* ConteinerBotton */
+.Text2{
+  color: rgb(139, 135, 135);
+}
+
+.conteinerBotton {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 50px 0px 200px ;
+}
