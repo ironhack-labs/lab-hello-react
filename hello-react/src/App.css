@@ -1,0 +1,32 @@
+.navBar {
+  background-color: #1F2535;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.logo {
+  padding: 15px;
+}
+.menu {
+  padding: 30px;
+}
+
+.card {
+  
+  width: 15%;
+  margin: 20px;
+}
+
+.secondSection {
+  display: flex;
+  justify-content: center;
+  
+  padding:20px;
+ 
+}
+
+.secondSection img {
+  width: 80%;
+}
