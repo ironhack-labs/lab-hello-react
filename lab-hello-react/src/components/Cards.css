@@ -1,0 +1,27 @@
+.card-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.card-container div {
+  padding: 10px;
+}
+
+.card-container img {
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .subcontainer {
+    padding-right: 5px;
+  }
+}
