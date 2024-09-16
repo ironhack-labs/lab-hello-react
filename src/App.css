@@ -1,0 +1,72 @@
+#root {
+  margin: 0 auto;
+  text-align: left;
+
+}
+
+body {
+  color: #282828;
+
+}
+
+#topSection {
+  background-color: #282828;
+  color: #f3f3f3;
+  width: 40vw;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 16px;
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+
+#logo {
+  width: 64px;
+  height: 64px;
+}
+
+#menu {
+  width: 64px;
+}
+
+#title {
+  margin-top: 96px;
+  margin-bottom: 0px;
+  font-size: 80px;
+  width: 450px;
+}
+
+#content {
+  font-size: 20px;
+  width: 350px;
+}
+
+#awesome {
+  margin-top: 24px;
+  margin-bottom: 64px;
+  height: 56px;
+  font-size: 20px;
+}
+
+#benefits{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 40vw;
+  gap: 1vw;
+  margin-top: 64px;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  width: 9vw;
+}
+
+#card img {
+  width: 128px;
+}
