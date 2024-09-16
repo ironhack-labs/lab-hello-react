@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-header {
+  text-align: start;
+  background: #202535 ;
+  padding: 60px;
+  color: white;
+
+}
+.App-header h1 {
+  font-size: 60px;
+}
+
+.App-btn {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  font-size:20px;
+}
+
+.App-content {
+  *padding: 60px;
+  display: flex;
+  text-align: start;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.App-content div {
+  margin: 40px;
+  padding: 20px;
+}
+
+.App-content h4 {
+  font-size: 25px;
+  color:#202535;
+  margin-bottom: -10px;
+}
