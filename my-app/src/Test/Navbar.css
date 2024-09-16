@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+nav{
+    height: 50px;
+}
+.liste{
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
