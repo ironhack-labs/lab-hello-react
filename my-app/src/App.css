@@ -1,0 +1,157 @@
+.App {
+  text-align:center;
+  display: flex;
+  flex-direction:row;
+  padding-top: 35%;
+  background-color: #162136;
+  width: 90%;
+  height: 10px;
+  margin-top:20px;
+  margin-left: 20px;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.icono{
+  position: absolute;
+  margin-top: -460px;
+  margin-left: 30px;
+}
+
+.menu{
+  position: absolute;
+  margin-top: -460px;
+  margin-left: 1150px;
+}
+
+h1{
+  position: absolute;
+  text-align: left;
+  margin-top: -350px;
+  color:white;
+  font-size: 60px;
+  margin-left: 20px;
+}
+
+
+h2{
+  position: relative;
+  font-size: 15px;
+  padding-top: 13%;
+  margin-left: -80px;
+}
+
+p{
+  padding-top: 16%;
+  margin-left: -140px;
+  font-size: 15px;
+}
+
+
+.icono1 img{
+  width: 100px;
+  height: 100px;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+
+.icono2 img{
+  width: 100px;
+  height: 100px;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+
+.icono3 img{
+  width: 100px;
+  height: 100px;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+
+.icono4 img{
+  width: 100px;
+  height: 100px;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+
+.dos{
+  position: absolute;
+  color:white;
+  margin-top: -16%;
+  margin-left: 2%;
+  text-align: left;
+}
+
+.texto1{
+  vertical-align:middle;
+  margin-left: 40px;
+  margin-top: 200px;
+}
+
+.texto2{
+  vertical-align:middle;
+  margin-left: 40px;
+  margin-top: 200px;
+}
+
+.texto3{
+  vertical-align:middle;
+  margin-left: 40px;
+  margin-top: 200px;
+}
+
+.texto4{
+  vertical-align:middle;
+  margin-left: 220px;
+  margin-top: 0px;
+}
+
+.titulo0{
+  padding-top: 0px;
+  margin-left: 90px;
+}
+
+.principal{
+  padding-top: 50px;
+}
+
+.boton{
+  margin-top: -60px;
+  margin-left: -900px;
+}
