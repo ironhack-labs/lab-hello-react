@@ -1,0 +1,23 @@
+.section {
+    height: 50vh;
+    background-color:hsl(226deg 25% 14%);
+    color: white;
+    text-align: left;   
+    padding: 30px 20px 10px 20px;
+
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.section .container {
+    width: 20px;
+}
+
+.section p {
+    font-size: 1.2em;
+    width: 40vw
+}
