@@ -1,0 +1,83 @@
+  *{
+    margin: 10px;
+  }
+
+
+  .App-header {
+    background-color: #1F2535;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: white;
+    line-height: 180%;
+  }
+  .texto{
+    background-color: #1F2535;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: white;
+    line-height: 80%;
+  }
+
+  nav{
+    justify-content:space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    align-content: space-between;
+  }
+
+  .ironhack{
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-top: 3px;
+  }
+
+  .menu{
+    padding-top: 12px;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  button{
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: #1F2535;
+    font-size: 15px;
+    margin: none;
+  }
+
+  p,
+  h1 {
+    margin: 5px;
+  }
+
+  h4{
+    font-size: 30px;
+    margin: none;
+  }
+
+  .box{
+    margin: 20px;
+  }
+
+  .mar{
+    margin: 26px;
+  }
+
+  .cajitas{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+  
+  }
+
+  .divi{
+    margin: 10px;
+  }
