@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(18, 18, 92);
+  
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 4vw; 
+  padding-top: 2vh;
+  padding-left: 2vw;
+}
+
+.flexbox {
+  color: azure;
+  margin-top: 30vh;
+  font-size: 2em;
+  max-width: 45vw;
+  padding-left: 2vw;
+
+}
+h1 {
+  font-size: 4em;
+}
+
+.button {
+  margin-top: 6vh;
+  height: 100px; 
+  width: 200px; 
+  border-radius: 15px;
+}
+
+.flexbox2 {
+  background-color: white; 
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30vh;
+    margin-top: 20vh;
+    padding-bottom: 30vh;
+    min-height: 30vh;
+    width: 100%;
+
+}
