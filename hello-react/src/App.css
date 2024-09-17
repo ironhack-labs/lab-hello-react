@@ -1,0 +1,115 @@
+.App {
+  background-color: #282c34;
+  margin-left: 3%;
+  margin-right: 4%;
+  margin-top: 2%;
+}
+
+.NavImages {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+  padding-top: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Header {
+  color: white;
+  font-size: 36px;
+  margin-top: 100px;
+  padding-right: 50%;
+  padding-left: 5%;
+}
+
+.paragraph {
+  color: white;
+  font-size: 18px;
+  padding-right: 70%;
+  margin-top: -40px;
+  padding-left: 5%;
+}
+
+.button {
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  background-color: white;
+  margin-left: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.Logo1 {
+  width: 40%;
+  position: absolute;
+  top: 5%;
+  right: 20%;
+}
+.Logo2 {
+  width: 30%;
+  position: absolute;
+  top: 45%;
+  right: 15%;
+}
+.Logo3 {
+  width: 30%;
+  position: absolute;
+  top: 65%;
+  right: 30%;
+}
+.Logo4 {
+  width: 20%;
+  position: absolute;
+  top: 30%;
+  right: 1%;
+}
+.Logo5 {
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  right: 1%;
+}
+.Logo6 {
+  width: 20%;
+  position: absolute;
+  top: 70%;
+  right: 1%;
+}
+.Images {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  background-color: white;
+  padding-top: 20%;
+}
+.ImageThree {
+  width: 15%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+.ImageFour {
+  width: 15%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.ImageFive {
+  width: 15%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.ImageSix {
+  width: 15%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
