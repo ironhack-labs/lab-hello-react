@@ -1,0 +1,93 @@
+/* ------------------ Default styling --------------------- */
+
+body {
+  margin:                 0;
+  font-family:            -apple-system, 
+                          BlinkMacSystemFont, 
+                          'Segoe UI', 
+                          'Roboto', 
+                          'Oxygen',
+                          'Ubuntu', 
+                          'Cantarell', 
+                          'Fira Sans', 
+                          'Droid Sans', 
+                          'Helvetica Neue',
+                          sans-serif;
+  -webkit-font-smoothing:  antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:            source-code-pro, 
+                          Menlo, 
+                          Monaco, 
+                          Consolas, 
+                          'Courier New',
+                          monospace;
+}
+
+/* ----------------------- Header ---------------------- */
+
+nav {
+  background:             #1f2535;
+  color:                  white;
+  padding:                5px 20px;
+  box-shadow:             0px 1px 2px gray;
+  display:                flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+#nav-menu {
+  margin:                 20px 45px 0 0;
+  width:                  20px;
+}
+
+#nav-img {
+  margin:                 20px 0 0 45px;
+  width:                  30px;
+}
+
+h1 {
+  font-size:              50pt;
+  color:                  white;
+  text-align:             justify;
+  padding:                40px;
+}
+
+h2 {
+  color:                white;
+  text-align:             justify;
+  padding:                40px;
+}
+
+btn {
+  font-size:              20px;
+  padding:                15px;
+  border-radius:          6px;
+}
+
+#header {
+  background-color:        #1f2535;
+}
+
+
+/* ---------------------- Gallery ---------------------- */
+
+#gallery {
+  margin:                 20px;
+  padding:                0px 20px;
+  background:             rgba(255, 255, 255, 0.637);
+  border:                 1px solid rgb(141, 141, 141);
+  box-shadow:             0 2px 4px rgba(0, 0, 0, 0.2), 
+                          0 2px 4px rgba(0, 0, 0, 0.24);
+  display:                flex;
+  flex-direction:         row;
+  justify-content:        space-evenly;
+}
+
+#gallery .image {
+  max-width:              300px;
+  width:                  80%;
+  height:                 auto;
+}
