@@ -1,0 +1,57 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+}
+
+.pagina{
+  height: 620px;
+  background-color: rgb(23, 6, 90);
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.pagina h1{
+  font-size: 60px;
+  padding-right: 500px;
+}
+
+.pagina p{
+  font-size: 30px;
+  padding-right: 900px;
+}
+
+.pagina button{
+  border-radius: 5%;
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  margin-top: 60px;
+}
+
+#desplegable{
+  padding-left: 1300px;
+  padding-bottom: 30px;
+}
+
+#images-text{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  color: black;
+}
+
+#images-text p{
+  text-align: center;
+  font-size: 15px;
+}
+
+#images-text h3{
+  font-size: 25px;
+}
+
+
+
