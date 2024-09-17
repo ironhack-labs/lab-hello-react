@@ -1,0 +1,13 @@
+.card{
+    text-align: left;
+    width:200px;
+}
+
+.card p {
+    font-size: 20px;
+}
+
+.card img{
+    height:auto;
+    width:100px;
+}
