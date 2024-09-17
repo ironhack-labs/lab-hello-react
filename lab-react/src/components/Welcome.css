@@ -1,0 +1,11 @@
+.Welcome {
+    background-color: #1F2434;
+    padding: 2em;
+    margin: 4em;
+    color: white;
+}
+
+.welcome-content{
+    display: flex;
+    justify-content: flex-start;
+}
