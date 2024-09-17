@@ -1,0 +1,26 @@
+.black{
+display: flex;
+
+background-color: black;
+}
+.ironhack{
+
+    text-align: left;
+}
+.burguer{
+    text-align: right;
+    margin-left: 43%;
+}
+.icons{
+
+display: flex;
+
+}
+
+
+.pTitle{
+    color: white;
+}
+h1{
+    color: white;
+}
