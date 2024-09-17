@@ -1,0 +1,8 @@
+.header {
+    background-color: mediumaquamarine;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
+}
