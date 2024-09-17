@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(7, 7, 45);
+  color: white;
+}
+
+
+.App {
+  position: relative;
+}
+
+.logo1 {
+  position:absolute;
+left: 100px;
+top: 50px;
+}
+
+.bars {
+  position: absolute;
+right: 50px;
+top: 50px;
+
+}
+
+h1 {
+  position: relative;
+  width: 450px;
+  top: 250px;
+  left: 200px;
+  font-size: 5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  width: 350px;
+  position: relative;
+  left: 200px;
+  top: 200px;
+}
+
+button {
+  padding: 20px 20px;
+  position: relative;
+  left: 200px;
+  top: 300px;
+color: rgb(7, 7, 45);
+font-size: 2rem;
+border-radius: 4%;
+border: none;
+font-weight: bold;
+
+}
+
+
