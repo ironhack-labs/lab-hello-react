@@ -1,0 +1,13 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 30px;
+}
+
+.menu {
+  width: 18px;
+  height: 12px;
+}

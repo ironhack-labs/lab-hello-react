@@ -1,0 +1,26 @@
+.icon1 img, .icon2 img, .icon3 img, .icon4 img{
+  width: 120px;
+  height: 120px;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+}
+.iconsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.iconsContainer h3, .iconsContainer p {
+  padding-left: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(30, 30, 78);
+}
+
+.iconsContainer p {
+  margin-top: 0;
+}

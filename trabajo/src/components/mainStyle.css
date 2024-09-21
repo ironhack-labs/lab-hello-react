@@ -1,0 +1,22 @@
+.mainBack {
+  background-color: rgb(30, 30, 78);
+  padding: 50px;
+  height: 400px;
+}
+
+.words {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 280px;
+  font-size: 18px;
+}
+
+.words h1{
+  font-size: 50px;
+}
+
+.words button {
+  font-weight: bold;
+  height: 40px;
+  color: rgb(30, 30, 78);
+}
