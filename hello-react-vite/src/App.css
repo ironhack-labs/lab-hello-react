@@ -1,0 +1,85 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.app {
+  width:80%;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  margin: 10px 50px ;
+  width: 30px;
+}
+
+#nav-logo {
+  width: 50px;
+  height: 50px;
+
+}
+.heading {
+  background-color: rgb(36, 36, 78);
+  height: min-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heading h1 {
+  color: white;
+  text-align: left;
+  font-size: 75px;
+  padding: 10px;
+  margin: 90px 90px 10px 90px;
+}
+
+.heading h2 {
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  font-weight: lighter;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  width: 450px;
+  margin: 5px 90px;
+  padding: 10px;
+}
+
+.label {
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 40px;
+  margin: 60px 90px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px 90px
+}
+
+section img {
+  width: 200px;
+}
+
+article {
+  text-align: left;
+}
+
+article h2, p {
+  padding: 0px 10px;
+  margin: 5px 10px;
+}
