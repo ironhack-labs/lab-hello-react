@@ -1,0 +1,55 @@
+.nav{
+  background-color: #202535;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+.menu{
+  max-height: 10px;
+}
+
+.hero{
+  background-color: #202535;
+  color: white;
+ padding-left: 15%;
+
+}
+.hero h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 80px;
+}
+
+.hero p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hero button{
+  color: #202535;
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 5px; 
+  margin : 40px 0 60px 0;
+  font-size: 18px;
+  
+}
+
+.icons{
+  display: flex;
+  margin: 80px; 
+  
+}
+
+.benefits{
+ margin: 50px;
+ 
+}
+.benefits h2{
+  color: #202535;
+}
+.benefits p{
+  color: gray;
+}
