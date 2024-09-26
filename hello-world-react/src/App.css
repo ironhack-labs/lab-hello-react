@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    
+}
+
+.App {
+    background-color: white;
+}
+
+#first-part{
+    background-color: #1F2536;
+    padding: 50px;
+    padding-top: 0px;
+    margin: 20px;
+    color: white;
+    height: 500px;
+}
+
+#nav-img{
+    width: 30px;
+    margin-top: 10px;
+}
+
+#nav-hamburger{
+    height: 10px;
+}
+
+#navbar{
+    display: flex;
+    /* border: red 2px solid; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+.btn {
+    padding: 15px;
+    font-weight: 800;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px red solid; */
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#icon{
+    width: 110px;
+}
+
+#textGallery {
+    text-align: center;
+    color: red;
+}
