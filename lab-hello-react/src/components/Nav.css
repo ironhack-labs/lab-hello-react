@@ -1,0 +1,13 @@
+nav {
+  width: 79vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-content: space-between;
+  align-items: center;
+  margin: 19px 68px;
+}
+
+/* img {
+  width: 300px;
+} */
