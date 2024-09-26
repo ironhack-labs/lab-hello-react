@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  align-items: flex-end;
+}
+p {
+  align-items: center;
+}
+
+.top-text {
+  display: flexbox;
+}
