@@ -1,0 +1,66 @@
+.App {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.App-hero {
+  background-color: #191b28;
+  color: #fff;
+  padding: 20px 45px 65px 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 100px 0 10px 0;
+  width: 40%;
+  font-size: 50px;
+}
+
+.App-hero p {
+  width: 40%;
+}
+
+button {
+  background-color: #fff;
+  color: #191b28;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.App-features {
+  display: flex;
+  margin-top: 130px;
+  justify-content: space-around;
+}
+
+.App-features > div {
+  width: 20%;
+}
+
+.App-features > div:first-child {
+  padding-left: 15px;
+}
+
+.App-features img {
+  width: 120px;
+}
+
+.App-features h2, p {
+  padding-left: 13px;
+}
+
+.App-features h2 {
+  margin: 10px 0 0 0;
+}
+
+.App-features p {
+  margin-top: 10px;
+}
