@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 120vh;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ;
+  width: 100%
+  
+}
+.nav-logo{
+  height: 50px ;
+  width: 50px;
+  margin: 0 70px;
+}
+
+#menu{
+  height: 20px;
+  width: 40px;
+}
+
+#intro{
+ 
+  height: 120vh;
+}
+
+#text-container{
+  height: 80vh;
+  width: 40vw;
+  margin: 0 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#title{
+text-align: left;
+font-size: 80px;
+color:#ffffff;
+
+margin-bottom:-10px;
+}
+#subtitle{
+
+  color: #ffffff;
+  font-size: 23px;
+  width:65%;
+  text-align: left;
+}
+
+button{
+  height: 70px;
+  width: 130px;
+  margin-top: 40px;
+  color:#282c34;;
+  background-color: whitesmoke;
+  font-weight: bolder;
+  font-size: 19px;
+  border-radius: 6px;
+}
+
+#freatures{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.freature-card{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width:300px
+}
+.info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  width: 60%;
+  margin-left:20px;
+}
+.card-text{
+  text-align:left;
+  color: #494949af;
+  font-family: arial;
+  font-weight: bold;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
