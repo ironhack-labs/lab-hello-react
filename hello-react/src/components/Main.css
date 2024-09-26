@@ -1,0 +1,38 @@
+.mainContainer{
+    background-color: rgb(31, 36, 54);
+    color:white;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+
+}
+
+.mainContainer > h1 {
+    font-size: 100px;
+    margin-left: 50px;
+    width: 50%
+
+}
+
+.mainContainer > p {
+    font-size: 50px;
+    margin-left: 50px;
+    width: 50%
+
+}
+
+.mainContainer > button {
+    background-color: white; /* Green */
+    border: none;
+    color:rgb(31, 36, 54);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 5px;
+    margin :50px 50px
+
+}
