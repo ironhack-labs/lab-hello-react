@@ -1,0 +1,53 @@
+h1{
+    color: white;
+    font-size: 80px;
+    text-align: left;
+}
+h2{
+    color: rgb(29 34 46);
+}
+#menuIcon{
+    height: 18px;
+}
+.background{
+    background-color: rgb(29 34 46);
+    margin: 20px;
+}
+.headerIcons{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.headerIcons img{
+    margin-top: 20px;
+}
+.infoHeader{
+    max-width: 500px;
+    margin-left: 50px;
+}
+.infoHeader p{
+    color: rgba(255, 255, 255, 0.76);
+    text-align: left;
+    font-size: 22px;
+}
+.infoHeader button{
+    display: flex;
+    background-color: white;
+    color:rgb(29 34 46);
+    border: none;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: Arial;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.footer p{
+    color: rgb(105, 104, 104);
+}
+
