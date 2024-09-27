@@ -1,0 +1,183 @@
+h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 28px;
+  margin: 0 0 0 20px;
+}
+
+.App {
+  background-color: #282C34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-logo {
+  height: 49px;
+  width: 45px;
+  pointer-events: none;
+}
+
+.Menu-icon {
+  width: 24px;
+  height: 13px;
+}
+
+.App-nav {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 40px 40px 40px;
+  width: 90%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 1200px;
+}
+
+.Header-title {
+  text-align: left;
+  margin-left: 40px;
+  width: 380px;
+  margin-bottom: 0;
+}
+
+.Header-caption {
+  width: 350px;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.Header-btn {
+  background-color: white;
+  font-size: 20px;
+  padding: 17px 27px;
+  border: solid white 1px;
+  border-radius: 3px;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.App-row {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 500px;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.App-column {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  align-items: flex-start;
+  margin: 0 20px;
+  width: 15%;
+}
+
+.Feature-text {
+  margin-left: 20px;
+}
+
+@media (max-width: 1200px) {
+
+  h3 {
+    font-size: 20px;
+  }
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 961px) {
+
+  h3 {
+    font-size: 20px;
+  }
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+  }
+
+  .App-nav {
+    width: 80%;
+  }
+
+  .App-row {
+    margin: 0;
+    justify-content: space-evenly;
+  }
+
+  .App-colum {
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+  }
+
+  .App-nav {
+    width: 80%;
+  }
+
+  .Header-title {
+    width: 80%;
+  }
+
+  .App-row {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-top: 30px;
+    align-items: center;
+  }
+
+  .App-column {
+    margin: 0;
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-column {
+    margin: 0;
+    width: 60%;
+  }
+}
