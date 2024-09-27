@@ -1,0 +1,16 @@
+header {
+    background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 98%;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+img {
+    width: 80px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
