@@ -1,0 +1,83 @@
+.background {
+  background-color: #1f2535;
+  margin: 20px 25px;
+  padding-bottom: 120px;
+}
+
+.background-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ironhack-logo {
+  height: 60px;
+  width: auto;
+  margin-top: 30px;
+  padding-left: 100px;
+}
+
+.menu-top-img {
+  height: 15px;
+  width: auto;
+  margin-top: 60px;
+  padding-right: 75px;
+}
+
+.header-container {
+  padding-left: 100px;
+  width: 800px;
+}
+
+.header-container h1 {
+  font-size: 6rem;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.header-container p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.header-container button {
+  background-color: #fff;
+  font-size: 1.5rem;
+  color: #1f2535;
+  font-weight: 700;
+  border-color: transparent;
+  border-radius: 3px;
+  padding: 20px 25px;
+  margin-top: 45px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1200px;
+  margin-top: 150px;
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
+
+.features img {
+  height: 160px;
+  width: auto;
+}
+
+.features h2 {
+  color: #1f2535;
+  font-size: 2rem;
+  margin-top: 2px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+
+.features p {
+  color: #808080;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  width: 200px;
+  word-spacing: 1px;
+}
