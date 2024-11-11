@@ -1,0 +1,50 @@
+#root {
+  background-color: #1b2333;
+}
+
+.main {
+  margin: 70px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-btn {
+  background-color: white;
+  color: #1b2333;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.text-info {
+  color: white;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+  width: 100px;
+}
+
+.more-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 40px;
+}
+
+.info-boxes {
+  margin: 20px;
+}
+
+h3 {
+  color: #1b2333;
+  font-size: 25px;
+}
+
+p {
+  color: gray;
+}
