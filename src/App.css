@@ -1,42 +1,55 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+#presentation {
+  background-color: #1F2535;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+nav div {
+  padding: 10px 50px 10px 50px;
+}
+h1 {
+  padding-left: 50px;
+  max-width: 100vh;
+  color: aliceblue;
+  font-size: 75px;
+  /* border: 4px red solid; */
+}
+.subTitle {
+  /* border: 4px red solid; */
+  color: aliceblue;
+  max-width: 50vh;
+  font-size: small;
+  padding-left: 50px;
+  margin-top: -50px;
+  height: 12vh;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+button {
+  margin-left: 50px;
+  width: 10vw;
+  height: 8vh;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  /* border: 5px rebeccapurple solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.container div{
+  /* border: 5px red solid; */
+  width: 20%;
+  height: 75%;
 }
 
-.card {
-  padding: 2em;
+.container div img{
+  width: 100px;
 }
 
-.read-the-docs {
-  color: #888;
+.container div p{
+  max-width: 75%;
 }
