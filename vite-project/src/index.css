@@ -1,0 +1,101 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.features {
+  background-color: white;
+  padding: 50px 20px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap; /* Evita que las columnas se apilen en dispositivos pequeños */
+  justify-content: space-around; /* Espacio uniforme entre columnas */
+}
+
+.feature-icon {
+  width: 60px;
+  height: auto;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.feature-text {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Estilos para el encabezado */
+.header {
+  background-color: #1f2937; /* Color de fondo oscuro */
+  color: white;
+  padding: 80px 20px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  background-image: url('./src/assets/react-bg.png'); /* Imagen de fondo de React en patrón */
+  background-repeat: repeat;
+  background-size: 150px 150px; /* Ajusta el tamaño de la imagen de fondo */
+}
+
+.header-content {
+  max-width: 600px;
+}
+
+.logo {
+  width: 50px; /* Tamaño del logo */
+  margin-bottom: 20px;
+}
+
+.header-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.header-text {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.awesome-button {
+  padding: 10px 20px;
+  background-color: white;
+  color: #1f2937;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Estilos para el icono de menú */
+.menu-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu-bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  display: block;
+  border-radius: 1px;
+}
