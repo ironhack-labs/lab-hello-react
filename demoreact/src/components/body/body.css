@@ -1,0 +1,29 @@
+.body-container{
+    margin-bottom: 20rem;
+    padding-top: 10rem;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    color: black;
+}
+
+.body-div{
+    width: 15rem;
+    text-align: left;
+}
+
+.body-conatiner > img{
+    width: 7rem;
+    
+}
+
+
+.bodyh2{
+    font-size: 2rem;
+}
+
+.bodyp{
+    font-size: 1.5rem;
+}
+
