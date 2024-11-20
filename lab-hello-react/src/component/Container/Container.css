@@ -1,0 +1,25 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+}
+.Container img {
+  width: 10rem;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.Container .Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 12rem;
+}
+.Container h2 {
+  margin-bottom: .5rem;
+  padding-left: 1rem;
+  color: rgb(21, 28, 43);
+}
+.Container p {
+  color: gray;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
