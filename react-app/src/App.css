@@ -1,0 +1,115 @@
+/* Global styling */
+.App {
+  margin: 1rem;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+/* Header styling */
+.header {
+  background-color: #1f2535;
+  padding: 0 3rem;
+}
+
+/* Navigation styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.navbar #logo {
+  height: 2rem;
+}
+
+.navbar #menu {
+  height: 0.5rem;
+}
+
+/* Hero styling */
+.hero {
+  padding-top: 5rem;
+}
+
+.title {
+  width: 40%;
+}
+
+.subtext-container {
+  width: 25%;
+}
+
+.title > h1 {
+  font-weight: 900;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.subtext-container > p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.hero > button {
+  height: 3rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.2rem;
+  margin: 3rem 0;
+}
+
+/* Segments styling */
+.segments {
+  background-color: white;
+  margin: 6rem 0;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.segmentCard {
+  width: 10rem;
+}
+
+.segmentCard > .icon {
+  height: 6rem;
+}
+
+.segmentCard > h3 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding-left: 0.5rem;
+}
+
+.segmentCard > p {
+  padding-left: 0.5rem;
+  color: hsl(0, 0%, 55%);
+}
+
+/* Responsive design */
+@media screen and (max-width: 50rem) {
+  .title {
+    width: 100%;
+  }
+  
+  .title > h1 {
+    font-size: 2.5rem;
+  }
+
+  .subtext-container {
+    width: 100%;
+  }
+  
+  .subtext-container > p {
+    font-size: 0.8rem;
+  }
+
+  .segments {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
