@@ -1,0 +1,14 @@
+.card{
+    width: 150px;
+    .card-text{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    h2{
+        margin: 10px 0 9px 0;
+    }
+    p{
+        margin: 0;
+    }
+}

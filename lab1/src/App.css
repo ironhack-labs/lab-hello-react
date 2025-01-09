@@ -1,0 +1,46 @@
+.App{
+  box-sizing: border-box;
+  
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  .mainDiv{
+    box-sizing: border-box;
+    background-color: rgb(32 37 54) ;
+    padding: 20px 40px 20px 40px;
+    color: white;
+    .navBar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      :nth-child(2){
+        height:10px;
+      }
+    }
+    .textDiv {
+      margin: 65px 0 25px 0;
+      width: 30%;
+      h1{
+        font-size: 65px;
+        margin: 0;
+      }
+     
+      button {
+        padding: 15px;
+        border-radius: 3px;
+        border-style: none;
+        font-weight: bold;
+        font-size: 16px; 
+        margin: 25px 0 25px 0;
+      }
+    }
+  }
+
+  .cards-div{
+    margin: 100px 0 100px 0;
+    display: flex;
+    justify-content: space-around;
+    img{
+      width:100px;
+    }
+  }
+
+}
