@@ -1,0 +1,82 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(31, 37, 53);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.navbar{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textContent{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 2rem;
+  margin-top: 5%;
+  width: 30%;
+}
+
+.textContent h1{
+  font-size: 4rem;
+  margin: 0;
+}
+
+.textContent p{
+  margin-bottom: 2rem;
+}
+
+.btn{
+  padding: 1rem;
+  font-size: large;
+  border-radius: 5px none;
+  margin-bottom: 2rem;
+}
+
+.displaySquares{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.square{
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  color: black;
+}
+
+.squareLogo img{
+  width: 40%;
+}
+
+.squareText h2,p{
+  width: 70%;
+  margin: 0;
+}
