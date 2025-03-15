@@ -1,0 +1,70 @@
+.App {
+  background-color: #1f2535;
+  background-image: url("/src/assets/images/background.png");
+  background-size: cover;
+  width: 100vw;
+  height: 550px;
+  color: white;
+  padding: 20px 80px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.content-text {
+  font-size: 1.1rem;
+  font-weight: 100;
+  padding-bottom: 50px;
+  line-height: 1.2;
+  color: rgba(252, 252, 252, 0.801);
+}
+
+.button {
+  width: 130px;
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 15px;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 70px;
+}
+
+.feature-img {
+  height: 100px;
+}
+
+.feature-content {
+  padding-left: 10px;
+  width: 180px;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  letter-spacing: 0.11rem;
+  padding-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 0.9rem;
+  letter-spacing: 0.06rem;
+  line-height: 1.2;
+  color: rgba(0, 0, 0, 0.425);
+}

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Aestetico Font";
+  src: url("/src/assets/fonts/AesteticoFormal-Thin.woff") format("wof");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Aestetico Font", sans-serif;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1;
+}
+
+ul,
+ol {
+  list-style: none;
+}
