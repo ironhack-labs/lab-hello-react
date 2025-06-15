@@ -2,12 +2,16 @@
 
 :root {
   /** COLORES **/
-  --color-react-bg: #1F2535;
-  --color-main-bg: #FFF;
+  --color-react-bg: #1f2535;
+  --color-main-bg: #fff;
 }
 
 #navbar {
   padding: 10px 35px;
+  width: 100dvw;
+  position: fixed;
+  top: 0;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
 }
@@ -18,11 +22,45 @@
   padding: 0;
 }
 
-#navbar button img{
-  transition: .3s;
+#navbar button img {
+  transition: 0.3s;
 }
 
 #navbar button img:hover {
   transform: scale(1.1);
-  filter: drop-shadow(0 0 15px #747bff)
+  filter: drop-shadow(0 0 15px #747bff);
+}
+
+.hero-container {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100dvw;
+  padding: 100px 0px 100px 35px;
+  background-image: url("./assets/bg/react-hero-bg-section.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-container h1{
+  display: inline-block;
+  font-size: 55px;
+  letter-spacing: -2px;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.hero-container p {
+  line-height: 0.5;
+  font-weight: 350;
+}
+
+.hero-container button {
+  margin-top: 50px;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  color: #1f2535;
+  font-weight: 600;
+  font-size: 18px;
 }
