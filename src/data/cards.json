@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Declarative",
+    "description": "React makes it painless to create interactive UIs.",
+    "icon": "/assets/icon1.png"
+  },
+  {
+    "id": 2,
+    "title": "Components",
+    "description": "Build encapsulated components that manage their state.",
+    "icon": "/assets/icon2.png"
+  },
+  {
+    "id": 3,
+    "title": "Single-Way",
+    "description": "A set of immutable values are passed to the component’s.",
+    "icon": "/assets/icon3.png"
+  },
+  {
+    "id": 4,
+    "title": "JSX",
+    "description": "Statically-typed, designed to run on modern browsers.",
+    "icon": "/assets/icon4.png"
+  }
+]

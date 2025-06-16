@@ -6,8 +6,10 @@
   --color-main-bg: #fff;
 }
 
+/*NAVBAR SECTION*/
+
 #navbar {
-  padding: 10px 35px;
+  padding: 20px 35px;
   width: 100dvw;
   position: fixed;
   top: 0;
@@ -31,15 +33,16 @@
   filter: drop-shadow(0 0 15px #747bff);
 }
 
+/*HERO SECTION*/
+
 .hero-container {
   color: #fff;
-  position: fixed;
-  top: 0;
   width: 100dvw;
   padding: 100px 0px 100px 35px;
   background-image: url("./assets/bg/react-hero-bg-section.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
 }
 
 .hero-container h1{
@@ -47,7 +50,7 @@
   font-size: 55px;
   letter-spacing: -2px;
   line-height: 1.1;
-  margin-bottom: 0;
+  margin: 50px 0 0 0;
 }
 
 .hero-container p {
@@ -57,10 +60,32 @@
 
 .hero-container button {
   margin-top: 50px;
-  border: none;
+  border: 2px solid var(--color-main-bg);
   border-radius: 5px;
   padding: 20px;
   color: #1f2535;
   font-weight: 600;
   font-size: 18px;
+  transition: .3s;
+}
+
+.hero-container button:hover{
+  background-color: var(--color-react-bg);
+  color: white;
+  border: 2px solid var(--color-main-bg);
+  box-shadow: 0px 0px 10px #747bff;
+  transform: scale(1.1);
+}
+
+/*FEATURECARD SECTION*/
+.cards-container{
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+
+.card img{
+  width: 140px;
 }
