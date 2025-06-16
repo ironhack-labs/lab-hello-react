@@ -1,0 +1,20 @@
+/*CSS GLOBAL*/
+
+:root {
+  /** COLORES **/
+  --color-react-bg: #1f2535;
+  --color-main-bg: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100dvh;
+  font-family: "Montserrat", sans-serif;
+}
