@@ -1,0 +1,75 @@
+.App {
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #1f2535;
+}
+
+.navbar img {
+  height: 30px;
+}
+
+.hero {
+  background-color: #1f2535;
+  color: white;
+  padding: 5% 10%;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.btn-awesome {
+  background-color: white;
+  color: #1f2535;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 2% 4%;
+  background-color: #f4f4f4;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #1f2535;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
