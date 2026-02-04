@@ -1,0 +1,112 @@
+.footer {
+  margin-top: 40px;
+  color: #aaa;
+  font-size: 1rem;
+  text-align: center;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #23272f;
+  color: #fff;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.App > *:not(.footer) {
+  flex-shrink: 0;
+}
+
+.footer {
+  margin-top: auto;
+  color: #aaa;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 600px) {
+  .App img {
+    max-width: 90vw;
+  }
+  .App h1 {
+    font-size: 2rem;
+  }
+  .App p {
+    font-size: 1rem;
+  }
+}
+
+.App img {
+  max-width: 350px;
+  width: 100%;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 32px #0004;
+  border-radius: 12px;
+}
+
+.App h1 {
+  font-size: 3rem;
+  margin: 0 0 16px 0;
+  font-weight: 700;
+}
+
+.App p {
+  font-size: 1.2rem;
+  margin: 0 0 24px 0;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
