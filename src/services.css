@@ -1,0 +1,33 @@
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+
+  list-style: none;
+  margin: 180px 90px;
+  padding: 0;
+}
+
+  .services-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 90px;
+
+    color: #494949;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+    .services-item_title {
+      margin-top: 30px;
+      margin-bottom: 10px;
+
+      color: #202536;
+      font-weight: 700;
+      font-size: 32px;
+    }
