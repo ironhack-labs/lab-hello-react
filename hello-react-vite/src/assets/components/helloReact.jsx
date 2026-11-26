@@ -1,12 +1,14 @@
 import "./helloReact.css"
+import ironhackLogo from "../ironhack-logo-xs.png"
+import menuLogo from "../menu-top-xs.png"
 
 function HelloReact () {
   return(
     <div className="HelloReact">
       <div className="first">
         <div className="header">
-          <img src="src\assets\ironhack-logo-xs.png"></img>
-          <img className="menu" src="src\assets\menu-top-xs.png"></img>
+          <img src={ironhackLogo}></img>
+          <img className="menu" src={menuLogo}></img>
         </div>
         <h1 className="title">Say hello to ReactJS</h1>
         <p className="text">You will learn how to use the most popular frontend library, and become a super Ninja developer.</p>
